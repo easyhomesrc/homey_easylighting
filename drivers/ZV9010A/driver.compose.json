@@ -1,0 +1,52 @@
+{
+  "id": "ZV9010A",
+  "name": {
+    "en": "ZV9010A"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450",
+      "CR2450"
+    ]
+  },
+  "icon": "/drivers/ZV9010A/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZV9010A/assets/images/large.png",
+    "small": "/drivers/ZV9010A/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 816,
+    "productTypeId": [
+      768
+    ],
+    "productId": [
+      53251
+    ],
+    "learnmode": {
+      "image": "/drivers/ZV9010A/assets/learnmode.svg",
+      "instruction": {
+        "en": " # Pair\nTriple press the action button, the sensor will be set to pair mode, the LED indicator will flash fast and then stay solid on for 3 seconds to indicate successful pairing. If pairing fails, the LED indicator will flash fast for 6 seconds and the sensor will quit pair mode automatically.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds, during this process, LED indicator will accelerate flashing, then LED indicator will stay solid on for 3s to indicate successful factory reset, release action button, the sensor will restart automatically."
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. When factory reset the sensor, send Device Reset Locally Notification CC to associated devices of this group to report factory reset information.\n2. When the sensor state changes, send NOTIFICATION CC to associated devices of this group.\n3. When the battery power is low, send BATTERY CC to associated devices of this group."
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "When the sensor is turned on/off, send BASIC_SET. It can be configured by configuration parameter 02 to send BASIC=0XFF(ON), BASIC=0X00(OFF) or disable this function."
+        }
+      }
+    }
+  }
+}

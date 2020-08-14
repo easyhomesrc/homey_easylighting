@@ -1,0 +1,16 @@
+{
+  "triggers": [
+    {
+      "id": "open",
+      "title": {
+        "en": "Window/Door is open"
+      }
+    },
+    {
+      "id": "closed",
+      "title": {
+        "en": "Window/Door is closed"
+      }
+    }
+  ]
+}

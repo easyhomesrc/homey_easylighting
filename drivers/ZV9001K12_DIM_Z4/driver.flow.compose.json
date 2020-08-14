@@ -1,0 +1,304 @@
+{
+  "triggers": [
+    {
+      "id": "all_on",
+      "title": {
+        "en": "All on"
+      }
+    },
+    {
+      "id": "all_off",
+      "title": {
+        "en": "All off"
+      }
+    },
+    {
+      "id": "all_on_key_held_down",
+      "title": {
+        "en": "All on (Key held down)"
+      }
+    },
+    {
+      "id": "all_on_key_released",
+      "title": {
+        "en": "All on (Key released)"
+      }
+    },
+    {
+      "id": "all_off_key_held_down",
+      "title": {
+        "en": "All off (Key held down)"
+      }
+    },
+    {
+      "id": "all_off_key_released",
+      "title": {
+        "en": "All off (Key released)"
+      }
+    },
+    {
+      "id": "on",
+      "title": {
+        "en": "On"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "on_key_held_down",
+      "title": {
+        "en": "On (Key held down)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "on_key_released",
+      "title": {
+        "en": "On (Key released)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off_key_held_down",
+      "title": {
+        "en": "Off (Key held down)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off_key_released",
+      "title": {
+        "en": "Off (Key released)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scene_1",
+      "title": {
+        "en": "S1"
+      }
+    },
+    {
+      "id": "scene_2",
+      "title": {
+        "en": "S2"
+      }
+    },
+    {
+      "id": "scene_1_key_held_down",
+      "title": {
+        "en": "S1 (Key held down)"
+      }
+    },
+    {
+      "id": "scene_1_key_released",
+      "title": {
+        "en": "S1 (Key released)"
+      }
+    },
+    {
+      "id": "scene_2_key_held_down",
+      "title": {
+        "en": "S2 (Key held down)"
+      }
+    },
+    {
+      "id": "scene_2_key_released",
+      "title": {
+        "en": "S2 (Key released)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "actions": [
+    {
+      "id": "level_step_with_onoff",
+      "title": {
+        "en": "Step level (with On/Off)"
+      },
+      "duration": false,
+      "args": [
+        {
+          "name": "mode",
+          "type": "number",
+          "min": 0,
+          "max": 1,
+          "step": 1,
+          "title": {
+            "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+          }
+        },
+        {
+          "name": "step_size",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "label": "%",
+          "labelMultiplier": 100,
+          "labelDecimals": 0,
+          "title": {
+            "en": "Step size"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "min": 0,
+          "max": 6553,
+          "step": 1,
+          "title": {
+            "en": "Transition time, range { 0 ~ 6553 } seconds."
+          }
+        }
+      ]
+    },
+    {
+      "id": "level_move_with_onoff",
+      "title": {
+        "en": "Move level (with On/Off)"
+      },
+      "duration": false,
+      "args": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "min": 0,
+          "max": 1,
+          "step": 1,
+          "title": {
+            "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+          }
+        },
+        {
+          "name": "rate",
+          "title": "Rate",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "label": "%",
+          "labelMultiplier": 100,
+          "labelDecimals": 0
+        }
+      ]
+    },
+    {
+      "id": "level_stop_with_onoff",
+      "title": {
+        "en": "Stop level (with On/Off)"
+      },
+      "duration": false,
+      "args": []
+    },
+    {
+      "id": "recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "args": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID, default { 0 }"
+          }
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          }
+        }
+      ]
+    },
+    {
+      "id": "store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "args": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID, default { 0 }"
+          }
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          }
+        }
+      ]
+    }
+  ]
+}

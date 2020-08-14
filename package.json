@@ -1,0 +1,14 @@
+{
+  "name": "com.easyhome.easylighting",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "homey": "^2.5.1"
+  },
+  "dependencies": {
+    "homey-log": "^2.0.1",
+    "homey-zigbeedriver": "^1.3.1",
+    "homey-zwavedriver": "^1.0.3",
+    "zigbee-clusters": "^1.2.2"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ZV9101CS",
+  "name": {
+    "en": "ZV DIM Light"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "setOnDim": false
+    },
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    }
+  },
+  "icon": "/drivers/ZV9101CS/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZV9101CS/assets/images/large.png",
+    "small": "/drivers/ZV9101CS/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 816,
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53250
+    ],
+    "learnmode": {
+      "image": "/drivers/ZV9101CS/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pair\nTriple press the reset button, the device will be set to pair mode.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds, the device will be reset to factory defaults."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  }
+}

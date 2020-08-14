@@ -1,0 +1,250 @@
+{
+  "triggers": [
+    {
+      "id": "on",
+      "title": {
+        "en": "On"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          },
+          "example": 0
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          },
+          "example": 1
+        }
+      ]
+    },
+    {
+      "id": "store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          },
+          "example": 0
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          },
+          "example": 1
+        }
+      ]
+    },
+    {
+      "id": "level_move_with_onoff",
+      "title": {
+        "en": "Move level (with On/Off)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "level_stop_with_onoff",
+      "title": {
+        "en": "Stop level (with On/Off)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

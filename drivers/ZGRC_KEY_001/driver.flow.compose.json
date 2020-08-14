@@ -1,0 +1,83 @@
+{
+  "triggers": [
+    {
+      "id": "on",
+      "title": {
+        "en": "On"
+      },
+      "args": []
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      },
+      "args": []
+    },
+    {
+      "id": "level_step_with_onoff",
+      "title": {
+        "en": "Step level (with On/Off)"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "mode",
+          "type": "number",
+          "title": {
+            "en": "Mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "step_size",
+          "type": "number",
+          "title": {
+            "en": "Step size"
+          },
+          "example": 0.2
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          },
+          "example": 0
+        }
+      ]
+    },
+    {
+      "id": "level_move_with_onoff",
+      "title": {
+        "en": "Move level (with On/Off)"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "level_stop_with_onoff",
+      "title": {
+        "en": "Stop level (with On/Off)"
+      },
+      "args": []
+    }
+  ]
+}

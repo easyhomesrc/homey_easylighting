@@ -1,0 +1,48 @@
+{
+  "id": "ZG9101SAC_HP_SWITCH",
+  "name": {
+    "en": "ZG On/Off Light"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff"
+  ],
+  "capabilitiesOptions": {
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "ON/OFF",
+      "ZG9101SAC-HP-Switch"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          2821,
+          4096
+        ],
+        "bindings": [
+          25
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/ZG9101SAC_HP_SWITCH/assets/learnmode.svg",
+      "instruction": {
+        "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/ZG9101SAC_HP_SWITCH/assets/images/large.png",
+    "small": "/drivers/ZG9101SAC_HP_SWITCH/assets/images/small.png"
+  },
+  "settings": [
+
+  ]
+}

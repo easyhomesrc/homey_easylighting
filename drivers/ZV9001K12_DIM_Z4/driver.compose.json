@@ -1,0 +1,70 @@
+{
+  "id": "ZV9001K12_DIM_Z4",
+  "name": {
+    "en": "ZV9001K12_DIM_Z4"
+  },
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450",
+      "CR2450"
+    ]
+  },
+  "icon": "/drivers/ZV9001K12_DIM_Z4/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZV9001K12_DIM_Z4/assets/images/large.png",
+    "small": "/drivers/ZV9001K12_DIM_Z4/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 816,
+    "productTypeId": [
+      768
+    ],
+    "productId": [
+      45826
+    ],
+    "learnmode": {
+      "image": "/drivers/ZV9001K12_DIM_Z4/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pair\nPress and hold down both buttons I and O for over 3 seconds, LED indicator turns on, the remote control will be set to pair mode, after 7s LED indicator blinks 4 times quickly to indicate successful pairing.\n\n# Factory Reset\nPress and hold down both buttons I and O for over 10 seconds, LED indicator turns on and then blinks 4 times quickly to indicate successful factory reset."
+      }
+    },
+    "associationGroups": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. Send Command Class Device Reset Locally Notification V1 to associated devices of this group to report factory reset information when factory reset the remote control.\n2. When remote control battery power value changes, send Command Class Battery Report V1 to associated devices of this group to report power value information.\n3. Short press or press and hold down any button to send scene activation command to the associated devices of this group using Command Class Central Scene Notification V3"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "1. Short press / button of Group 2 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n2. Press and hold down / button of Group 2 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4.\n3. Short press Scene button S1/S2, direct control of associated devices using Scene Activation Set, Scene ID = 0x10 / 0x20.\n4. Press and hold down Scene button S1/S2, direct control of associated devices using Scene Conf Set, Scene ID = 0x10 / 0x20."
+        }
+      },
+      "3": {
+        "hint": {
+          "en": "1. Short press / button of Group 3 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n2. Press and hold down / button of Group 3 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4.\n3. Short press Scene button S1/S2, direct control of associated devices using Scene Activation Set, Scene ID = 0x10 / 0x20.\n4. Press and hold down Scene button S1/S2, direct control of associated devices using Scene Conf Set, Scene ID = 0x10 / 0x20."
+        }
+      },
+      "4": {
+        "hint": {
+          "en": "1. Short press / button of Group 4 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n2. Press and hold down / button of Group 4 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4.\n3. Short press Scene button S1/S2, direct control of associated devices using Scene Activation Set, Scene ID = 0x10 / 0x20.\n4. Press and hold down Scene button S1/S2, direct control of associated devices using Scene Conf Set, Scene ID = 0x10 / 0x20."
+        }
+      },
+      "5": {
+        "hint": {
+          "en": "1. Short press / button of Group 5 to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n2. Press and hold down / button of Group 5 to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4.\n3. Short press Scene button S1/S2, direct control of associated devices using Scene Activation Set, Scene ID = 0x10 / 0x20.\n4. Press and hold down Scene button S1/S2, direct control of associated devices using Scene Conf Set, Scene ID = 0x10 / 0x20."
+        }
+      }
+    }
+  }
+}

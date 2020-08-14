@@ -1,0 +1,85 @@
+{
+  "triggers": [
+    {
+      "id": "on",
+      "title": {
+        "en": "On"
+      },
+      "args": []
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      },
+      "args": []
+    },
+    {
+      "id": "move_to_level_with_onoff",
+      "title": {
+        "en": "Move to level (with On/Off)"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "level",
+          "type": "number",
+          "title": {
+            "en": "Level"
+          },
+          "example": 0
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          },
+          "example": 0
+        }
+      ]
+    },
+    {
+      "id": "move_to_color_temperature",
+      "title": {
+        "en": "Move to color temperature"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "color_temperature",
+          "type": "number",
+          "title": {
+            "en": "Color temperature"
+          },
+          "example": 0
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          },
+          "example": 0
+        }
+      ]
+    },
+    {
+      "id": "move_to_hue",
+      "title": {
+        "en": "Move to hue"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "hue",
+          "type": "number",
+          "title": {
+            "en": "Hue"
+          },
+          "example": 0.00
+        }
+      ]
+    }
+  ]
+}

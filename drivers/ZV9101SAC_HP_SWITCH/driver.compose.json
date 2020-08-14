@@ -1,0 +1,33 @@
+{
+  "id": "ZV9101SAC_HP_SWITCH",
+  "name": {
+    "en": "ZV On/Off Light"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff"
+  ],
+  "icon": "/drivers/ZV9101SAC_HP_SWITCH/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZV9101SAC_HP_SWITCH/assets/images/large.png",
+    "small": "/drivers/ZV9101SAC_HP_SWITCH/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 816,
+    "productTypeId": [
+      512
+    ],
+    "productId": [
+      53254
+    ],
+    "learnmode": {
+      "image": "/drivers/ZV9101SAC_HP_SWITCH/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pair\nTriple press the reset button, the device will be set to pair mode.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds, the device will be reset to factory defaults."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  }
+}
