@@ -4022,6 +4022,7 @@
   },
   "drivers": [
     {
+      "id": "ZG2833K4_EU06",
       "name": {
         "en": "ZG2833K4_EU06"
       },
@@ -4082,10 +4083,10 @@
         "large": "/drivers/ZG2833K4_EU06/assets/images/large.png",
         "small": "/drivers/ZG2833K4_EU06/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG2833K4_EU06"
+      "settings": []
     },
     {
+      "id": "ZG2833K8_EU05",
       "name": {
         "en": "ZG2833K8_EU05"
       },
@@ -4176,10 +4177,10 @@
         "large": "/drivers/ZG2833K8_EU05/assets/images/large.png",
         "small": "/drivers/ZG2833K8_EU05/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG2833K8_EU05"
+      "settings": []
     },
     {
+      "id": "ZG2835",
       "name": {
         "en": "ZG2835"
       },
@@ -4226,10 +4227,10 @@
         "large": "/drivers/ZG2835/assets/images/large.png",
         "small": "/drivers/ZG2835/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG2835"
+      "settings": []
     },
     {
+      "id": "ZG2868A",
       "name": {
         "en": "ZG2868A"
       },
@@ -4329,10 +4330,10 @@
         "large": "/drivers/ZG2868A/assets/images/large.png",
         "small": "/drivers/ZG2868A/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG2868A"
+      "settings": []
     },
     {
+      "id": "ZG9101SAC_HP",
       "name": {
         "en": "ZG DIM Light"
       },
@@ -4384,10 +4385,10 @@
         "large": "/drivers/ZG9101SAC_HP/assets/images/large.png",
         "small": "/drivers/ZG9101SAC_HP/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG9101SAC_HP"
+      "settings": []
     },
     {
+      "id": "ZG9101SAC_HP_SWITCH",
       "name": {
         "en": "ZG On/Off Light"
       },
@@ -4429,10 +4430,10 @@
         "large": "/drivers/ZG9101SAC_HP_SWITCH/assets/images/large.png",
         "small": "/drivers/ZG9101SAC_HP_SWITCH/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG9101SAC_HP_SWITCH"
+      "settings": []
     },
     {
+      "id": "ZGRC_KEY_001",
       "name": {
         "en": "ZGRC_KEY_001"
       },
@@ -4478,10 +4479,10 @@
         "large": "/drivers/ZGRC_KEY_001/assets/images/large.png",
         "small": "/drivers/ZGRC_KEY_001/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZGRC_KEY_001"
+      "settings": []
     },
     {
+      "id": "ZGRC_KEY_004",
       "name": {
         "en": "ZGRC_KEY_004"
       },
@@ -4527,10 +4528,10 @@
         "large": "/drivers/ZGRC_KEY_004/assets/images/large.png",
         "small": "/drivers/ZGRC_KEY_004/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZGRC_KEY_004"
+      "settings": []
     },
     {
+      "id": "ZGRC_KEY_014",
       "name": {
         "en": "ZGRC_KEY_014"
       },
@@ -4610,10 +4611,10 @@
         "large": "/drivers/ZGRC_KEY_014/assets/images/large.png",
         "small": "/drivers/ZGRC_KEY_014/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZGRC_KEY_014"
+      "settings": []
     },
     {
+      "id": "ZGRC_KEY_037",
       "name": {
         "en": "ZGRC_KEY_037"
       },
@@ -4709,10 +4710,10 @@
         "large": "/drivers/ZGRC_KEY_037/assets/images/large.png",
         "small": "/drivers/ZGRC_KEY_037/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZGRC_KEY_037"
+      "settings": []
     },
     {
+      "id": "ZG_CCT_LIGHT",
       "name": {
         "en": "ZG CCT Light"
       },
@@ -4772,10 +4773,10 @@
         "large": "/drivers/ZG_CCT_LIGHT/assets/images/large.png",
         "small": "/drivers/ZG_CCT_LIGHT/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG_CCT_LIGHT"
+      "settings": []
     },
     {
+      "id": "ZG_COLOR_LIGHT",
       "name": {
         "en": "ZG Color Light"
       },
@@ -4848,10 +4849,10 @@
         "large": "/drivers/ZG_COLOR_LIGHT/assets/images/large.png",
         "small": "/drivers/ZG_COLOR_LIGHT/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG_COLOR_LIGHT"
+      "settings": []
     },
     {
+      "id": "ZG_DIM_LIGHT",
       "name": {
         "en": "ZG DIM Light"
       },
@@ -4903,8 +4904,7 @@
         "large": "/drivers/ZG_DIM_LIGHT/assets/images/large.png",
         "small": "/drivers/ZG_DIM_LIGHT/assets/images/small.png"
       },
-      "settings": [],
-      "id": "ZG_DIM_LIGHT"
+      "settings": []
     },
     {
       "id": "ZV9001K12_DIM_Z4",
