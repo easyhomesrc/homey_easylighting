@@ -1,0 +1,48 @@
+{
+  "id": "ZG2833K2_EU07",
+  "name": {
+    "en": "ZG2833K2_EU07"
+  },
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "ZG2833K2_EU07"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": [
+          3,
+          6,
+          8,
+          25
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/ZG2833K2_EU07/assets/learnmode.svg",
+      "instruction": {
+        "en": "Press and hold down both buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button 5 times and the remote will be reset."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/ZG2833K2_EU07/assets/images/large.png",
+    "small": "/drivers/ZG2833K2_EU07/assets/images/small.png"
+  },
+  "settings": []
+}

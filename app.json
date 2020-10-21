@@ -48,6 +48,76 @@
           {
             "type": "device",
             "name": "device",
+            "filter": "driver_id=ZG2833K2_EU07"
+          }
+        ]
+      },
+      {
+        "id": "off",
+        "title": {
+          "en": "Off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K2_EU07"
+          }
+        ]
+      },
+      {
+        "id": "level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ],
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K2_EU07"
+          }
+        ]
+      },
+      {
+        "id": "level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K2_EU07"
+          }
+        ]
+      },
+      {
+        "id": "on",
+        "title": {
+          "en": "On"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
             "filter": "driver_id=ZG2833K4_EU06"
           },
           {
@@ -1385,6 +1455,193 @@
           {
             "type": "device",
             "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ]
+      },
+      {
+        "id": "off",
+        "title": {
+          "en": "Off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ]
+      },
+      {
+        "id": "level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "mode",
+            "type": "number",
+            "title": {
+              "en": "Mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "step_size",
+            "type": "number",
+            "title": {
+              "en": "Step size"
+            },
+            "example": 0.2
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ]
+      },
+      {
+        "id": "move_to_color_temperature",
+        "title": {
+          "en": "Move to color temperature"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "color_temperature",
+            "type": "number",
+            "title": {
+              "en": "Color temperature"
+            },
+            "example": 0
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "move_color_temperature",
+        "title": {
+          "en": "Move color temperature"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "stop_move_step",
+        "title": {
+          "en": "Stop move step"
+        },
+        "hint": {
+          "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_002"
+          }
+        ]
+      },
+      {
+        "id": "on",
+        "title": {
+          "en": "On"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
             "filter": "driver_id=ZGRC_KEY_004"
           }
         ]
@@ -1443,6 +1700,263 @@
             "type": "device",
             "name": "device",
             "filter": "driver_id=ZGRC_KEY_004"
+          }
+        ]
+      },
+      {
+        "id": "on",
+        "title": {
+          "en": "On"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ]
+      },
+      {
+        "id": "off",
+        "title": {
+          "en": "Off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ]
+      },
+      {
+        "id": "level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "mode",
+            "type": "number",
+            "title": {
+              "en": "Mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "step_size",
+            "type": "number",
+            "title": {
+              "en": "Step size"
+            },
+            "example": 0.2
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ]
+      },
+      {
+        "id": "move_to_color_temperature",
+        "title": {
+          "en": "Move to color temperature"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "color_temperature",
+            "type": "number",
+            "title": {
+              "en": "Color temperature"
+            },
+            "example": 0
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "move_color_temperature",
+        "title": {
+          "en": "Move color temperature"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "stop_move_step",
+        "title": {
+          "en": "Stop move step"
+        },
+        "hint": {
+          "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ]
+      },
+      {
+        "id": "move_to_color",
+        "title": {
+          "en": "Move to color (XY)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "color_x",
+            "type": "number",
+            "title": {
+              "en": "Color X"
+            },
+            "example": 0.1
+          },
+          {
+            "name": "color_y",
+            "type": "number",
+            "title": {
+              "en": "Color Y"
+            },
+            "example": 0.1
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "title": {
+              "en": "Transition time"
+            },
+            "example": 0
+          }
+        ]
+      },
+      {
+        "id": "move_hue",
+        "title": {
+          "en": "Move hue"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZGRC_KEY_005"
+          }
+        ],
+        "tokens": [
+          {
+            "name": "move_mode",
+            "type": "number",
+            "title": {
+              "en": "Move mode"
+            },
+            "example": 0
+          },
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
           }
         ]
       },
@@ -4022,6 +4536,54 @@
   },
   "drivers": [
     {
+      "id": "ZG2833K2_EU07",
+      "name": {
+        "en": "ZG2833K2_EU07"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZG2833K2_EU07"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              6,
+              8,
+              25
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG2833K2_EU07/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold down both buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button 5 times and the remote will be reset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/ZG2833K2_EU07/assets/images/large.png",
+        "small": "/drivers/ZG2833K2_EU07/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
       "id": "ZG2833K4_EU06",
       "name": {
         "en": "ZG2833K4_EU06"
@@ -4355,7 +4917,8 @@
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
-          "ZG9101SAC-HP"
+          "ZG9101SAC-HP",
+          "HK-LN-DIM-A"
         ],
         "endpoints": {
           "1": {
@@ -4482,6 +5045,56 @@
       "settings": []
     },
     {
+      "id": "ZGRC_KEY_002",
+      "name": {
+        "en": "ZGRC_KEY_002"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZGRC_KEY_002",
+          "ZGRC-KEY-002"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              6,
+              8,
+              25,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZGRC_KEY_002/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease button and immediately press the Pair button and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/ZGRC_KEY_002/assets/images/large.png",
+        "small": "/drivers/ZGRC_KEY_002/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
       "id": "ZGRC_KEY_004",
       "name": {
         "en": "ZGRC_KEY_004"
@@ -4527,6 +5140,56 @@
       "images": {
         "large": "/drivers/ZGRC_KEY_004/assets/images/large.png",
         "small": "/drivers/ZGRC_KEY_004/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "ZGRC_KEY_005",
+      "name": {
+        "en": "ZGRC_KEY_005"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZGRC_KEY_005",
+          "ZGRC-KEY-005"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": [
+              3,
+              6,
+              8,
+              25,
+              768
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZGRC_KEY_005/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease button and immediately press the Pair button and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/ZGRC_KEY_005/assets/images/large.png",
+        "small": "/drivers/ZGRC_KEY_005/assets/images/small.png"
       },
       "settings": []
     },

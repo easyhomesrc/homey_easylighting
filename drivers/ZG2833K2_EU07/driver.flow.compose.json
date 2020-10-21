@@ -1,0 +1,46 @@
+{
+  "triggers": [
+    {
+      "id": "on",
+      "title": {
+        "en": "On"
+      }
+    },
+    {
+      "id": "off",
+      "title": {
+        "en": "Off"
+      }
+    },
+    {
+      "id": "level_move_with_onoff",
+      "title": {
+        "en": "Move level (with On/Off)"
+      },
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "level_stop_with_onoff",
+      "title": {
+        "en": "Stop level (with On/Off)"
+      }
+    }
+  ]
+}

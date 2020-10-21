@@ -21,7 +21,8 @@
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
-      "ZG9101SAC-HP"
+      "ZG9101SAC-HP",
+      "HK-LN-DIM-A"
     ],
     "endpoints": {
       "1": {
