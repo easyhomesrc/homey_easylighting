@@ -40,7 +40,7 @@
   "flow": {
     "triggers": [
       {
-        "id": "on",
+        "id": "ZG2833K2_EU07_on",
         "title": {
           "en": "On"
         },
@@ -53,7 +53,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2833K2_EU07_off",
         "title": {
           "en": "Off"
         },
@@ -66,7 +66,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG2833K2_EU07_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG2833K2_EU07_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -110,7 +110,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZG2833K4_EU06_on",
         "title": {
           "en": "On"
         },
@@ -141,7 +141,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2833K4_EU06_off",
         "title": {
           "en": "Off"
         },
@@ -172,7 +172,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG2833K4_EU06_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -221,7 +221,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG2833K4_EU06_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -252,7 +252,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZG2833K8_EU05_on",
         "title": {
           "en": "On"
         },
@@ -295,7 +295,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2833K8_EU05_off",
         "title": {
           "en": "Off"
         },
@@ -338,7 +338,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG2833K8_EU05_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -399,7 +399,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG2833K8_EU05_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -442,7 +442,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZG2835_on",
         "title": {
           "en": "On"
         },
@@ -455,7 +455,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2835_off",
         "title": {
           "en": "Off"
         },
@@ -468,7 +468,7 @@
         ]
       },
       {
-        "id": "move_to_level_with_onoff",
+        "id": "ZG2835_move_to_level_with_onoff",
         "title": {
           "en": "Move to level (with On/Off)"
         },
@@ -499,7 +499,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZG2835_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -530,7 +530,7 @@
         ]
       },
       {
-        "id": "move_to_hue",
+        "id": "ZG2835_move_to_hue",
         "title": {
           "en": "Move to hue"
         },
@@ -553,7 +553,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZG2868A_on",
         "title": {
           "en": "On"
         },
@@ -596,7 +596,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZG2868A_off",
         "title": {
           "en": "Off"
         },
@@ -639,7 +639,7 @@
         ]
       },
       {
-        "id": "move_to_hue",
+        "id": "ZG2868A_move_to_hue",
         "title": {
           "en": "Move to hue"
         },
@@ -692,7 +692,7 @@
         ]
       },
       {
-        "id": "move_to_saturation",
+        "id": "ZG2868A_move_to_saturation",
         "title": {
           "en": "Move to saturation"
         },
@@ -745,7 +745,7 @@
         ]
       },
       {
-        "id": "move_saturation",
+        "id": "ZG2868A_move_saturation",
         "title": {
           "en": "Move saturation"
         },
@@ -806,7 +806,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG2868A_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -867,7 +867,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG2868A_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -928,7 +928,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG2868A_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -997,7 +997,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG2868A_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1058,7 +1058,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG2868A_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1101,7 +1101,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "ZG2868A_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -1170,7 +1170,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZG2868A_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -1231,7 +1231,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZG2868A_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -1292,7 +1292,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZG2868A_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -1338,7 +1338,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_001_on",
         "title": {
           "en": "On"
         },
@@ -1351,7 +1351,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_001_off",
         "title": {
           "en": "Off"
         },
@@ -1364,7 +1364,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZGRC_KEY_001_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1403,7 +1403,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_001_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1434,7 +1434,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_001_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1447,7 +1447,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_002_on",
         "title": {
           "en": "On"
         },
@@ -1460,7 +1460,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_002_off",
         "title": {
           "en": "Off"
         },
@@ -1473,7 +1473,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZGRC_KEY_002_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1512,7 +1512,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_002_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1543,7 +1543,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_002_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1556,7 +1556,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZGRC_KEY_002_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -1587,7 +1587,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZGRC_KEY_002_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -1618,7 +1618,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZGRC_KEY_002_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -1634,7 +1634,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_004_on",
         "title": {
           "en": "On"
         },
@@ -1647,7 +1647,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_004_off",
         "title": {
           "en": "Off"
         },
@@ -1660,7 +1660,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_004_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1691,7 +1691,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_004_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1704,7 +1704,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_005_on",
         "title": {
           "en": "On"
         },
@@ -1717,7 +1717,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_005_off",
         "title": {
           "en": "Off"
         },
@@ -1730,7 +1730,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZGRC_KEY_005_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -1769,7 +1769,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_005_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -1800,7 +1800,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_005_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -1813,7 +1813,7 @@
         ]
       },
       {
-        "id": "move_to_color_temperature",
+        "id": "ZGRC_KEY_005_move_to_color_temperature",
         "title": {
           "en": "Move to color temperature"
         },
@@ -1844,7 +1844,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZGRC_KEY_005_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -1875,7 +1875,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZGRC_KEY_005_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -1891,7 +1891,7 @@
         ]
       },
       {
-        "id": "move_to_color",
+        "id": "ZGRC_KEY_005_move_to_color",
         "title": {
           "en": "Move to color (XY)"
         },
@@ -1930,7 +1930,7 @@
         ]
       },
       {
-        "id": "move_hue",
+        "id": "ZGRC_KEY_005_move_hue",
         "title": {
           "en": "Move hue"
         },
@@ -1961,7 +1961,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_014_on",
         "title": {
           "en": "On"
         },
@@ -1998,7 +1998,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_014_off",
         "title": {
           "en": "Off"
         },
@@ -2035,7 +2035,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZGRC_KEY_014_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -2090,7 +2090,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZGRC_KEY_014_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -2145,7 +2145,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_014_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2200,7 +2200,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_014_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2237,7 +2237,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZGRC_KEY_037_on",
         "title": {
           "en": "On"
         },
@@ -2280,7 +2280,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZGRC_KEY_037_off",
         "title": {
           "en": "Off"
         },
@@ -2323,7 +2323,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZGRC_KEY_037_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -2384,7 +2384,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZGRC_KEY_037_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -2445,7 +2445,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZGRC_KEY_037_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -2506,7 +2506,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZGRC_KEY_037_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -2549,7 +2549,7 @@
         ]
       },
       {
-        "id": "all_on",
+        "id": "ZV9001K12_DIM_Z4_all_on",
         "title": {
           "en": "All on"
         },
@@ -2562,7 +2562,7 @@
         ]
       },
       {
-        "id": "all_off",
+        "id": "ZV9001K12_DIM_Z4_all_off",
         "title": {
           "en": "All off"
         },
@@ -2575,7 +2575,7 @@
         ]
       },
       {
-        "id": "all_on_key_held_down",
+        "id": "ZV9001K12_DIM_Z4_all_on_key_held_down",
         "title": {
           "en": "All on (Key held down)"
         },
@@ -2588,7 +2588,7 @@
         ]
       },
       {
-        "id": "all_on_key_released",
+        "id": "ZV9001K12_DIM_Z4_all_on_key_released",
         "title": {
           "en": "All on (Key released)"
         },
@@ -2601,7 +2601,7 @@
         ]
       },
       {
-        "id": "all_off_key_held_down",
+        "id": "ZV9001K12_DIM_Z4_all_off_key_held_down",
         "title": {
           "en": "All off (Key held down)"
         },
@@ -2614,7 +2614,7 @@
         ]
       },
       {
-        "id": "all_off_key_released",
+        "id": "ZV9001K12_DIM_Z4_all_off_key_released",
         "title": {
           "en": "All off (Key released)"
         },
@@ -2627,7 +2627,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZV9001K12_DIM_Z4_on",
         "title": {
           "en": "On"
         },
@@ -2670,7 +2670,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZV9001K12_DIM_Z4_off",
         "title": {
           "en": "Off"
         },
@@ -2713,7 +2713,7 @@
         ]
       },
       {
-        "id": "on_key_held_down",
+        "id": "ZV9001K12_DIM_Z4_on_key_held_down",
         "title": {
           "en": "On (Key held down)"
         },
@@ -2756,7 +2756,7 @@
         ]
       },
       {
-        "id": "on_key_released",
+        "id": "ZV9001K12_DIM_Z4_on_key_released",
         "title": {
           "en": "On (Key released)"
         },
@@ -2799,7 +2799,7 @@
         ]
       },
       {
-        "id": "off_key_held_down",
+        "id": "ZV9001K12_DIM_Z4_off_key_held_down",
         "title": {
           "en": "Off (Key held down)"
         },
@@ -2842,7 +2842,7 @@
         ]
       },
       {
-        "id": "off_key_released",
+        "id": "ZV9001K12_DIM_Z4_off_key_released",
         "title": {
           "en": "Off (Key released)"
         },
@@ -2885,7 +2885,7 @@
         ]
       },
       {
-        "id": "scene_1",
+        "id": "ZV9001K12_DIM_Z4_scene_1",
         "title": {
           "en": "S1"
         },
@@ -2898,7 +2898,7 @@
         ]
       },
       {
-        "id": "scene_2",
+        "id": "ZV9001K12_DIM_Z4_scene_2",
         "title": {
           "en": "S2"
         },
@@ -2911,7 +2911,7 @@
         ]
       },
       {
-        "id": "scene_1_key_held_down",
+        "id": "ZV9001K12_DIM_Z4_scene_1_key_held_down",
         "title": {
           "en": "S1 (Key held down)"
         },
@@ -2924,7 +2924,7 @@
         ]
       },
       {
-        "id": "scene_1_key_released",
+        "id": "ZV9001K12_DIM_Z4_scene_1_key_released",
         "title": {
           "en": "S1 (Key released)"
         },
@@ -2937,7 +2937,7 @@
         ]
       },
       {
-        "id": "scene_2_key_held_down",
+        "id": "ZV9001K12_DIM_Z4_scene_2_key_held_down",
         "title": {
           "en": "S2 (Key held down)"
         },
@@ -2950,7 +2950,7 @@
         ]
       },
       {
-        "id": "scene_2_key_released",
+        "id": "ZV9001K12_DIM_Z4_scene_2_key_released",
         "title": {
           "en": "S2 (Key released)"
         },
@@ -2963,7 +2963,7 @@
         ]
       },
       {
-        "id": "on_off",
+        "id": "ZV9001K2_DIM_on_off",
         "title": {
           "en": "On/Off"
         },
@@ -2976,7 +2976,7 @@
         ]
       },
       {
-        "id": "on_off_key_held_down",
+        "id": "ZV9001K2_DIM_on_off_key_held_down",
         "title": {
           "en": "On/Off (Key held down)"
         },
@@ -2989,7 +2989,7 @@
         ]
       },
       {
-        "id": "on_off_key_released",
+        "id": "ZV9001K2_DIM_on_off_key_released",
         "title": {
           "en": "On/Off (Key released)"
         },
@@ -3002,7 +3002,7 @@
         ]
       },
       {
-        "id": "level",
+        "id": "ZV9001K2_DIM_level",
         "title": {
           "en": "Level (Key pressed 1 time)"
         },
@@ -3015,7 +3015,7 @@
         ]
       },
       {
-        "id": "level_key_held_down",
+        "id": "ZV9001K2_DIM_level_key_held_down",
         "title": {
           "en": "Level (Key held down)"
         },
@@ -3028,7 +3028,7 @@
         ]
       },
       {
-        "id": "level_key_released",
+        "id": "ZV9001K2_DIM_level_key_released",
         "title": {
           "en": "Level (Key released)"
         },
@@ -3041,7 +3041,85 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZV9001K2_DIM2_on",
+        "title": {
+          "en": "Turn on"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZV9001K2_DIM2"
+          }
+        ]
+      },
+      {
+        "id": "ZV9001K2_DIM2_off",
+        "title": {
+          "en": "Turn off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZV9001K2_DIM2"
+          }
+        ]
+      },
+      {
+        "id": "ZV9001K2_DIM2_on_key_held_down",
+        "title": {
+          "en": "On (Key held down)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZV9001K2_DIM2"
+          }
+        ]
+      },
+      {
+        "id": "ZV9001K2_DIM2_on_key_released",
+        "title": {
+          "en": "On (Key released)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZV9001K2_DIM2"
+          }
+        ]
+      },
+      {
+        "id": "ZV9001K2_DIM2_off_key_held_down",
+        "title": {
+          "en": "Off (Key held down)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZV9001K2_DIM2"
+          }
+        ]
+      },
+      {
+        "id": "ZV9001K2_DIM2_off_key_released",
+        "title": {
+          "en": "Off (Key released)"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZV9001K2_DIM2"
+          }
+        ]
+      },
+      {
+        "id": "ZV9001K4_DIM_on",
         "title": {
           "en": "On"
         },
@@ -3054,7 +3132,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZV9001K4_DIM_off",
         "title": {
           "en": "Off"
         },
@@ -3067,7 +3145,7 @@
         ]
       },
       {
-        "id": "on_key_held_down",
+        "id": "ZV9001K4_DIM_on_key_held_down",
         "title": {
           "en": "On (Key held down)"
         },
@@ -3080,7 +3158,7 @@
         ]
       },
       {
-        "id": "on_key_released",
+        "id": "ZV9001K4_DIM_on_key_released",
         "title": {
           "en": "On (Key released)"
         },
@@ -3093,7 +3171,7 @@
         ]
       },
       {
-        "id": "off_key_held_down",
+        "id": "ZV9001K4_DIM_off_key_held_down",
         "title": {
           "en": "Off (Key held down)"
         },
@@ -3106,7 +3184,7 @@
         ]
       },
       {
-        "id": "off_key_released",
+        "id": "ZV9001K4_DIM_off_key_released",
         "title": {
           "en": "Off (Key released)"
         },
@@ -3119,7 +3197,7 @@
         ]
       },
       {
-        "id": "level_up",
+        "id": "ZV9001K4_DIM_level_up",
         "title": {
           "en": "Level up (Key pressed 1 time)"
         },
@@ -3132,7 +3210,7 @@
         ]
       },
       {
-        "id": "level_down",
+        "id": "ZV9001K4_DIM_level_down",
         "title": {
           "en": "Level down (Key pressed 1 time)"
         },
@@ -3145,7 +3223,7 @@
         ]
       },
       {
-        "id": "level_up_key_held_down",
+        "id": "ZV9001K4_DIM_level_up_key_held_down",
         "title": {
           "en": "Level up (Key held down)"
         },
@@ -3158,7 +3236,7 @@
         ]
       },
       {
-        "id": "level_up_key_released",
+        "id": "ZV9001K4_DIM_level_up_key_released",
         "title": {
           "en": "Level up (Key released)"
         },
@@ -3171,7 +3249,7 @@
         ]
       },
       {
-        "id": "level_down_key_held_down",
+        "id": "ZV9001K4_DIM_level_down_key_held_down",
         "title": {
           "en": "Level down (Key held down)"
         },
@@ -3184,7 +3262,7 @@
         ]
       },
       {
-        "id": "level_down_key_released",
+        "id": "ZV9001K4_DIM_level_down_key_released",
         "title": {
           "en": "Level down (Key released)"
         },
@@ -3197,7 +3275,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZV9001K4_DIM_G2_on",
         "title": {
           "en": "On"
         },
@@ -3228,7 +3306,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZV9001K4_DIM_G2_off",
         "title": {
           "en": "Off"
         },
@@ -3259,7 +3337,7 @@
         ]
       },
       {
-        "id": "on_key_held_down",
+        "id": "ZV9001K4_DIM_G2_on_key_held_down",
         "title": {
           "en": "On (Key held down)"
         },
@@ -3290,7 +3368,7 @@
         ]
       },
       {
-        "id": "on_key_released",
+        "id": "ZV9001K4_DIM_G2_on_key_released",
         "title": {
           "en": "On (Key released)"
         },
@@ -3321,7 +3399,7 @@
         ]
       },
       {
-        "id": "off_key_held_down",
+        "id": "ZV9001K4_DIM_G2_off_key_held_down",
         "title": {
           "en": "Off (Key held down)"
         },
@@ -3352,7 +3430,7 @@
         ]
       },
       {
-        "id": "off_key_released",
+        "id": "ZV9001K4_DIM_G2_off_key_released",
         "title": {
           "en": "Off (Key released)"
         },
@@ -3383,7 +3461,7 @@
         ]
       },
       {
-        "id": "on",
+        "id": "ZV9001K8_DIM_G4_on",
         "title": {
           "en": "On"
         },
@@ -3426,7 +3504,7 @@
         ]
       },
       {
-        "id": "off",
+        "id": "ZV9001K8_DIM_G4_off",
         "title": {
           "en": "Off"
         },
@@ -3469,7 +3547,7 @@
         ]
       },
       {
-        "id": "on_key_held_down",
+        "id": "ZV9001K8_DIM_G4_on_key_held_down",
         "title": {
           "en": "On (Key held down)"
         },
@@ -3512,7 +3590,7 @@
         ]
       },
       {
-        "id": "on_key_released",
+        "id": "ZV9001K8_DIM_G4_on_key_released",
         "title": {
           "en": "On (Key released)"
         },
@@ -3555,7 +3633,7 @@
         ]
       },
       {
-        "id": "off_key_held_down",
+        "id": "ZV9001K8_DIM_G4_off_key_held_down",
         "title": {
           "en": "Off (Key held down)"
         },
@@ -3598,7 +3676,7 @@
         ]
       },
       {
-        "id": "off_key_released",
+        "id": "ZV9001K8_DIM_G4_off_key_released",
         "title": {
           "en": "Off (Key released)"
         },
@@ -3641,7 +3719,7 @@
         ]
       },
       {
-        "id": "open",
+        "id": "ZV9010A_open",
         "title": {
           "en": "Window/Door is open"
         },
@@ -3654,7 +3732,7 @@
         ]
       },
       {
-        "id": "closed",
+        "id": "ZV9010A_closed",
         "title": {
           "en": "Window/Door is closed"
         },
@@ -3669,7 +3747,7 @@
     ],
     "actions": [
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG9040A_S_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -3716,7 +3794,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG9040A_S_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -3751,7 +3829,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG9040A_S_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -3765,7 +3843,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG9040A_S_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -3792,7 +3870,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG9040A_S_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -3819,7 +3897,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG9101SAC_HP_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -3866,7 +3944,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG9101SAC_HP_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -3901,7 +3979,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG9101SAC_HP_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -3915,7 +3993,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG9101SAC_HP_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -3942,7 +4020,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG9101SAC_HP_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -3969,7 +4047,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG_CCT_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -4016,7 +4094,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG_CCT_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -4051,7 +4129,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG_CCT_LIGHT_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -4065,7 +4143,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "ZG_CCT_LIGHT_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -4110,7 +4188,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZG_CCT_LIGHT_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -4145,7 +4223,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZG_CCT_LIGHT_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -4162,7 +4240,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG_CCT_LIGHT_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -4189,7 +4267,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG_CCT_LIGHT_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -4216,7 +4294,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG_COLOR_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -4263,7 +4341,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG_COLOR_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -4298,7 +4376,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG_COLOR_LIGHT_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -4312,7 +4390,7 @@
         ]
       },
       {
-        "id": "move_hue",
+        "id": "ZG_COLOR_LIGHT_move_hue",
         "title": {
           "en": "Move hue"
         },
@@ -4347,7 +4425,7 @@
         ]
       },
       {
-        "id": "move_saturation",
+        "id": "ZG_COLOR_LIGHT_move_saturation",
         "title": {
           "en": "Move saturation"
         },
@@ -4382,7 +4460,7 @@
         ]
       },
       {
-        "id": "step_color_temperature",
+        "id": "ZG_COLOR_LIGHT_step_color_temperature",
         "title": {
           "en": "Step color temperature"
         },
@@ -4427,7 +4505,7 @@
         ]
       },
       {
-        "id": "move_color_temperature",
+        "id": "ZG_COLOR_LIGHT_move_color_temperature",
         "title": {
           "en": "Move color temperature"
         },
@@ -4462,7 +4540,7 @@
         ]
       },
       {
-        "id": "stop_move_step",
+        "id": "ZG_COLOR_LIGHT_stop_move_step",
         "title": {
           "en": "Stop move step"
         },
@@ -4479,7 +4557,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG_COLOR_LIGHT_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -4506,7 +4584,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG_COLOR_LIGHT_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -4533,7 +4611,7 @@
         ]
       },
       {
-        "id": "level_step_with_onoff",
+        "id": "ZG_DIM_LIGHT_level_step_with_onoff",
         "title": {
           "en": "Step level (with On/Off)"
         },
@@ -4580,7 +4658,7 @@
         ]
       },
       {
-        "id": "level_move_with_onoff",
+        "id": "ZG_DIM_LIGHT_level_move_with_onoff",
         "title": {
           "en": "Move level (with On/Off)"
         },
@@ -4615,7 +4693,7 @@
         ]
       },
       {
-        "id": "level_stop_with_onoff",
+        "id": "ZG_DIM_LIGHT_level_stop_with_onoff",
         "title": {
           "en": "Stop level (with On/Off)"
         },
@@ -4629,7 +4707,7 @@
         ]
       },
       {
-        "id": "recall_scene",
+        "id": "ZG_DIM_LIGHT_recall_scene",
         "title": {
           "en": "Recall scene"
         },
@@ -4656,7 +4734,7 @@
         ]
       },
       {
-        "id": "store_scene",
+        "id": "ZG_DIM_LIGHT_store_scene",
         "title": {
           "en": "Store scene"
         },
@@ -5924,6 +6002,57 @@
           "image": "/drivers/ZV9001K2_DIM/assets/learnmode.svg",
           "instruction": {
             "en": "# Pair\nPress and hold down both buttons over 3 seconds, LED indicator turns on, the remote control will be set to pair mode, after 7s LED indicator blinks 4 times quickly to indicate successful pairing.\n\n# Factory Reset\nPress and hold down both buttons together for over 10 seconds, LED indicator turns on and then blinks 4 times quickly to indicate successful factory reset."
+          }
+        },
+        "associationGroups": [
+          1,
+          2
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "1. Send Command Class Device Reset Locally Notification V1 to associated devices of this group to report factory reset information when factory reset the remote control.\n2. When remote control battery power value changes, send Command Class Battery Report V1 to associated devices of this group to report power value information.\n3. Short press or press and hold down any button to send scene activation command to the associated devices of this group using Command Class Central Scene Notification V3"
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Short press on/off button to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n\nPress and hold down brightness button to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ZV9001K2_DIM2",
+      "name": {
+        "en": "ZV9001K2_DIM2"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2450"
+        ]
+      },
+      "icon": "/drivers/ZV9001K2_DIM2/assets/icon.svg",
+      "images": {
+        "large": "/drivers/ZV9001K2_DIM2/assets/images/large.png",
+        "small": "/drivers/ZV9001K2_DIM2/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 816,
+        "productTypeId": [
+          768
+        ],
+        "productId": [
+          41735
+        ],
+        "learnmode": {
+          "image": "/drivers/ZV9001K2_DIM2/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pairing\nPress and hold down both I and O buttons over 3 seconds, LED indicator turns on, the remote control will be set to exclusion mode, and waiting to be excluded, after 7s LED indicator blinks 4 times quickly to indicate successful exclusion.\n\n# Factory Reset\nPress and hold down both I and O buttons together for over 10 seconds, LED indicator turns on and then blinks 4 times quickly to indicate successful factory reset."
           }
         },
         "associationGroups": [

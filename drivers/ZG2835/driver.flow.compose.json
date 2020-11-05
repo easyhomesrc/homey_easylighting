@@ -1,21 +1,21 @@
 {
   "triggers": [
     {
-      "id": "on",
+      "id": "ZG2835_on",
       "title": {
         "en": "On"
       },
       "args": []
     },
     {
-      "id": "off",
+      "id": "ZG2835_off",
       "title": {
         "en": "Off"
       },
       "args": []
     },
     {
-      "id": "move_to_level_with_onoff",
+      "id": "ZG2835_move_to_level_with_onoff",
       "title": {
         "en": "Move to level (with On/Off)"
       },
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "id": "move_to_color_temperature",
+      "id": "ZG2835_move_to_color_temperature",
       "title": {
         "en": "Move to color temperature"
       },
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "id": "move_to_hue",
+      "id": "ZG2835_move_to_hue",
       "title": {
         "en": "Move to hue"
       },

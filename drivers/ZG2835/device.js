@@ -25,8 +25,8 @@ class RemoteControl extends ZigBeeRemoteControl {
 
       this.zclNode.endpoints[endpoint].bind(CLUSTER.ON_OFF.NAME,
         new OnOffBoundCluster({
-          onSetOff: this._onOffCommandHandler.bind(this, 'off'),
-          onSetOn: this._onOffCommandHandler.bind(this, 'on'),
+          onSetOff: this._onOffCommandHandler.bind(this, 'ZG2835_off'),
+          onSetOn: this._onOffCommandHandler.bind(this, 'ZG2835_on'),
           endpoint: endpoint,
         }))
 
@@ -63,7 +63,7 @@ class RemoteControl extends ZigBeeRemoteControl {
 
     const tokens = { 'hue': homeyHue }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('move_to_hue').trigger(this, tokens, state)
+    this.driver.getDeviceTriggerCard('ZG2835_move_to_hue').trigger(this, tokens, state)
   }
 
   _onMoveToColorTemperature ({ colorTemperature, transitionTime }, endpoint) {
@@ -76,7 +76,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'transition_time': Math.floor(transitionTime / 10),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('move_to_color_temperature').
+    this.driver.getDeviceTriggerCard('ZG2835_move_to_color_temperature').
       trigger(this, tokens, state)
   }
 
@@ -89,7 +89,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'transition_time': Math.floor(transitionTime / 10),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('move_to_level_with_onoff').
+    this.driver.getDeviceTriggerCard('ZG2835_move_to_level_with_onoff').
       trigger(this, tokens, state)
   }
 

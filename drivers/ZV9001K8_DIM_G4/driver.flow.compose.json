@@ -1,7 +1,7 @@
 {
   "triggers": [
     {
-      "id": "on",
+      "id": "ZV9001K8_DIM_G4_on",
       "title": {
         "en": "On"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "off",
+      "id": "ZV9001K8_DIM_G4_off",
       "title": {
         "en": "Off"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "on_key_held_down",
+      "id": "ZV9001K8_DIM_G4_on_key_held_down",
       "title": {
         "en": "On (Key held down)"
       },
@@ -115,7 +115,7 @@
       ]
     },
     {
-      "id": "on_key_released",
+      "id": "ZV9001K8_DIM_G4_on_key_released",
       "title": {
         "en": "On (Key released)"
       },
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": "off_key_held_down",
+      "id": "ZV9001K8_DIM_G4_off_key_held_down",
       "title": {
         "en": "Off (Key held down)"
       },
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "id": "off_key_released",
+      "id": "ZV9001K8_DIM_G4_off_key_released",
       "title": {
         "en": "Off (Key released)"
       },

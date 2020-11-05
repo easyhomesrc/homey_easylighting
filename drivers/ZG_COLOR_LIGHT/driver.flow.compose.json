@@ -1,7 +1,7 @@
 {
   "actions": [
     {
-      "id": "level_step_with_onoff",
+      "id": "ZG_COLOR_LIGHT_level_step_with_onoff",
       "title": {
         "en": "Step level (with On/Off)"
       },
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": "level_move_with_onoff",
+      "id": "ZG_COLOR_LIGHT_level_move_with_onoff",
       "title": {
         "en": "Move level (with On/Off)"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "level_stop_with_onoff",
+      "id": "ZG_COLOR_LIGHT_level_stop_with_onoff",
       "title": {
         "en": "Stop level (with On/Off)"
       },
@@ -81,7 +81,7 @@
       "args": []
     },
     {
-      "id": "move_hue",
+      "id": "ZG_COLOR_LIGHT_move_hue",
       "title": {
         "en": "Move hue"
       },
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "id": "move_saturation",
+      "id": "ZG_COLOR_LIGHT_move_saturation",
       "title": {
         "en": "Move saturation"
       },
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "id": "step_color_temperature",
+      "id": "ZG_COLOR_LIGHT_step_color_temperature",
       "title": {
         "en": "Step color temperature"
       },
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "id": "move_color_temperature",
+      "id": "ZG_COLOR_LIGHT_move_color_temperature",
       "title": {
         "en": "Move color temperature"
       },
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": "stop_move_step",
+      "id": "ZG_COLOR_LIGHT_stop_move_step",
       "title": {
         "en": "Stop move step"
       },
@@ -222,7 +222,7 @@
       "args": []
     },
     {
-      "id": "recall_scene",
+      "id": "ZG_COLOR_LIGHT_recall_scene",
       "title": {
         "en": "Recall scene"
       },
@@ -244,7 +244,7 @@
       ]
     },
     {
-      "id": "store_scene",
+      "id": "ZG_COLOR_LIGHT_store_scene",
       "title": {
         "en": "Store scene"
       },

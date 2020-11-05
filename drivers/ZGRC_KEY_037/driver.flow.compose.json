@@ -1,7 +1,7 @@
 {
   "triggers": [
     {
-      "id": "on",
+      "id": "ZGRC_KEY_037_on",
       "title": {
         "en": "On"
       },
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "id": "off",
+      "id": "ZGRC_KEY_037_off",
       "title": {
         "en": "Off"
       },
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "id": "recall_scene",
+      "id": "ZGRC_KEY_037_recall_scene",
       "title": {
         "en": "Recall scene"
       },
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "id": "store_scene",
+      "id": "ZGRC_KEY_037_store_scene",
       "title": {
         "en": "Store scene"
       },
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "id": "level_move_with_onoff",
+      "id": "ZGRC_KEY_037_level_move_with_onoff",
       "title": {
         "en": "Move level (with On/Off)"
       },
@@ -245,7 +245,7 @@
       ]
     },
     {
-      "id": "level_stop_with_onoff",
+      "id": "ZGRC_KEY_037_level_stop_with_onoff",
       "title": {
         "en": "Stop level (with On/Off)"
       },

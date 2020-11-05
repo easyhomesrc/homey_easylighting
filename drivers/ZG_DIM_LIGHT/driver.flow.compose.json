@@ -1,7 +1,7 @@
 {
   "actions": [
     {
-      "id": "level_step_with_onoff",
+      "id": "ZG_DIM_LIGHT_level_step_with_onoff",
       "title": {
         "en": "Step level (with On/Off)"
       },
@@ -43,7 +43,7 @@
       ]
     },
     {
-      "id": "level_move_with_onoff",
+      "id": "ZG_DIM_LIGHT_level_move_with_onoff",
       "title": {
         "en": "Move level (with On/Off)"
       },
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "id": "level_stop_with_onoff",
+      "id": "ZG_DIM_LIGHT_level_stop_with_onoff",
       "title": {
         "en": "Stop level (with On/Off)"
       },
@@ -81,7 +81,7 @@
       "args": []
     },
     {
-      "id": "recall_scene",
+      "id": "ZG_DIM_LIGHT_recall_scene",
       "title": {
         "en": "Recall scene"
       },
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "id": "store_scene",
+      "id": "ZG_DIM_LIGHT_store_scene",
       "title": {
         "en": "Store scene"
       },

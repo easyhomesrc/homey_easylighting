@@ -1,73 +1,73 @@
 {
   "triggers": [
     {
-      "id": "on",
+      "id": "ZV9001K4_DIM_on",
       "title": {
         "en": "On"
       }
     },
     {
-      "id": "off",
+      "id": "ZV9001K4_DIM_off",
       "title": {
         "en": "Off"
       }
     },
     {
-      "id": "on_key_held_down",
+      "id": "ZV9001K4_DIM_on_key_held_down",
       "title": {
         "en": "On (Key held down)"
       }
     },
     {
-      "id": "on_key_released",
+      "id": "ZV9001K4_DIM_on_key_released",
       "title": {
         "en": "On (Key released)"
       }
     },
     {
-      "id": "off_key_held_down",
+      "id": "ZV9001K4_DIM_off_key_held_down",
       "title": {
         "en": "Off (Key held down)"
       }
     },
     {
-      "id": "off_key_released",
+      "id": "ZV9001K4_DIM_off_key_released",
       "title": {
         "en": "Off (Key released)"
       }
     },
     {
-      "id": "level_up",
+      "id": "ZV9001K4_DIM_level_up",
       "title": {
         "en": "Level up (Key pressed 1 time)"
       }
     },
     {
-      "id": "level_down",
+      "id": "ZV9001K4_DIM_level_down",
       "title": {
         "en": "Level down (Key pressed 1 time)"
       }
     },
     {
-      "id": "level_up_key_held_down",
+      "id": "ZV9001K4_DIM_level_up_key_held_down",
       "title": {
         "en": "Level up (Key held down)"
       }
     },
     {
-      "id": "level_up_key_released",
+      "id": "ZV9001K4_DIM_level_up_key_released",
       "title": {
         "en": "Level up (Key released)"
       }
     },
     {
-      "id": "level_down_key_held_down",
+      "id": "ZV9001K4_DIM_level_down_key_held_down",
       "title": {
         "en": "Level down (Key held down)"
       }
     },
     {
-      "id": "level_down_key_released",
+      "id": "ZV9001K4_DIM_level_down_key_released",
       "title": {
         "en": "Level down (Key released)"
       }

@@ -24,8 +24,8 @@ class RemoteControl extends ZigBeeRemoteControl {
 
       this.zclNode.endpoints[endpoint].bind(CLUSTER.ON_OFF.NAME,
         new OnOffBoundCluster({
-          onSetOff: this._onOffCommandHandler.bind(this, 'off'),
-          onSetOn: this._onOffCommandHandler.bind(this, 'on'),
+          onSetOff: this._onOffCommandHandler.bind(this, 'ZGRC_KEY_005_off'),
+          onSetOn: this._onOffCommandHandler.bind(this, 'ZGRC_KEY_005_on'),
           endpoint: endpoint,
         }))
 
@@ -71,7 +71,7 @@ class RemoteControl extends ZigBeeRemoteControl {
     this.log(
       `_onLevelStepWithOnOff ${mode} ${stepSize} ${transitionTime}, ${endpoint}`)
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('level_step_with_onoff').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_level_step_with_onoff').
       trigger(this, tokens, state)
   }
 
@@ -85,7 +85,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'rate': SrUtils.getMoveLevelRateToken(rate),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('level_move_with_onoff').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_level_move_with_onoff').
       trigger(this, tokens, state)
   }
 
@@ -96,7 +96,7 @@ class RemoteControl extends ZigBeeRemoteControl {
 
     const tokens = {}
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('level_stop_with_onoff').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_level_stop_with_onoff').
       trigger(this, tokens, state)
   }
 
@@ -111,7 +111,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'transition_time': Math.floor(transitionTime / 10),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('move_to_color').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_to_color').
       trigger(this, tokens, state)
   }
 
@@ -125,7 +125,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'transition_time': Math.floor(transitionTime / 10),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('move_to_color_temperature').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_to_color_temperature').
       trigger(this, tokens, state)
   }
 
@@ -138,7 +138,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'rate': SrUtils.getMoveSaturationRateToken(rate),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('move_color_temperature').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_color_temperature').
       trigger(this, tokens, state)
   }
 
@@ -148,7 +148,7 @@ class RemoteControl extends ZigBeeRemoteControl {
 
     const tokens = {}
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('stop_move_step').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_stop_move_step').
       trigger(this, tokens, state)
   }
 
@@ -163,7 +163,7 @@ class RemoteControl extends ZigBeeRemoteControl {
     const state = {
       'group': endpoint,
     }
-    this.driver.getDeviceTriggerCard('move_hue').trigger(
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_005_move_hue').trigger(
       this, tokens, state,
     )
   }

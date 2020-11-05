@@ -1,21 +1,21 @@
 {
   "triggers": [
     {
-      "id": "on",
+      "id": "ZGRC_KEY_004_on",
       "title": {
         "en": "On"
       },
       "args": []
     },
     {
-      "id": "off",
+      "id": "ZGRC_KEY_004_off",
       "title": {
         "en": "Off"
       },
       "args": []
     },
     {
-      "id": "level_move_with_onoff",
+      "id": "ZGRC_KEY_004_level_move_with_onoff",
       "title": {
         "en": "Move level (with On/Off)"
       },
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "id": "level_stop_with_onoff",
+      "id": "ZGRC_KEY_004_level_stop_with_onoff",
       "title": {
         "en": "Stop level (with On/Off)"
       },

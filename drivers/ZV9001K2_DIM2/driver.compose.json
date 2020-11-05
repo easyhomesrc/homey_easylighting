@@ -1,0 +1,51 @@
+{
+  "id": "ZV9001K2_DIM2",
+  "name": {
+    "en": "ZV9001K2_DIM2"
+  },
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "CR2450"
+    ]
+  },
+  "icon": "/drivers/ZV9001K2_DIM2/assets/icon.svg",
+  "images": {
+    "large": "/drivers/ZV9001K2_DIM2/assets/images/large.png",
+    "small": "/drivers/ZV9001K2_DIM2/assets/images/small.png"
+  },
+  "zwave": {
+    "manufacturerId": 816,
+    "productTypeId": [
+      768
+    ],
+    "productId": [
+      41735
+    ],
+    "learnmode": {
+      "image": "/drivers/ZV9001K2_DIM2/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pairing\nPress and hold down both I and O buttons over 3 seconds, LED indicator turns on, the remote control will be set to exclusion mode, and waiting to be excluded, after 7s LED indicator blinks 4 times quickly to indicate successful exclusion.\n\n# Factory Reset\nPress and hold down both I and O buttons together for over 10 seconds, LED indicator turns on and then blinks 4 times quickly to indicate successful factory reset."
+      }
+    },
+    "associationGroups": [
+      1,
+      2
+    ],
+    "associationGroupsOptions": {
+      "1": {
+        "hint": {
+          "en": "1. Send Command Class Device Reset Locally Notification V1 to associated devices of this group to report factory reset information when factory reset the remote control.\n2. When remote control battery power value changes, send Command Class Battery Report V1 to associated devices of this group to report power value information.\n3. Short press or press and hold down any button to send scene activation command to the associated devices of this group using Command Class Central Scene Notification V3"
+        }
+      },
+      "2": {
+        "hint": {
+          "en": "Short press on/off button to send ON/OFF command to associated devices of this group using Command Class Basic Set V2.\n\nPress and hold down brightness button to send light intensity increase/decrease command to associated devices of this group using Command Class Multilevel V4."
+        }
+      }
+    }
+  }
+}

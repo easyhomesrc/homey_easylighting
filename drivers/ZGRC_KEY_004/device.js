@@ -20,8 +20,8 @@ class RemoteControl extends ZigBeeRemoteControl {
 
       this.zclNode.endpoints[endpoint].bind(CLUSTER.ON_OFF.NAME,
         new OnOffBoundCluster({
-          onSetOff: this._onOffCommandHandler.bind(this, 'off'),
-          onSetOn: this._onOffCommandHandler.bind(this, 'on'),
+          onSetOff: this._onOffCommandHandler.bind(this, 'ZGRC_KEY_004_off'),
+          onSetOn: this._onOffCommandHandler.bind(this, 'ZGRC_KEY_004_on'),
           endpoint: endpoint,
         }))
 
@@ -55,7 +55,7 @@ class RemoteControl extends ZigBeeRemoteControl {
       'rate': SrUtils.getMoveLevelRateToken(rate),
     }
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('level_move_with_onoff').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_004_level_move_with_onoff').
       trigger(this, tokens, state)
   }
 
@@ -66,7 +66,7 @@ class RemoteControl extends ZigBeeRemoteControl {
 
     const tokens = {}
     const state = { 'group': endpoint }
-    this.driver.getDeviceTriggerCard('level_stop_with_onoff').
+    this.driver.getDeviceTriggerCard('ZGRC_KEY_004_level_stop_with_onoff').
       trigger(this, tokens, state)
   }
 

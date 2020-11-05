@@ -1,13 +1,13 @@
 {
   "triggers": [
     {
-      "id": "open",
+      "id": "ZV9010A_open",
       "title": {
         "en": "Window/Door is open"
       }
     },
     {
-      "id": "closed",
+      "id": "ZV9010A_closed",
       "title": {
         "en": "Window/Door is closed"
       }
