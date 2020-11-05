@@ -1,19 +1,19 @@
 {
   "triggers": [
     {
-      "id": "on",
+      "id": "ZG2833K2_EU07_on",
       "title": {
         "en": "On"
       }
     },
     {
-      "id": "off",
+      "id": "ZG2833K2_EU07_off",
       "title": {
         "en": "Off"
       }
     },
     {
-      "id": "level_move_with_onoff",
+      "id": "ZG2833K2_EU07_level_move_with_onoff",
       "title": {
         "en": "Move level (with On/Off)"
       },
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "id": "level_stop_with_onoff",
+      "id": "ZG2833K2_EU07_level_stop_with_onoff",
       "title": {
         "en": "Stop level (with On/Off)"
       }

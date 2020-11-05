@@ -1,0 +1,49 @@
+{
+  "id": "ZG9100A_S",
+  "name": {
+    "en": "ZG9100A-S"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff"
+  ],
+  "capabilitiesOptions": {
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "ZG9100A-S",
+      "HK-SL-RELAY-A"
+    ],
+    "endpoints": {
+      "1": {
+
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          1794,
+          2820,
+          2821
+        ],
+        "bindings": [
+          25
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/ZG9100A_S/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pairing\nStep 1: Remove the device from previous zigbee network if it has already been added to, otherwise pairing will\nfail. Please refer to the part \"Factory Reset Manually\".\nStep 2: From your ZigBee Controller or hub interface, choose to add lighting device and enter Pairing mode as instructed by the controller.\nStep 3: Re-power on the device to set it into network pairing mode (connected light flashes twice slowly), 15 seconds timeout, repeat the operation.\nStep 4: Connected light will blink 5 times and then stay solid on, then the device will appear in your controller's menu and can be controlled through controller or hub interface.\n\n# Factory Reset Manually\nStep 1: Short press \"Reset.\" key for 5 times continuously or re-power on the device for 5 times continuously if the \"Prog.\" key is not accessible.\nStep 2: Connected light will blink 3 times to indicate successful reset."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/ZG9100A_S/assets/images/large.png",
+    "small": "/drivers/ZG9100A_S/assets/images/small.png"
+  },
+  "settings": [
+  ]
+}

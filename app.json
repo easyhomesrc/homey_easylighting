@@ -3678,6 +3678,156 @@
           {
             "type": "device",
             "name": "device",
+            "filter": "driver_id=ZG9040A_S"
+          },
+          {
+            "name": "mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "step_size",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0,
+            "title": {
+              "en": "Step size"
+            }
+          },
+          {
+            "name": "transition_time",
+            "type": "number",
+            "min": 0,
+            "max": 6553,
+            "step": 1,
+            "title": {
+              "en": "Transition time, range { 0 ~ 6553 } seconds."
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_move_with_onoff",
+        "title": {
+          "en": "Move level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG9040A_S"
+          },
+          {
+            "name": "move_mode",
+            "type": "number",
+            "min": 0,
+            "max": 1,
+            "step": 1,
+            "title": {
+              "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+            }
+          },
+          {
+            "name": "rate",
+            "title": "Rate",
+            "type": "range",
+            "min": 0,
+            "max": 1,
+            "step": 0.01,
+            "label": "%",
+            "labelMultiplier": 100,
+            "labelDecimals": 0
+          }
+        ]
+      },
+      {
+        "id": "level_stop_with_onoff",
+        "title": {
+          "en": "Stop level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG9040A_S"
+          }
+        ]
+      },
+      {
+        "id": "recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG9040A_S"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG9040A_S"
+          },
+          {
+            "name": "group_id",
+            "type": "number",
+            "title": {
+              "en": "Group ID, default { 0 }"
+            }
+          },
+          {
+            "name": "scene_id",
+            "type": "number",
+            "title": {
+              "en": "Scene ID"
+            }
+          }
+        ]
+      },
+      {
+        "id": "level_step_with_onoff",
+        "title": {
+          "en": "Step level (with On/Off)"
+        },
+        "duration": false,
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
             "filter": "driver_id=ZG9101SAC_HP"
           },
           {
@@ -4895,6 +5045,109 @@
       "settings": []
     },
     {
+      "id": "ZG9040A_S",
+      "name": {
+        "en": "ZG9040A-S"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "capabilitiesOptions": {
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "onoff": {
+          "setOnDim": false
+        }
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZG9040A-S",
+          "HK-SL-DIM-A"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              1794,
+              8,
+              2820,
+              2821
+            ],
+            "bindings": [
+              25
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG9040A_S/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pairing\nStep 1: Remove the device from previous zigbee network if it has already been added to, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: From your ZigBee Controller or hub interface, choose to add lighting device and enter Pairing mode as instructed by the controller.\nStep 3: Re-power on the device to set it into network pairing mode (connected light flashes twice slowly), 15 seconds timeout, repeat the operation.\nStep 4: Connected light will blink 5 times and then stay solid on, then the device will appear in your controller's menu and can be controlled through controller or hub interface.\n\n# Factory Reset Manually\nStep 1: Short press “Reset.” key for 5 times continuously or re-power on the device for 5 times continuously if\nthe “Prog.” key is not accessible.\nStep 2: Connected light will blink 3 times to indicate successful reset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/ZG9040A_S/assets/images/large.png",
+        "small": "/drivers/ZG9040A_S/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "ZG9100A_S",
+      "name": {
+        "en": "ZG9100A-S"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff"
+      ],
+      "capabilitiesOptions": {},
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZG9100A-S",
+          "HK-SL-RELAY-A"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              3,
+              4,
+              5,
+              6,
+              1794,
+              2820,
+              2821
+            ],
+            "bindings": [
+              25
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG9100A_S/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pairing\nStep 1: Remove the device from previous zigbee network if it has already been added to, otherwise pairing will\nfail. Please refer to the part \"Factory Reset Manually\".\nStep 2: From your ZigBee Controller or hub interface, choose to add lighting device and enter Pairing mode as instructed by the controller.\nStep 3: Re-power on the device to set it into network pairing mode (connected light flashes twice slowly), 15 seconds timeout, repeat the operation.\nStep 4: Connected light will blink 5 times and then stay solid on, then the device will appear in your controller's menu and can be controlled through controller or hub interface.\n\n# Factory Reset Manually\nStep 1: Short press \"Reset.\" key for 5 times continuously or re-power on the device for 5 times continuously if the \"Prog.\" key is not accessible.\nStep 2: Connected light will blink 3 times to indicate successful reset."
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/ZG9100A_S/assets/images/large.png",
+        "small": "/drivers/ZG9100A_S/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
       "id": "ZG9101SAC_HP",
       "name": {
         "en": "ZG DIM Light"
@@ -5957,6 +6210,97 @@
           "1": {
             "hint": {
               "en": "1. Smart plug Factory Reset, send Command Class Device Reset Locally Notification CC to associated devices of this group to report factory reset information when factory reset the smart plug.\n\n2. Smart plug overloads, send Command Class NOTIFICATION_REPORT CC to associated devices of this group to report overload information.\n\n3. When smart plug state changes, send Command Class SWITCH_BINARY_REPORT CC to associated devices of this group to report state information.\n\n4. METER_ REPORT"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ZV9040A_S",
+      "name": {
+        "en": "ZV9040A-S"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "capabilitiesOptions": {
+        "onoff": {
+          "setOnDim": false
+        },
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        }
+      },
+      "icon": "/drivers/ZV9040A_S/assets/icon.svg",
+      "images": {
+        "large": "/drivers/ZV9040A_S/assets/images/large.png",
+        "small": "/drivers/ZV9040A_S/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 816,
+        "productTypeId": [
+          512
+        ],
+        "productId": [
+          53260
+        ],
+        "learnmode": {
+          "image": "/drivers/ZV9040A_S/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pairing\nTriple press the action button, the switch will be set to exclusion mode, and waiting to be excluded, then the switch will be excluded from the network.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds, the switch will be reset to factory defaults."
+          }
+        },
+        "associationGroups": [
+          1
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "1. When press and hold down “Reset” button for 10S to reset the switch, send \"Device Reset Locally Notification CC\" to associated devices of this group to report factory reset information.\n2. When load state changes, send \"Basic Report CC\" to associated devices of this group.\n3. When over temperature is detected, send “Emergency shutoff status\" to Lifeline."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ZV9100A_S",
+      "name": {
+        "en": "ZV9100A-S"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff"
+      ],
+      "icon": "/drivers/ZV9100A_S/assets/icon.svg",
+      "images": {
+        "large": "/drivers/ZV9100A_S/assets/images/large.png",
+        "small": "/drivers/ZV9100A_S/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 816,
+        "productTypeId": [
+          512
+        ],
+        "productId": [
+          53263
+        ],
+        "learnmode": {
+          "image": "/drivers/ZV9100A_S/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pairing\nTriple press the action button, the switch will be set to exclusion mode, and waiting to be excluded, then the switch will be excluded from the network.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds, the switch will be reset to factory defaults."
+          }
+        },
+        "associationGroups": [
+          1
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "1. When press and hold down “Reset” button for 10S to reset the switch, send \"Device Reset Locally Notification CC\" to associated devices of this group to report factory reset information.\n2. When load state changes, send \"Basic Report CC\" to associated devices of this group.\n3. When over temperature is detected, send “Emergency shutoff status\" to Lifeline."
             }
           }
         }
