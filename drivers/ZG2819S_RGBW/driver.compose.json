@@ -1,0 +1,104 @@
+{
+  "id": "ZG2819S_RGBW",
+  "name": {
+    "en": "ZG2819S-RGBW"
+  },
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ]
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "ZG2819S-RGBW"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          25,
+          768
+        ]
+      },
+      "2": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          25,
+          768
+        ]
+      },
+      "3": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          25,
+          768
+        ]
+      },
+      "4": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          25,
+          768
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/ZG2819S_RGBW/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pairing\nStep 1: Remove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 3: Immediately short press \"S1\" button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing.\n\n# Factory Reset Manually\nStep 1: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 2: Immediately short press 5 times \"Prog.\" button continuously, indicator flashes 3 times quickly to indicate successful reset."
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/ZG2819S_RGBW/assets/images/large.png",
+    "small": "/drivers/ZG2819S_RGBW/assets/images/small.png"
+  },
+  "settings": []
+}

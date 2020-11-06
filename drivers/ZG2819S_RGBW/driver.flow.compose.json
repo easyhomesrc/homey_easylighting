@@ -1,0 +1,623 @@
+{
+  "triggers": [
+    {
+      "id": "ZG2819S_RGBW_on",
+      "title": {
+        "en": "On"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_off",
+      "title": {
+        "en": "Off"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_move_to_color",
+      "title": {
+        "en": "Move to color (XY)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "color_x",
+          "type": "number",
+          "title": {
+            "en": "Color X"
+          },
+          "example": 0.1
+        },
+        {
+          "name": "color_y",
+          "type": "number",
+          "title": {
+            "en": "Color Y"
+          },
+          "example": 0.1
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          },
+          "example": 0
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          },
+          "example": 0
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          },
+          "example": 1
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          },
+          "example": 0
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          },
+          "example": 1
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_level_step_with_onoff",
+      "title": {
+        "en": "Step level (with On/Off)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "mode",
+          "type": "number",
+          "title": {
+            "en": "Mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "step_size",
+          "type": "number",
+          "title": {
+            "en": "Step size"
+          },
+          "example": 0.2
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          },
+          "example": 0
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_level_move_with_onoff",
+      "title": {
+        "en": "Move level (with On/Off)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level (with On/Off)"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_move_to_color_temperature",
+      "title": {
+        "en": "Move to color temperature"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "color_temperature",
+          "type": "number",
+          "title": {
+            "en": "Color temperature"
+          },
+          "example": 0
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "title": {
+            "en": "Transition time"
+          },
+          "example": 0
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_move_color_temperature",
+      "title": {
+        "en": "Move color temperature"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_stop_move_step",
+      "title": {
+        "en": "Stop move step"
+      },
+      "hint": {
+        "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ZG2819S_RGBW_move_hue",
+      "title": {
+        "en": "Move hue"
+      },
+      "args": [
+        {
+          "name": "group",
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "Group 1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "Group 2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "Group 3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "Group 4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    }
+  ]
+}
