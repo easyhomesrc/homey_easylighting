@@ -1,0 +1,50 @@
+{
+  "triggers": [
+    {
+      "id": "ZGRC_KEY_007_on",
+      "title": {
+        "en": "On"
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_007_off",
+      "title": {
+        "en": "Off"
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_007_level_move_with_onoff",
+      "title": {
+        "en": "Move level (with On/Off)"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "title": {
+            "en": "Move mode"
+          },
+          "example": 0
+        },
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_007_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level (with On/Off)"
+      },
+      "args": []
+    }
+  ]
+}
