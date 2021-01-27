@@ -1,5 +1,8 @@
 {
   "1.0.0": {
     "en": "Added support for ZigBee and Z-Wave devices."
+  },
+  "1.0.1": {
+    "en": "Add suppport for HK-ZD-XXX devices."
   }
 }

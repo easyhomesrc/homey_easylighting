@@ -42,7 +42,9 @@
     "productId": [
       "RGB-CCT",
       "RGBW Lighting",
-      "RGBW-CCT"
+      "RGBW-CCT",
+      "HK-ZD-RGB-A",
+      "HK-ZD-RGBCCT-A"
     ],
     "endpoints": {
       "1": {

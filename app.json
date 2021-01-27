@@ -1,6 +1,6 @@
 {
   "id": "com.easyhome.easylighting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#FF453A",
@@ -6638,7 +6638,8 @@
         "manufacturerName": "Sunricher",
         "productId": [
           "CCT Lighting",
-          "CCT Light"
+          "CCT Light",
+          "HK-ZD-CCT-A"
         ],
         "endpoints": {
           "1": {
@@ -6715,7 +6716,9 @@
         "productId": [
           "RGB-CCT",
           "RGBW Lighting",
-          "RGBW-CCT"
+          "RGBW-CCT",
+          "HK-ZD-RGB-A",
+          "HK-ZD-RGBCCT-A"
         ],
         "endpoints": {
           "1": {
@@ -6771,7 +6774,8 @@
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
-          "DIM Lighting"
+          "DIM Lighting",
+          "HK-ZD-DIM-A"
         ],
         "endpoints": {
           "1": {
