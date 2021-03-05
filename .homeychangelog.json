@@ -4,5 +4,11 @@
   },
   "1.0.1": {
     "en": "Add suppport for HK-ZD-XXX devices."
+  },
+  "1.0.2": {
+    "en": "Added state report for ZigBee device, bug fixes and improvements."
+  },
+  "1.0.3": {
+    "en": "Added state report for ZigBee device, bug fixes and improvements."
   }
 }

@@ -6,8 +6,8 @@ class DimLight extends ZwaveLightDevice {
 
   async onNodeInit ({ node }) {
 
-    this.enableDebug()
-    this.printNode()
+    // this.enableDebug()
+    // this.printNode()
 
     this.registerCapability('onoff', 'SWITCH_MULTILEVEL')
     this.registerCapability('dim', 'SWITCH_MULTILEVEL')

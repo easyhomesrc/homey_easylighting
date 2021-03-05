@@ -13,7 +13,8 @@
     "manufacturerName": "Sunricher",
     "productId": [
       "ZG9100A-S",
-      "HK-SL-RELAY-A"
+      "HK-SL-RELAY-A",
+      "Micro Smart OnOff"
     ],
     "endpoints": {
       "1": {
@@ -29,6 +30,7 @@
           2821
         ],
         "bindings": [
+          6,
           25
         ]
       }

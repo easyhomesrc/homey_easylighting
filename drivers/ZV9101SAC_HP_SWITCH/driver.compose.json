@@ -23,7 +23,7 @@
     "learnmode": {
       "image": "/drivers/ZV9101SAC_HP_SWITCH/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pair\nTriple press the reset button, the device will be set to pair mode.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds, the device will be reset to factory defaults."
+        "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
       }
     },
     "associationGroups": [

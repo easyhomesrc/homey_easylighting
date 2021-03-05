@@ -25,7 +25,7 @@
     "learnmode": {
       "image": "/drivers/ZV9020A/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pair\nPower on the smart plug, make sure it does not belong to any Z-Wave network. Press and hold down action button for over 10 seconds, if the LED indicator flashes yellow slowly, it means it does not belong to any network, if the smart plug has already been included into a network, it will be removed from the network and reset to factory defaults. There are two methods to set the smart plug into pair mode:\n1) Repower on the smart plug, it will be set into pair mode automatically.\n2) Triple press the action button on the smart plug, it will set the plug into pair mode.\nThe LED indicator will flash a white LED fast then stay solid white for 3 seconds to indicate successful pairing. If there is no Z-Wave network available, the LED indicator will flash white fast for 6 seconds and the plug will quit pair mode automatically.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds, LED indicator stays solid white for 3s to indicate successful factory reset, release action button, the smart plug will restart automatically."
+        "en": "# Pair\nTriple press the action button on the smart plug.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds."
       }
     },
     "associationGroups": [

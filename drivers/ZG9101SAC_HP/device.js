@@ -1,13 +1,13 @@
 'use strict'
 
-const { ZigBeeLightDevice } = require('homey-zigbeedriver')
+const SrZigbeeLight = require('../../lib/SrZigbeeLight')
 const SrSceneCluster = require('../../lib/SrSceneCluster')
 
 const { CLUSTER, Cluster } = require('zigbee-clusters')
 
 Cluster.addCluster(SrSceneCluster)
 
-class DimLight extends ZigBeeLightDevice {
+class DimLight extends SrZigbeeLight {
 
   async levelStepRunListener (args, state) {
 

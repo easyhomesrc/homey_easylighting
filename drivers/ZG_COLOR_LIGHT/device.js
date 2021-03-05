@@ -1,6 +1,6 @@
 'use strict'
 
-const { ZigBeeLightDevice } = require('homey-zigbeedriver')
+const SrZigbeeLight = require('../../lib/SrZigbeeLight')
 const SrColorControlCluster = require('../../lib/SrColorControlCluster')
 const SrSceneCluster = require('../../lib/SrSceneCluster')
 
@@ -9,7 +9,7 @@ const { CLUSTER, Cluster } = require('zigbee-clusters')
 Cluster.addCluster(SrColorControlCluster)
 Cluster.addCluster(SrSceneCluster)
 
-class ColorLight extends ZigBeeLightDevice {
+class ColorLight extends SrZigbeeLight {
 
   async moveHueRunListener (args, state) {
     const payload = {

@@ -5,7 +5,8 @@
   },
   "class": "remote",
   "capabilities": [
-    "measure_battery"
+    "measure_battery",
+    "alarm_battery"
   ],
   "energy": {
     "batteries": [
@@ -28,7 +29,7 @@
     "learnmode": {
       "image": "/drivers/ZV9001K2_DIM2/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pairing\nPress and hold down both I and O buttons over 3 seconds, LED indicator turns on, the remote control will be set to exclusion mode, and waiting to be excluded, after 7s LED indicator blinks 4 times quickly to indicate successful exclusion.\n\n# Factory Reset\nPress and hold down both I and O buttons together for over 10 seconds, LED indicator turns on and then blinks 4 times quickly to indicate successful factory reset."
+        "en": "# Pairing\nPress and hold down both I and O buttons over 3 seconds.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down both I and O buttons together for over 10 seconds."
       }
     },
     "associationGroups": [

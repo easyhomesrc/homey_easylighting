@@ -23,7 +23,7 @@
     "learnmode": {
       "image": "/drivers/ZV9100A_S/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pairing\nTriple press the action button, the switch will be set to exclusion mode, and waiting to be excluded, then the switch will be excluded from the network.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds, the switch will be reset to factory defaults."
+        "en": "# Pairing\nTriple press the action button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds."
       }
     },
     "associationGroups": [

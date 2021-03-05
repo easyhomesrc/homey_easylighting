@@ -22,7 +22,8 @@
     "manufacturerName": "Sunricher",
     "productId": [
       "ZG9040A-S",
-      "HK-SL-DIM-A"
+      "HK-SL-DIM-A",
+      "Micro Smart Dimmer"
     ],
     "endpoints": {
       "1": {
@@ -38,6 +39,8 @@
           2821
         ],
         "bindings": [
+          6,
+          8,
           25
         ]
       }

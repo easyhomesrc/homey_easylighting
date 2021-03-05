@@ -5,7 +5,9 @@
   },
   "class": "sensor",
   "capabilities": [
-    "measure_battery"
+    "alarm_contact",
+    "measure_battery",
+    "alarm_battery"
   ],
   "energy": {
     "batteries": [
@@ -29,7 +31,7 @@
     "learnmode": {
       "image": "/drivers/ZV9010A/assets/learnmode.svg",
       "instruction": {
-        "en": " # Pair\nTriple press the action button, the sensor will be set to pair mode, the LED indicator will flash fast and then stay solid on for 3 seconds to indicate successful pairing. If pairing fails, the LED indicator will flash fast for 6 seconds and the sensor will quit pair mode automatically.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds, during this process, LED indicator will accelerate flashing, then LED indicator will stay solid on for 3s to indicate successful factory reset, release action button, the sensor will restart automatically."
+        "en": " # Pair\nTriple press the action button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds."
       }
     },
     "associationGroups": [
