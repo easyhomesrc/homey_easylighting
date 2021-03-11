@@ -10,5 +10,8 @@
   },
   "1.0.3": {
     "en": "Added state report for ZigBee device, bug fixes and improvements."
+  },
+  "1.0.4": {
+    "en": "Added measure power, meter power for ZG9100A_S."
   }
 }
