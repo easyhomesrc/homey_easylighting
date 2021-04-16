@@ -1,7 +1,7 @@
 {
-  "id": "ZG2833K4_EU06",
+  "id": "ZG9001K4_DIM2",
   "name": {
-    "en": "ZG2833K4_EU06"
+    "en": "ZG9001K4_DIM2"
   },
   "class": "remote",
   "capabilities": [
@@ -15,7 +15,7 @@
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
-      "ZG2833K4_EU06"
+      "ZGRC-KEY-039"
     ],
     "endpoints": {
       "1": {
@@ -40,15 +40,15 @@
       }
     },
     "learnmode": {
-      "image": "/drivers/ZG2833K4_EU06/assets/learnmode.svg",
+      "image": "/drivers/ZG9001K4_DIM2/assets/learnmode.svg",
       "instruction": {
         "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Reset button 5 times and the remote will be reset."
       }
     }
   },
   "images": {
-    "large": "/drivers/ZG2833K4_EU06/assets/images/large.png",
-    "small": "/drivers/ZG2833K4_EU06/assets/images/small.png"
+    "large": "/drivers/ZG9001K4_DIM2/assets/images/large.png",
+    "small": "/drivers/ZG9001K4_DIM2/assets/images/small.png"
   },
   "settings": []
 }
