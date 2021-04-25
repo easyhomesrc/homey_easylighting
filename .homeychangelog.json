@@ -19,5 +19,8 @@
   },
   "1.0.6": {
     "en": "Make ZigBee device pairing faster."
+  },
+  "1.0.7": {
+    "en": "Added support for ZG Curtain."
   }
 }

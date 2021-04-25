@@ -1,0 +1,47 @@
+{
+  "id": "ZG9080A",
+  "name": {
+    "en": "ZG Curtain"
+  },
+  "class": "curtain",
+  "capabilities": [
+    "onoff",
+    "windowcoverings_state",
+    "windowcoverings_set",
+    "windowcoverings_tilt_set"
+  ],
+  "images": {
+    "large": "/drivers/ZG9080A/assets/images/large.png",
+    "small": "/drivers/ZG9080A/assets/images/small.png"
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "HK-ZCC-A"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          258,
+          2821,
+          4096
+        ],
+        "bindings": [
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/ZG9080A/assets/learnmode.svg",
+      "instruction": {
+        "en": "# Pairing\nShort press button K2 5 times continuously (Or reset power of the device for 5 times continuously).\n\n# Factory reset\nShort press button K2 5 times continuously (Or reset power of the device for 5 times continuously)." }
+    }
+  },
+  "settings": [
+  ]
+}
