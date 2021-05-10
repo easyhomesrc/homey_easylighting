@@ -1,6 +1,6 @@
 {
   "id": "com.easyhome.easylighting",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#FF453A",
@@ -6065,7 +6065,9 @@
       "class": "light",
       "capabilities": [
         "onoff",
-        "dim"
+        "dim",
+        "measure_power",
+        "meter_power"
       ],
       "capabilitiesOptions": {
         "dim": {
@@ -6075,6 +6077,11 @@
         },
         "onoff": {
           "setOnDim": false
+        },
+        "capabilitiesOptions": {
+          "measure_power": {
+            "approximated": true
+          }
         }
       },
       "zigbee": {

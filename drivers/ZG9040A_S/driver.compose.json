@@ -6,7 +6,9 @@
   "class": "light",
   "capabilities": [
     "onoff",
-    "dim"
+    "dim",
+    "measure_power",
+    "meter_power"
   ],
   "capabilitiesOptions": {
     "dim": {
@@ -16,6 +18,11 @@
     },
     "onoff": {
       "setOnDim": false
+    },
+    "capabilitiesOptions": {
+      "measure_power": {
+        "approximated": true
+      }
     }
   },
   "zigbee": {

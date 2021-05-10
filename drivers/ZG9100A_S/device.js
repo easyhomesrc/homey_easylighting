@@ -75,6 +75,7 @@ class MyLight extends ZigBeeDevice {
         },
       })
     }
+
   }
 
 }
