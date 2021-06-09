@@ -28,6 +28,7 @@
     "productId": [
       53251
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9010A/assets/learnmode.svg",
       "instruction": {

@@ -31,6 +31,7 @@
     "productId": [
       53253
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9101SAC_HP/assets/learnmode.svg",
       "instruction": {

@@ -1,12 +1,14 @@
 {
-  "id": "ZV9101CS",
+  "id": "ZV2835RAC_S",
   "name": {
-    "en": "ZV DIM Light"
+    "en": "ZV2835RAC-S"
   },
   "class": "light",
   "capabilities": [
     "onoff",
-    "dim"
+    "dim",
+    "measure_power",
+    "meter_power"
   ],
   "capabilitiesOptions": {
     "onoff": {
@@ -16,12 +18,15 @@
       "opts": {
         "duration": true
       }
+    },
+    "measure_power": {
+      "approximated": true
     }
   },
-  "icon": "/drivers/ZV9101CS/assets/icon.svg",
+  "icon": "{{driverAssetsPath}}/icon.svg",
   "images": {
-    "large": "/drivers/ZV9101CS/assets/images/large.png",
-    "small": "/drivers/ZV9101CS/assets/images/small.png"
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
   },
   "zwave": {
     "manufacturerId": 816,
@@ -29,11 +34,11 @@
       512
     ],
     "productId": [
-      53250
+      53271
     ],
     "includeSecure": false,
     "learnmode": {
-      "image": "/drivers/ZV9101CS/assets/learnmode.svg",
+      "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
       }

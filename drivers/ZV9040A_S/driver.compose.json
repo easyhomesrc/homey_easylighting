@@ -36,6 +36,7 @@
     "productId": [
       53260
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9040A_S/assets/learnmode.svg",
       "instruction": {

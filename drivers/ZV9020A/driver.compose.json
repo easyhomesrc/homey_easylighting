@@ -22,6 +22,7 @@
     "productId": [
       53252
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9020A/assets/learnmode.svg",
       "instruction": {

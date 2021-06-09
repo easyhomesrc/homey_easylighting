@@ -26,6 +26,7 @@
     "productId": [
       41734
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9001K4_DIM_G2/assets/learnmode.svg",
       "instruction": {

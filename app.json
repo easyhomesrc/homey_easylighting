@@ -1,6 +1,6 @@
 {
   "id": "com.easyhome.easylighting",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#FF453A",
@@ -6882,6 +6882,56 @@
       "settings": []
     },
     {
+      "id": "ZV2835RAC_S",
+      "name": {
+        "en": "ZV2835RAC-S"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim",
+        "measure_power",
+        "meter_power"
+      ],
+      "capabilitiesOptions": {
+        "onoff": {
+          "setOnDim": false
+        },
+        "dim": {
+          "opts": {
+            "duration": true
+          }
+        },
+        "measure_power": {
+          "approximated": true
+        }
+      },
+      "icon": "/drivers/ZV2835RAC_S/assets/icon.svg",
+      "images": {
+        "large": "/drivers/ZV2835RAC_S/assets/images/large.png",
+        "small": "/drivers/ZV2835RAC_S/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": 816,
+        "productTypeId": [
+          512
+        ],
+        "productId": [
+          53271
+        ],
+        "includeSecure": false,
+        "learnmode": {
+          "image": "/drivers/ZV2835RAC_S/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
+          }
+        },
+        "associationGroups": [
+          1
+        ]
+      }
+    },
+    {
       "id": "ZV9001K12_DIM_Z4",
       "name": {
         "en": "ZV9001K12_DIM_Z4"
@@ -6910,6 +6960,7 @@
         "productId": [
           45826
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K12_DIM_Z4/assets/learnmode.svg",
           "instruction": {
@@ -6980,6 +7031,7 @@
         "productId": [
           41743
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K2_DIM/assets/learnmode.svg",
           "instruction": {
@@ -7032,6 +7084,7 @@
         "productId": [
           41735
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K2_DIM2/assets/learnmode.svg",
           "instruction": {
@@ -7084,6 +7137,7 @@
         "productId": [
           41744
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K4_DIM/assets/learnmode.svg",
           "instruction": {
@@ -7136,6 +7190,7 @@
         "productId": [
           41734
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K4_DIM_G2/assets/learnmode.svg",
           "instruction": {
@@ -7194,6 +7249,7 @@
         "productId": [
           41733
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9001K8_DIM_G4/assets/learnmode.svg",
           "instruction": {
@@ -7266,6 +7322,7 @@
         "productId": [
           53251
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9010A/assets/learnmode.svg",
           "instruction": {
@@ -7314,6 +7371,7 @@
         "productId": [
           53252
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9020A/assets/learnmode.svg",
           "instruction": {
@@ -7370,6 +7428,7 @@
         "productId": [
           53260
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9040A_S/assets/learnmode.svg",
           "instruction": {
@@ -7410,6 +7469,7 @@
         "productId": [
           53263
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9100A_S/assets/learnmode.svg",
           "instruction": {
@@ -7461,6 +7521,7 @@
         "productId": [
           53250
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9101CS/assets/learnmode.svg",
           "instruction": {
@@ -7505,6 +7566,7 @@
         "productId": [
           53253
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9101SAC_HP/assets/learnmode.svg",
           "instruction": {
@@ -7538,6 +7600,7 @@
         "productId": [
           53254
         ],
+        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9101SAC_HP_SWITCH/assets/learnmode.svg",
           "instruction": {

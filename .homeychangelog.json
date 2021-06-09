@@ -25,5 +25,8 @@
   },
   "1.0.8": {
     "en": "Add meter power, measure power for ZG9040A_S."
+  },
+  "1.0.9": {
+    "en": "Add support for ZV2835RAC-S, change the Zwave device to insecure."
   }
 }

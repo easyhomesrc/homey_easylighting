@@ -20,6 +20,7 @@
     "productId": [
       53263
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9100A_S/assets/learnmode.svg",
       "instruction": {

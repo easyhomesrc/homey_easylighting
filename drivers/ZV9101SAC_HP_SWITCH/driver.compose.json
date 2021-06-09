@@ -20,6 +20,7 @@
     "productId": [
       53254
     ],
+    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9101SAC_HP_SWITCH/assets/learnmode.svg",
       "instruction": {
