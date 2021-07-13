@@ -1,6 +1,6 @@
 {
   "id": "com.easyhome.easylighting",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#FF453A",
@@ -6080,7 +6080,7 @@
         },
         "capabilitiesOptions": {
           "measure_power": {
-            "approximated": true
+            "isApproximated": true
           }
         }
       },
@@ -6182,7 +6182,7 @@
       ],
       "capabilitiesOptions": {
         "measure_power": {
-          "approximated": true
+          "isApproximated": true
         }
       },
       "zigbee": {
@@ -6903,7 +6903,7 @@
           }
         },
         "measure_power": {
-          "approximated": true
+          "isApproximated": true
         }
       },
       "icon": "/drivers/ZV2835RAC_S/assets/icon.svg",
@@ -7412,7 +7412,7 @@
           }
         },
         "measure_power": {
-          "approximated": true
+          "isApproximated": true
         }
       },
       "icon": "/drivers/ZV9040A_S/assets/icon.svg",

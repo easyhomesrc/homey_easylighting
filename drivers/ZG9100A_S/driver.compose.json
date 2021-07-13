@@ -11,7 +11,7 @@
   ],
   "capabilitiesOptions": {
     "measure_power": {
-      "approximated": true
+      "isApproximated": true
     }
   },
   "zigbee": {

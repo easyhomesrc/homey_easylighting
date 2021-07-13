@@ -28,5 +28,8 @@
   },
   "1.0.9": {
     "en": "Add support for ZV2835RAC-S, change the Zwave device to insecure."
+  },
+  "1.0.10": {
+    "en": "Fixes an issue that some Z-Wave devices pairing failed."
   }
 }

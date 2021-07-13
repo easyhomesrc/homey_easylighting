@@ -20,7 +20,7 @@
       }
     },
     "measure_power": {
-      "approximated": true
+      "isApproximated": true
     }
   },
   "icon": "{{driverAssetsPath}}/icon.svg",

@@ -20,7 +20,7 @@
       }
     },
     "measure_power": {
-      "approximated": true
+      "isApproximated": true
     }
   },
   "icon": "/drivers/ZV9040A_S/assets/icon.svg",
