@@ -1,0 +1,29 @@
+{
+  "title": {
+    "en": "Temperature Control Reference"
+  },
+  "type": "enum",
+  "setable": true,
+  "getable": true,
+  "uiComponent": "picker",
+  "values": [
+    {
+      "id": "room_sensor",
+      "title": {
+        "en": "Room Sensor"
+      }
+    },
+    {
+      "id": "floor_sensor",
+      "title": {
+        "en": "Floor Sensor"
+      }
+    },
+    {
+      "id": "room_floor_sensor",
+      "title": {
+        "en": "Room + Floor Sensor"
+      }
+    }
+  ]
+}

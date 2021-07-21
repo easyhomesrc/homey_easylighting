@@ -1,0 +1,13 @@
+{
+  "title": {
+    "en": "Floor Sensor"
+  },
+  "type": "number",
+  "setable": false,
+  "getable": true,
+  "uiComponent": "sensor",
+  "units": {
+    "en": "°C"
+  },
+  "icon": "/assets/temperature_icon.svg"
+}

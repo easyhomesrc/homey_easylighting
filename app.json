@@ -1,6 +1,6 @@
 {
   "id": "com.easyhome.easylighting",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "brandColor": "#FF453A",
@@ -7448,6 +7448,63 @@
       }
     },
     {
+      "id": "ZV9092A",
+      "name": {
+        "en": "ZV9092A"
+      },
+      "class": "thermostat",
+      "capabilities": [
+        "measure_power",
+        "meter_power",
+        "measure_temperature",
+        "target_temperature",
+        "my_ZV9092A_thermostat_mode",
+        "my_ZV9092A_temperature_control_reference",
+        "my_ZV9092A_home_sensor",
+        "my_ZV9092A_floor_sensor"
+      ],
+      "icon": "/drivers/ZV9092A/assets/icon.svg",
+      "images": {
+        "large": "/drivers/ZV9092A/assets/images/large.png",
+        "small": "/drivers/ZV9092A/assets/images/small.png"
+      },
+      "zwave": {
+        "manufacturerId": [
+          816
+        ],
+        "productTypeId": [
+          512
+        ],
+        "productId": [
+          53267,
+          53285
+        ],
+        "includeSecure": false,
+        "learnmode": {
+          "image": "/drivers/ZV9092A/assets/learnmode.svg",
+          "instruction": {
+            "en": "# Pair\n1) At OFF mode (Off icon), press and hold up and down buttons at the same time for over 5 seconds to enter Settings Menu.\n2) Short press move up and down button to select a settings item, then short press button F to enter selected item.\n3) Select \"Add\", then short press button F.\n\n# Factory Reset\nEnter settings item, select \"Reset\", then short press button F."
+          }
+        },
+        "associationGroups": [
+          1,
+          2
+        ],
+        "associationGroupsOptions": {
+          "1": {
+            "hint": {
+              "en": "1.Send Command Class DEVICE_RESET_LOCALLY_NOTIFICATION to associated devices of this group when factory reset the device.\n2.Send Command Class THERMOSTAT_SETPOINT_REPORT, THERMOSTAT_MODE_REPORT, THERMOSTAT_OPERATING_STATE_REPORT to associated devices of this group When operation mode and temperature change.\n3.Send Command Class NOTIFICATION_REPORT to associated devices of this group when over current, over heat detected\n4.Send Command Class METER_REPORT to associated devices of this group to report metering parameters."
+            }
+          },
+          "2": {
+            "hint": {
+              "en": "Transfer Command Class THERMOSTAT_SETPOINT_SET THERMOSTAT_MODE_SET\nto control other temperature control devices when operation changes"
+            }
+          }
+        }
+      }
+    },
+    {
       "id": "ZV9100A_S",
       "name": {
         "en": "ZV9100A-S"
@@ -7612,5 +7669,103 @@
         ]
       }
     }
-  ]
+  ],
+  "capabilities": {
+    "my_ZV9092A_floor_sensor": {
+      "title": {
+        "en": "Floor Sensor"
+      },
+      "type": "number",
+      "setable": false,
+      "getable": true,
+      "uiComponent": "sensor",
+      "units": {
+        "en": "°C"
+      },
+      "icon": "/assets/temperature_icon.svg"
+    },
+    "my_ZV9092A_home_sensor": {
+      "title": {
+        "en": "Home Sensor"
+      },
+      "type": "number",
+      "setable": false,
+      "getable": true,
+      "uiComponent": "sensor",
+      "units": {
+        "en": "°C"
+      },
+      "icon": "/assets/temperature_icon.svg"
+    },
+    "my_ZV9092A_temperature_control_reference": {
+      "title": {
+        "en": "Temperature Control Reference"
+      },
+      "type": "enum",
+      "setable": true,
+      "getable": true,
+      "uiComponent": "picker",
+      "values": [
+        {
+          "id": "room_sensor",
+          "title": {
+            "en": "Room Sensor"
+          }
+        },
+        {
+          "id": "floor_sensor",
+          "title": {
+            "en": "Floor Sensor"
+          }
+        },
+        {
+          "id": "room_floor_sensor",
+          "title": {
+            "en": "Room + Floor Sensor"
+          }
+        }
+      ]
+    },
+    "my_ZV9092A_thermostat_mode": {
+      "title": {
+        "en": "Thermostat Mode"
+      },
+      "type": "enum",
+      "setable": true,
+      "getable": true,
+      "uiComponent": "picker",
+      "values": [
+        {
+          "id": "off_mode",
+          "title": {
+            "en": "Off"
+          }
+        },
+        {
+          "id": "auto_mode",
+          "title": {
+            "en": "Auto"
+          }
+        },
+        {
+          "id": "manual_mode",
+          "title": {
+            "en": "Manual"
+          }
+        },
+        {
+          "id": "dry_mode",
+          "title": {
+            "en": "Dry"
+          }
+        },
+        {
+          "id": "away_mode",
+          "title": {
+            "en": "Away"
+          }
+        }
+      ]
+    }
+  }
 }

@@ -31,5 +31,8 @@
   },
   "1.0.10": {
     "en": "Fixes an issue that some Z-Wave devices pairing failed."
+  },
+  "1.0.11": {
+    "en": "Add support for ZV9092A (Thermostat)"
   }
 }
