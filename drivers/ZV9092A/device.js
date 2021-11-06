@@ -71,7 +71,7 @@ class MyThermostat extends ZwaveDevice {
           this.thermostatSetpointType = CapabilityToThermostatSetpointType[value]
 
           clearTimeout(this.refreshTargetTemperatureTimeout)
-          this.refreshTargetTemperatureTimeout = setTimeout(() => {
+          this.refreshTargetTemperatureTimeout = this.homey.setTimeout(() => {
 
             this.log('Refresh Capability Value')
             this.refreshCapabilityValue('target_temperature',
@@ -109,7 +109,7 @@ class MyThermostat extends ZwaveDevice {
               this.thermostatSetpointType = CapabilityToThermostatSetpointType[capabilityMode]
 
               clearTimeout(this.refreshTargetTemperatureTimeout)
-              this.refreshTargetTemperatureTimeout = setTimeout(() => {
+              this.refreshTargetTemperatureTimeout = this.homey.setTimeout(() => {
 
                 this.log('Refresh Capability Value')
                 this.refreshCapabilityValue('target_temperature',

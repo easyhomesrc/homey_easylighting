@@ -34,5 +34,8 @@
   },
   "1.0.11": {
     "en": "Add support for ZV9092A (Thermostat)"
+  },
+  "1.0.12": {
+    "en": "The ZV9020A can be added now."
   }
 }

@@ -4,6 +4,8 @@ const { ZigBeeDevice } = require('homey-zigbeedriver')
 const { CLUSTER, Cluster } = require('zigbee-clusters')
 const { mapValueRange } = require('homey-zigbeedriver/lib/util')
 
+const Homey = require('homey');
+
 const stateCommands = {
   up: {
     command: 'upOpen',
@@ -38,7 +40,7 @@ class ZigBeeCurtain extends ZigBeeDevice {
         if (this._reportPercentageDebounce) {
           this._reportPercentageDebounce.refresh()
         } else {
-          this._reportPercentageDebounce = setTimeout(() => {
+          this._reportPercentageDebounce = this.homey.setTimeout(() => {
             this._reportDebounceEnabled = false
             this._reportPercentageDebounce = null
           }, REPORT_DEBOUNCER)
@@ -77,7 +79,7 @@ class ZigBeeCurtain extends ZigBeeDevice {
             if (this._reportPercentageDebounce) {
               this._reportPercentageDebounce.refresh()
             } else {
-              this._reportPercentageDebounce = setTimeout(() => {
+              this._reportPercentageDebounce = this.homey.setTimeout(() => {
                 this._reportDebounceEnabled = false
                 this._reportPercentageDebounce = null
               }, REPORT_DEBOUNCER)
