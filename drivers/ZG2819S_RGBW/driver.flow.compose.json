@@ -5,9 +5,15 @@
       "title": {
         "en": "On"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] on"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -43,9 +49,15 @@
       "title": {
         "en": "Off"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] off"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -81,9 +93,15 @@
       "title": {
         "en": "Move to color (XY)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] move to color"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -145,9 +163,15 @@
       "title": {
         "en": "Recall scene"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] recall scene"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -201,9 +225,15 @@
       "title": {
         "en": "Store scene"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] store scene"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -257,9 +287,15 @@
       "title": {
         "en": "Step level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] step level"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -321,9 +357,15 @@
       "title": {
         "en": "Move level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] move level"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -377,9 +419,15 @@
       "title": {
         "en": "Stop level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] stop level"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -415,9 +463,15 @@
       "title": {
         "en": "Move to color temperature"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] move to color temperature"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -471,9 +525,15 @@
       "title": {
         "en": "Move color temperature"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] move color temperature"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -527,12 +587,18 @@
       "title": {
         "en": "Stop move step"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] stop move step"
+      },
       "hint": {
         "en": "The stop move step command is provided to allow Move and Step commands to be stopped."
       },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -568,9 +634,15 @@
       "title": {
         "en": "Move hue"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] move hue"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {

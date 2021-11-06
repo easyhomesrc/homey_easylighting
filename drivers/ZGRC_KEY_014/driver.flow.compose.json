@@ -5,9 +5,15 @@
       "title": {
         "en": "On"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] on"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -37,9 +43,15 @@
       "title": {
         "en": "Off"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] off"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -69,9 +81,15 @@
       "title": {
         "en": "Recall scene"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] recall scene"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -119,9 +137,15 @@
       "title": {
         "en": "Store scene"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] store scene"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -169,9 +193,15 @@
       "title": {
         "en": "Move level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] move level"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -219,9 +249,15 @@
       "title": {
         "en": "Stop level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] stop level"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {

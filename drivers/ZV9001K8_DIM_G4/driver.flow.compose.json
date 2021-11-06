@@ -5,9 +5,15 @@
       "title": {
         "en": "On"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] on"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -43,9 +49,15 @@
       "title": {
         "en": "Off"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] off"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -81,9 +93,15 @@
       "title": {
         "en": "On (Key held down)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] on (Key held down)"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -119,9 +137,15 @@
       "title": {
         "en": "On (Key released)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] on (Key released)"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -157,9 +181,15 @@
       "title": {
         "en": "Off (Key held down)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] off (Key held down)"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {
@@ -195,9 +225,15 @@
       "title": {
         "en": "Off (Key released)"
       },
+      "titleFormatted": {
+        "en": "Group [[group]] off (Key released)"
+      },
       "args": [
         {
           "name": "group",
+          "title": {
+            "en": "Group"
+          },
           "type": "dropdown",
           "values": [
             {

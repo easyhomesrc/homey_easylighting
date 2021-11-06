@@ -5,6 +5,9 @@
       "title": {
         "en": "Step level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+      },
       "duration": false,
       "args": [
         {
@@ -47,6 +50,9 @@
       "title": {
         "en": "Move level (with On/Off)"
       },
+      "titleFormatted": {
+        "en": "Move level [[move_mode]], rate [[rate]]"
+      },
       "duration": false,
       "args": [
         {
@@ -85,6 +91,9 @@
       "title": {
         "en": "Recall scene"
       },
+      "titleFormatted": {
+        "en": "Group [[group_id]] recall scene [[scene_id]]"
+      },
       "args": [
         {
           "name": "group_id",
@@ -106,6 +115,9 @@
       "id": "ZG9040A_S_store_scene",
       "title": {
         "en": "Store scene"
+      },
+      "titleFormatted": {
+        "en": "Group [[group_id]] store scene [[scene_id]]"
       },
       "args": [
         {
