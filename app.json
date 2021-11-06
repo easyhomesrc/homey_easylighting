@@ -3,6 +3,9 @@
   "version": "1.0.11",
   "compatibility": ">=5.0.0",
   "sdk": 3,
+  "platforms": [
+    "local"
+  ],
   "brandColor": "#FF453A",
   "name": {
     "en": "EasyLighting"
@@ -5670,6 +5673,12 @@
           "AAA"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -5740,6 +5749,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -5783,6 +5798,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -5835,6 +5856,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -5905,6 +5932,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -5949,6 +5982,12 @@
           "CR2032"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6019,6 +6058,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6084,6 +6129,12 @@
           }
         }
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6139,6 +6190,12 @@
         "large": "/drivers/ZG9080A/assets/images/large.png",
         "small": "/drivers/ZG9080A/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6185,6 +6242,12 @@
           "isApproximated": true
         }
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6244,6 +6307,12 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6291,6 +6360,12 @@
         "onoff"
       ],
       "capabilitiesOptions": {},
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6340,6 +6415,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6384,6 +6465,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6428,6 +6515,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6472,6 +6565,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6516,6 +6615,12 @@
           "CR2450"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6560,6 +6665,12 @@
           "CR2032"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6622,6 +6733,12 @@
           "CR2032"
         ]
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6705,6 +6822,12 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6783,6 +6906,12 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6844,6 +6973,12 @@
           "setOnDim": false
         }
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
       "zigbee": {
         "manufacturerName": "Sunricher",
         "productId": [
@@ -6911,6 +7046,12 @@
         "large": "/drivers/ZV2835RAC_S/assets/images/large.png",
         "small": "/drivers/ZV2835RAC_S/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -6952,6 +7093,12 @@
         "large": "/drivers/ZV9001K12_DIM_Z4/assets/images/large.png",
         "small": "/drivers/ZV9001K12_DIM_Z4/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7023,6 +7170,12 @@
         "large": "/drivers/ZV9001K2_DIM/assets/images/large.png",
         "small": "/drivers/ZV9001K2_DIM/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7076,6 +7229,12 @@
         "large": "/drivers/ZV9001K2_DIM2/assets/images/large.png",
         "small": "/drivers/ZV9001K2_DIM2/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7129,6 +7288,12 @@
         "large": "/drivers/ZV9001K4_DIM/assets/images/large.png",
         "small": "/drivers/ZV9001K4_DIM/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7182,6 +7347,12 @@
         "large": "/drivers/ZV9001K4_DIM_G2/assets/images/large.png",
         "small": "/drivers/ZV9001K4_DIM_G2/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7241,6 +7412,12 @@
         "large": "/drivers/ZV9001K8_DIM_G4/assets/images/large.png",
         "small": "/drivers/ZV9001K8_DIM_G4/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7314,6 +7491,12 @@
         "large": "/drivers/ZV9010A/assets/images/large.png",
         "small": "/drivers/ZV9010A/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7363,6 +7546,12 @@
         "large": "/drivers/ZV9020A/assets/images/large.png",
         "small": "/drivers/ZV9020A/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7420,6 +7609,12 @@
         "large": "/drivers/ZV9040A_S/assets/images/large.png",
         "small": "/drivers/ZV9040A_S/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7468,6 +7663,12 @@
         "large": "/drivers/ZV9092A/assets/images/large.png",
         "small": "/drivers/ZV9092A/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": [
           816
@@ -7518,6 +7719,12 @@
         "large": "/drivers/ZV9100A_S/assets/images/large.png",
         "small": "/drivers/ZV9100A_S/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7570,6 +7777,12 @@
         "large": "/drivers/ZV9101CS/assets/images/large.png",
         "small": "/drivers/ZV9101CS/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7615,6 +7828,12 @@
         "large": "/drivers/ZV9101SAC_HP/assets/images/large.png",
         "small": "/drivers/ZV9101SAC_HP/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [
@@ -7649,6 +7868,12 @@
         "large": "/drivers/ZV9101SAC_HP_SWITCH/assets/images/large.png",
         "small": "/drivers/ZV9101SAC_HP_SWITCH/assets/images/small.png"
       },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zwave"
+      ],
       "zwave": {
         "manufacturerId": 816,
         "productTypeId": [

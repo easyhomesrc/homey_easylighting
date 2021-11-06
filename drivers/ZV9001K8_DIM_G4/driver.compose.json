@@ -18,6 +18,8 @@
     "large": "/drivers/ZV9001K8_DIM_G4/assets/images/large.png",
     "small": "/drivers/ZV9001K8_DIM_G4/assets/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [

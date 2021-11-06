@@ -12,6 +12,8 @@
     "large": "/drivers/ZV9101SAC_HP_SWITCH/assets/images/large.png",
     "small": "/drivers/ZV9101SAC_HP_SWITCH/assets/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [

@@ -28,6 +28,8 @@
     "large": "{{driverAssetsPath}}/images/large.png",
     "small": "{{driverAssetsPath}}/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [

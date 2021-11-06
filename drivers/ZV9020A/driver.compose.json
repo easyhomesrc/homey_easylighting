@@ -14,6 +14,8 @@
     "large": "/drivers/ZV9020A/assets/images/large.png",
     "small": "/drivers/ZV9020A/assets/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [

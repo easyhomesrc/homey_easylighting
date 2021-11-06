@@ -28,6 +28,8 @@
     "large": "/drivers/ZV9040A_S/assets/images/large.png",
     "small": "/drivers/ZV9040A_S/assets/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [

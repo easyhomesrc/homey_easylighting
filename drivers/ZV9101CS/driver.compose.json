@@ -23,6 +23,8 @@
     "large": "/drivers/ZV9101CS/assets/images/large.png",
     "small": "/drivers/ZV9101CS/assets/images/small.png"
   },
+  "platforms": ["local"],
+  "connectivity": ["zwave"],
   "zwave": {
     "manufacturerId": 816,
     "productTypeId": [

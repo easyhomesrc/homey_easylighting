@@ -30,8 +30,8 @@ class MyThermostat extends ZwaveDevice {
 
   async onNodeInit ({ node }) {
 
-    this.enableDebug()
-    this.printNode()
+    // this.enableDebug()
+    // this.printNode()
 
     this.registerCapability('measure_power', 'METER')
     this.registerCapability('meter_power', 'METER')
