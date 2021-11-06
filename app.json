@@ -6771,7 +6771,36 @@
         "large": "/drivers/ZG9100A_S/assets/images/large.png",
         "small": "/drivers/ZG9100A_S/assets/images/small.png"
       },
-      "settings": []
+      "settings": [
+        {
+          "id": "external_switch_type",
+          "type": "dropdown",
+          "label": {
+            "en": "External Switch Type"
+          },
+          "value": "push_button",
+          "values": [
+            {
+              "id": "push_button",
+              "label": {
+                "en": "Push Button"
+              }
+            },
+            {
+              "id": "normal_on_off",
+              "label": {
+                "en": "Normal On/Off"
+              }
+            },
+            {
+              "id": "three_channels",
+              "label": {
+                "en": "Three Channels"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ZG9101SAC_HP",
@@ -8039,6 +8068,10 @@
         "zwave"
       ],
       "zwave": {
+        "security": [
+          "none",
+          "S0"
+        ],
         "manufacturerId": 816,
         "productTypeId": [
           513
@@ -8046,7 +8079,6 @@
         "productId": [
           53252
         ],
-        "includeSecure": false,
         "learnmode": {
           "image": "/drivers/ZV9020A/assets/learnmode.svg",
           "instruction": {

@@ -17,6 +17,7 @@
   "platforms": ["local"],
   "connectivity": ["zwave"],
   "zwave": {
+    "security": ["none", "S0"],
     "manufacturerId": 816,
     "productTypeId": [
       513
@@ -24,7 +25,6 @@
     "productId": [
       53252
     ],
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9020A/assets/learnmode.svg",
       "instruction": {
