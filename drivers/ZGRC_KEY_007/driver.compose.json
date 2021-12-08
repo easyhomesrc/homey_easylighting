@@ -35,7 +35,7 @@
     "learnmode": {
       "image": "/drivers/ZGRC_KEY_007/assets/learnmode.svg",
       "instruction": {
-        "en": "Press and hold down both buttons until LED indicator turns on. \nImmediately short press pair button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing. \n\nRemove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. \nPress and hold down both buttons until LED indicator turns on. Immediately short press pair button 5 times continuously, indicator flashes 3 times quickly to indicate successful reset."
+        "en": "Press and hold down both buttons until LED indicator turns on. Immediately short press pair button.\n\nIf pairing fails reset the device. Press and hold down both buttons until LED indicator turns on. Immediately short press pair button 5 times quickly."
       }
     }
   },

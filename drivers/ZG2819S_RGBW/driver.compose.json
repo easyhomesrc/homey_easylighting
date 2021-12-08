@@ -66,7 +66,7 @@
     "learnmode": {
       "image": "/drivers/ZG2819S_RGBW/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pairing\nStep 1: Remove the remote from previous zigbee network if it has already been added to it, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 3: Immediately short press \"S1\" button to search nearby network, indicator flashes every 1 second, 20 seconds timeout if there is no network. Indicator will then blink 5 times quickly for successful pairing.\n\n# Factory Reset Manually\nStep 1: Press and hold down \"Prog.\" button until LED indicator turns on.\nStep 2: Immediately short press 5 times \"Prog.\" button continuously, indicator flashes 3 times quickly to indicate successful reset."
+        "en": "Press and hold down Prog button until LED indicator turns on. Immediately short press S1 button.\n\nIf pairing fails reset the device by press and hold down Prog button until LED indicator turns on, immediately short press 5 times Prog button quickly."
       }
     }
   },

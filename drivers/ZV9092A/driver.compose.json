@@ -22,6 +22,7 @@
   "platforms": ["local"],
   "connectivity": ["zwave"],
   "zwave": {
+    "security": ["none", "S0"],
     "manufacturerId": [
       816
     ],
@@ -32,11 +33,10 @@
       53267,
       53285
     ],
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9092A/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pair\n1) At OFF mode (Off icon), press and hold up and down buttons at the same time for over 5 seconds to enter Settings Menu.\n2) Short press move up and down button to select a settings item, then short press button F to enter selected item.\n3) Select \"Add\", then short press button F.\n\n# Factory Reset\nEnter settings item, select \"Reset\", then short press button F."
+        "en": "Turn the device to OFF mode first, then press and hold UP and DOWN buttons at the same time for over 5 seconds to enter Settings Menu. \n\nShort press UP and DOWN button to select ZWAVE SET item, then short press F button. First select Remove item until it is OK, then select Add item.\n\nIf pairing fails reset the device by select Reset item."
       }
     },
     "associationGroups": [

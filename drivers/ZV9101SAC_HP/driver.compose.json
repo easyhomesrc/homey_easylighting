@@ -26,6 +26,7 @@
   "platforms": ["local"],
   "connectivity": ["zwave"],
   "zwave": {
+    "security": ["none", "S0"],
     "manufacturerId": 816,
     "productTypeId": [
       512
@@ -33,11 +34,10 @@
     "productId": [
       53253
     ],
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9101SAC_HP/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pair\nTriple press the reset button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold the reset button for over 10 seconds."
+        "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
       }
     },
     "associationGroups": [

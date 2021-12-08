@@ -15,7 +15,7 @@
     {
       "id": "ZG2833K2_EU07_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Move level"
       },
       "tokens": [
         {
@@ -39,7 +39,7 @@
     {
       "id": "ZG2833K2_EU07_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Stop level"
       }
     }
   ]

@@ -215,7 +215,7 @@
     {
       "id": "ZGRC_KEY_037_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Move level"
       },
       "titleFormatted": {
         "en": "Group [[group]] move level"
@@ -277,7 +277,7 @@
     {
       "id": "ZGRC_KEY_037_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Stop level"
       },
       "titleFormatted": {
         "en": "Group [[group]] stop level"

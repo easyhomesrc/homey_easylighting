@@ -34,7 +34,7 @@
     "learnmode": {
       "image": "/drivers/ZG2835/assets/learnmode.svg",
       "instruction": {
-        "en": "Short press the knob 5 times continuously.\nWithin 2 seconds press and hold the knob for over 3 seconds, indicator flashes every 1 second. Indicator will then blink 5 times quickly for successful pairing.\n\nRemove the switch from previous ZigBee network if it has already been added to it, otherwise pairing will fail.\nShort press the knob 5 times continuously and quickly.\nWithin 2 seconds press and hold the knob for over 3 seconds, indicator will flash 3 times for successful reset."
+        "en": "Short press the knob 5 times quickly. Within 2 seconds press and hold the knob for over 3 seconds.\n\nIf pairing fails reset the device. Short press the knob 5 times quickly. Within 2 seconds press and hold the knob for over 3 seconds."
       }
     }
   },

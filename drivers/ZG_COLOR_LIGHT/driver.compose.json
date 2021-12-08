@@ -70,7 +70,7 @@
     "learnmode": {
       "image": "/drivers/ZG_COLOR_LIGHT/assets/learnmode.svg",
       "instruction": {
-        "en": "Quickly press the Reset button on the device 5 times or repeatedly power OFF/ON 5 times to make the device into pair mode. The device slowly flashing means the device is in pair mode. The pair mode generally lasts for 15 seconds after each power on. Re-power the device to enter pair mode again."
+        "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
       }
     }
   },

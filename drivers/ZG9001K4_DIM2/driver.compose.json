@@ -44,7 +44,7 @@
     "learnmode": {
       "image": "/drivers/ZG9001K4_DIM2/assets/learnmode.svg",
       "instruction": {
-        "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Pair button on the top right corner and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down both Reset and Pair buttons until the LED indicator turns on.\nRelease both button and immediately press the Reset button 5 times and the remote will be reset."
+        "en": "Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Pair button on the top right corner.\n\nIf pairing fails reset the device. Press and hold down both Reset and Pair buttons until the LED indicator turns on. Release both button and immediately press the Reset button 5 times quickly."
       }
     }
   },

@@ -17,7 +17,7 @@
     {
       "id": "ZGRC_KEY_001_level_step_with_onoff",
       "title": {
-        "en": "Step level (with On/Off)"
+        "en": "Step level"
       },
       "args": [],
       "tokens": [
@@ -50,7 +50,7 @@
     {
       "id": "ZGRC_KEY_001_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Move level"
       },
       "args": [],
       "tokens": [
@@ -75,7 +75,7 @@
     {
       "id": "ZGRC_KEY_001_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Stop level"
       },
       "args": []
     }

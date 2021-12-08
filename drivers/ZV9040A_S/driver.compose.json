@@ -31,6 +31,7 @@
   "platforms": ["local"],
   "connectivity": ["zwave"],
   "zwave": {
+    "security": ["none", "S0"],
     "manufacturerId": 816,
     "productTypeId": [
       512
@@ -38,11 +39,10 @@
     "productId": [
       53260
     ],
-    "includeSecure": false,
     "learnmode": {
       "image": "/drivers/ZV9040A_S/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pairing\nTriple press the action button.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down the action button for over 10 seconds."
+        "en": "Triple press the action button.\n\nIf pairing fails reset the device. Press and hold down the action button for over 10 seconds."
       }
     },
     "associationGroups": [

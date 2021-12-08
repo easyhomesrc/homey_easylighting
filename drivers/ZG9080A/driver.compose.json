@@ -41,7 +41,7 @@
     "learnmode": {
       "image": "/drivers/ZG9080A/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pairing\nShort press button K2 5 times continuously (Or reset power of the device for 5 times continuously).\n\n# Factory reset\nShort press button K2 5 times continuously (Or reset power of the device for 5 times continuously)." }
+        "en": "Short press K2 button for 5 times quickly or reset power of the device for 5 times quickly.\n\nIf pairing fails reset the device. Short press K2 button for 5 times quickly or reset power of the device for 5 times quickly." }
     }
   },
   "settings": [

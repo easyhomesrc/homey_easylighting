@@ -285,7 +285,7 @@
     {
       "id": "ZG2819S_RGBW_level_step_with_onoff",
       "title": {
-        "en": "Step level (with On/Off)"
+        "en": "Step level"
       },
       "titleFormatted": {
         "en": "Group [[group]] step level"
@@ -355,7 +355,7 @@
     {
       "id": "ZG2819S_RGBW_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Move level"
       },
       "titleFormatted": {
         "en": "Group [[group]] move level"
@@ -417,7 +417,7 @@
     {
       "id": "ZG2819S_RGBW_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Stop level"
       },
       "titleFormatted": {
         "en": "Group [[group]] stop level"

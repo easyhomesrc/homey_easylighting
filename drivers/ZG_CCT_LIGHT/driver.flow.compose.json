@@ -3,10 +3,13 @@
     {
       "id": "ZG_CCT_LIGHT_level_step_with_onoff",
       "title": {
-        "en": "Step level (with On/Off)"
+        "en": "Step level"
       },
       "titleFormatted": {
         "en": "Step level [[mode]], size [[step_size]], transition [[transition_time]]"
+      },
+      "hint": {
+        "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
       },
       "duration": false,
       "args": [
@@ -17,7 +20,7 @@
           "max": 1,
           "step": 1,
           "title": {
-            "en": "Mode, { 0 } means up, { 1 } means down, other values are invalid."
+            "en": "Mode"
           }
         },
         {
@@ -40,7 +43,7 @@
           "max": 6553,
           "step": 1,
           "title": {
-            "en": "Transition time, range { 0 ~ 6553 } seconds."
+            "en": "Transition time, the ranging from 0 to 65535 seconds."
           }
         }
       ]
@@ -48,7 +51,7 @@
     {
       "id": "ZG_CCT_LIGHT_level_move_with_onoff",
       "title": {
-        "en": "Move level (with On/Off)"
+        "en": "Move level"
       },
       "titleFormatted": {
         "en": "Move level [[move_mode]], rate [[rate]]"
@@ -62,7 +65,7 @@
           "max": 1,
           "step": 1,
           "title": {
-            "en": "Move mode, { 0 } means up, { 1 } means down, other values are invalid."
+            "en": "Move Mode"
           }
         },
         {
@@ -81,7 +84,7 @@
     {
       "id": "ZG_CCT_LIGHT_level_stop_with_onoff",
       "title": {
-        "en": "Stop level (with On/Off)"
+        "en": "Stop level"
       },
       "duration": false,
       "args": []
@@ -92,7 +95,10 @@
         "en": "Step color temperature"
       },
       "titleFormatted": {
-        "en": "Step color temperature [[step_mode]], size [[step_size]], transition [[transition_time]]"
+        "en": "Step color temperature [[step_mode]], step size [[step_size]], transition [[transition_time]]"
+      },
+      "hint": {
+        "en": "Change the color temperature step by step. Assign a step mode, 1 equals up, 3 equals down."
       },
       "duration": false,
       "args": [
@@ -103,7 +109,7 @@
           "max": 3,
           "step": 1,
           "title": {
-            "en": "Step mode, { 1 } means up, { 3 } means down, other values are invalid."
+            "en": "Step mode"
           }
         },
         {
@@ -124,7 +130,7 @@
           "max": 6553,
           "step": 1,
           "title": {
-            "en": "Transition time, range { 0 ~ 6553 } seconds."
+            "en": "Transition time, the ranging from 0 to 65535 seconds."
           }
         }
       ]
@@ -146,7 +152,7 @@
           "max": 3,
           "step": 1,
           "title": {
-            "en": "Move mode, { 0 } means stop, { 1 } means up, { 3 } means down, other values are invalid."
+            "en": "Move mode"
           }
         },
         {
@@ -181,12 +187,15 @@
       "titleFormatted": {
         "en": "Group [[group_id]] recall scene [[scene_id]]"
       },
+      "hint": {
+        "en": "Recall the saved scene."
+      },
       "args": [
         {
           "name": "group_id",
           "type": "number",
           "title": {
-            "en": "Group ID, default { 0 }"
+            "en": "Group ID"
           }
         },
         {
@@ -206,12 +215,15 @@
       "titleFormatted": {
         "en": "Group [[group_id]] store scene [[scene_id]]"
       },
+      "hint": {
+        "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+      },
       "args": [
         {
           "name": "group_id",
           "type": "number",
           "title": {
-            "en": "Group ID, default { 0 }"
+            "en": "Group ID"
           }
         },
         {

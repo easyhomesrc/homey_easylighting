@@ -18,6 +18,8 @@
   "connectivity": ["zwave"],
   "zwave": {
     "security": ["none", "S0"],
+    "security": ["none", "S0"],
+    "security": ["none", "S0"],
     "manufacturerId": 816,
     "productTypeId": [
       513
@@ -28,7 +30,7 @@
     "learnmode": {
       "image": "/drivers/ZV9020A/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pair\nTriple press the action button on the smart plug.\n\n!!! NOTE\nWait 5 - 10 seconds after each pairing operation, otherwise pairing will easily fail.\n\n# Factory Reset\nPress and hold down action button for over 10 seconds."
+        "en": "Triple press the action button on the smart plug.\n\nIf pairing fails reset the device. Press and hold down action button for over 10 seconds."
       }
     },
     "associationGroups": [

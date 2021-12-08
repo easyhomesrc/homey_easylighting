@@ -56,7 +56,7 @@
     "learnmode": {
       "image": "/drivers/ZG9040A_S/assets/learnmode.svg",
       "instruction": {
-        "en": "# Pairing\nStep 1: Remove the device from previous zigbee network if it has already been added to, otherwise pairing will fail. Please refer to the part \"Factory Reset Manually\".\nStep 2: From your ZigBee Controller or hub interface, choose to add lighting device and enter Pairing mode as instructed by the controller.\nStep 3: Re-power on the device to set it into network pairing mode (connected light flashes twice slowly), 15 seconds timeout, repeat the operation.\nStep 4: Connected light will blink 5 times and then stay solid on, then the device will appear in your controller's menu and can be controlled through controller or hub interface.\n\n# Factory Reset Manually\nStep 1: Short press “Reset.” key for 5 times continuously or re-power on the device for 5 times continuously if\nthe “Prog.” key is not accessible.\nStep 2: Connected light will blink 3 times to indicate successful reset."
+        "en": "Re-power on the device.\n\nIf pairing fails reset the device. Short press Reset button for 5 times quickly or re-power on the device for 5 times quickly."
       }
     }
   },

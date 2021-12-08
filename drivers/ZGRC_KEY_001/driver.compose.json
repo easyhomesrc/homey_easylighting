@@ -35,7 +35,7 @@
     "learnmode": {
       "image": "/drivers/ZGRC_KEY_001/assets/learnmode.svg",
       "instruction": {
-        "en": "Press and hold down the Reset button until the LED indicator turns on.\nRelease button and immediately press the Pair button and the remote will be set to pair mode.\nThe LED indicator blinking several times will indicate successful inclusion.\n\nReset...\nWhen you can't successfully add a device, reset the device first.\nPress and hold down the Reset button until the LED indicator turns on.\nRelease the button and immediately press the Reset button 5 times and the remote will be reset."
+        "en": "Press and hold down the Reset button until the LED indicator turns on. Release button and immediately press the Pair button.\n\nIf pairing fails reset the device. Press and hold down the Reset button until the LED indicator turns on. Release the button and immediately press the Reset button 5 times quickly."
       }
     }
   },
