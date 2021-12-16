@@ -1,0 +1,319 @@
+{
+  "triggers": [
+    {
+      "id": "ZGRC_KEY_009_on",
+      "title": {
+        "en": "Turned on"
+      },
+      "titleFormatted": {
+        "en": "Turned on"
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_009_off",
+      "title": {
+        "en": "Turned off"
+      },
+      "titleFormatted": {
+        "en": "Turned off"
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_009_level_move_with_onoff_up",
+      "title": {
+        "en": "Move level up"
+      },
+      "titleFormatted": {
+        "en": "Move level up"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_level_move_with_onoff_down",
+      "title": {
+        "en": "Move level down"
+      },
+      "titleFormatted": {
+        "en": "Move level down"
+      },
+      "args": [],
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_level_stop_with_onoff",
+      "title": {
+        "en": "Move level stopped"
+      },
+      "titleFormatted": {
+        "en": "Move level stopped"
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_009_level_step_with_onoff_up",
+      "title": {
+        "en": "Step level up"
+      },
+      "titleFormatted": {
+        "en": "Step level up"
+      },
+      "tokens": [
+        {
+          "name": "percentage",
+          "type": "number",
+          "title": {
+            "en": "Step percentage"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_level_step_with_onoff_down",
+      "title": {
+        "en": "Step level down"
+      },
+      "titleFormatted": {
+        "en": "Step level down"
+      },
+      "tokens": [
+        {
+          "name": "percentage",
+          "type": "number",
+          "title": {
+            "en": "Step percentage"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_move_to_color_temperature",
+      "title": {
+        "en": "Move to color temperature"
+      },
+      "titleFormatted": {
+        "en": "Move to color temperature"
+      },
+      "hint": {
+        "en": "The color temperature range from 0.00 to 1.00"
+      },
+      "tokens": [
+        {
+          "name": "color_temperature",
+          "type": "number",
+          "title": {
+            "en": "Color temperature"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_move_color_temperature_up",
+      "title": {
+        "en": "Move color temperature up"
+      },
+      "titleFormatted": {
+        "en": "Move color temperature up"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_move_color_temperature_down",
+      "title": {
+        "en": "Move color temperature down"
+      },
+      "titleFormatted": {
+        "en": "Move color temperature down"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_stop_move_step",
+      "title": {
+        "en": "Move color temperature stopped"
+      },
+      "titleFormatted": {
+        "en": "Move color temperature stopped"
+      }
+    },
+    {
+      "id": "ZGRC_KEY_009_move_to_color",
+      "title": {
+        "en": "Move to XY color"
+      },
+      "titleFormatted": {
+        "en": "Move to XY color"
+      },
+      "tokens": [
+        {
+          "name": "color_x",
+          "type": "number",
+          "title": {
+            "en": "Color X"
+          },
+          "example": 21823
+        },
+        {
+          "name": "color_y",
+          "type": "number",
+          "title": {
+            "en": "Color Y"
+          },
+          "example": 21823
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_move_hue_up",
+      "title": {
+        "en": "Move hue up"
+      },
+      "titleFormatted": {
+        "en": "Move hue up"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_move_hue_down",
+      "title": {
+        "en": "Move hue down"
+      },
+      "titleFormatted": {
+        "en": "Move hue down"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZGRC_KEY_009_move_hue_stop",
+      "title": {
+        "en": "Move hue stopped"
+      },
+      "titleFormatted": {
+        "en": "Move hue stopped"
+      }
+    },
+    {
+      "id": "ZGRC_KEY_009_recall_scene_s1",
+      "title": {
+        "en": "Recall scene S1"
+      },
+      "titleFormatted": {
+        "en": "Recall scene S1"
+      },
+      "hint": {
+        "en": "Recall the saved scene."
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_009_recall_scene_s2",
+      "title": {
+        "en": "Recall scene S2"
+      },
+      "titleFormatted": {
+        "en": "Recall scene S2"
+      },
+      "hint": {
+        "en": "Recall the saved scene."
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_009_store_scene_s1",
+      "title": {
+        "en": "Store scene S1"
+      },
+      "titleFormatted": {
+        "en": "Store scene S1"
+      },
+      "hint": {
+        "en": "Save the current state of your bulb as a scene, to recall later."
+      },
+      "args": []
+    },
+    {
+      "id": "ZGRC_KEY_009_store_scene_s2",
+      "title": {
+        "en": "Store scene S2"
+      },
+      "titleFormatted": {
+        "en": "Store scene S2"
+      },
+      "hint": {
+        "en": "Save the current state of your bulb as a scene, to recall later."
+      },
+      "args": []
+    }
+  ]
+}
