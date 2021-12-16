@@ -3,10 +3,10 @@
     {
       "id": "ZG2833K8_EU05_on",
       "title": {
-        "en": "On"
+        "en": "Turned on"
       },
       "titleFormatted": {
-        "en": "Group [[group]] on"
+        "en": "Group [[group]] turned on"
       },
       "args": [
         {
@@ -19,25 +19,25 @@
             {
               "id": "1",
               "label": {
-                "en": "Group 1"
+                "en": "1"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Group 2"
+                "en": "2"
               }
             },
             {
               "id": "3",
               "label": {
-                "en": "Group 3"
+                "en": "3"
               }
             },
             {
               "id": "4",
               "label": {
-                "en": "Group 4"
+                "en": "4"
               }
             }
           ]
@@ -47,10 +47,10 @@
     {
       "id": "ZG2833K8_EU05_off",
       "title": {
-        "en": "Off"
+        "en": "Turned off"
       },
       "titleFormatted": {
-        "en": "Group [[group]] off"
+        "en": "Group [[group]] turned off"
       },
       "args": [
         {
@@ -63,25 +63,25 @@
             {
               "id": "1",
               "label": {
-                "en": "Group 1"
+                "en": "1"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Group 2"
+                "en": "2"
               }
             },
             {
               "id": "3",
               "label": {
-                "en": "Group 3"
+                "en": "3"
               }
             },
             {
               "id": "4",
               "label": {
-                "en": "Group 4"
+                "en": "4"
               }
             }
           ]
@@ -107,25 +107,25 @@
             {
               "id": "1",
               "label": {
-                "en": "Group 1"
+                "en": "1"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Group 2"
+                "en": "2"
               }
             },
             {
               "id": "3",
               "label": {
-                "en": "Group 3"
+                "en": "3"
               }
             },
             {
               "id": "4",
               "label": {
-                "en": "Group 4"
+                "en": "4"
               }
             }
           ]
@@ -151,12 +151,15 @@
       ]
     },
     {
-      "id": "ZG2833K8_EU05_level_stop_with_onoff",
+      "id": "ZG2833K8_EU05_move_level_up",
       "title": {
-        "en": "Stop level"
+        "en": "Move level up"
       },
       "titleFormatted": {
-        "en": "Group [[group]] stop level"
+        "en": "Group [[group]] move level up"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
       },
       "args": [
         {
@@ -169,25 +172,136 @@
             {
               "id": "1",
               "label": {
-                "en": "Group 1"
+                "en": "1"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Group 2"
+                "en": "2"
               }
             },
             {
               "id": "3",
               "label": {
-                "en": "Group 3"
+                "en": "3"
               }
             },
             {
               "id": "4",
               "label": {
-                "en": "Group 4"
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZG2833K8_EU05_move_level_down",
+      "title": {
+        "en": "Move level down"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] move level down"
+      },
+      "hint": {
+        "en": "The rate range from 0.00 to 1.00"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ],
+      "tokens": [
+        {
+          "name": "rate",
+          "type": "number",
+          "title": {
+            "en": "Rate"
+          },
+          "example": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ZG2833K8_EU05_level_stop_with_onoff",
+      "title": {
+        "en": "Move level stopped"
+      },
+      "titleFormatted": {
+        "en": "Group [[group]] move level stopped"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
               }
             }
           ]

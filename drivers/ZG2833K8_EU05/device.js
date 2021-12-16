@@ -57,6 +57,17 @@ class RemoteControl extends ZigBeeRemoteControl {
     const state = { 'group': endpoint }
     this.driver.getDeviceTriggerCard('ZG2833K8_EU05_level_move_with_onoff').
       trigger(this, tokens, state)
+
+    if (moveMode === 'up') {
+
+      this.driver.getDeviceTriggerCard('ZG2833K8_EU05_move_level_up').
+        trigger(this, { 'rate': tokens.rate }, state)
+
+    } else if (moveMode === 'down') {
+
+      this.driver.getDeviceTriggerCard('ZG2833K8_EU05_move_level_down').
+        trigger(this, { 'rate': tokens.rate }, state)
+    }
   }
 
   _onLevelStopWithOnOff (endpoint) {

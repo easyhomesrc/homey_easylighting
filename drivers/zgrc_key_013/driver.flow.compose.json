@@ -1,7 +1,7 @@
 {
   "triggers": [
     {
-      "id": "ZG2833K4_EU06_on",
+      "id": "zgrc_key_013_on",
       "title": {
         "en": "Turned on"
       },
@@ -27,13 +27,25 @@
               "label": {
                 "en": "2"
               }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
             }
           ]
         }
       ]
     },
     {
-      "id": "ZG2833K4_EU06_off",
+      "id": "zgrc_key_013_off",
       "title": {
         "en": "Turned off"
       },
@@ -59,63 +71,25 @@
               "label": {
                 "en": "2"
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ZG2833K4_EU06_level_move_with_onoff",
-      "title": {
-        "en": "Move level"
-      },
-      "titleFormatted": {
-        "en": "Group [[group]] move level"
-      },
-      "args": [
-        {
-          "name": "group",
-          "title": {
-            "en": "Group"
-          },
-          "type": "dropdown",
-          "values": [
+            },
             {
-              "id": "1",
+              "id": "3",
               "label": {
-                "en": "1"
+                "en": "3"
               }
             },
             {
-              "id": "2",
+              "id": "4",
               "label": {
-                "en": "2"
+                "en": "4"
               }
             }
           ]
         }
-      ],
-      "tokens": [
-        {
-          "name": "move_mode",
-          "type": "number",
-          "title": {
-            "en": "Move mode"
-          },
-          "example": 0
-        },
-        {
-          "name": "rate",
-          "type": "number",
-          "title": {
-            "en": "Rate"
-          },
-          "example": 0.2
-        }
       ]
     },
     {
-      "id": "ZG2833K4_EU06_move_level_up",
+      "id": "zgrc_key_013_move_level_up",
       "title": {
         "en": "Move level up"
       },
@@ -144,6 +118,18 @@
               "label": {
                 "en": "2"
               }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
             }
           ]
         }
@@ -160,7 +146,7 @@
       ]
     },
     {
-      "id": "ZG2833K4_EU06_move_level_down",
+      "id": "zgrc_key_013_move_level_down",
       "title": {
         "en": "Move level down"
       },
@@ -189,6 +175,18 @@
               "label": {
                 "en": "2"
               }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
             }
           ]
         }
@@ -205,7 +203,7 @@
       ]
     },
     {
-      "id": "ZG2833K4_EU06_level_stop_with_onoff",
+      "id": "zgrc_key_013_move_level_stopped",
       "title": {
         "en": "Move level stopped"
       },
@@ -217,6 +215,82 @@
           "name": "group",
           "title": {
             "en": "Group"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            },
+            {
+              "id": "3",
+              "label": {
+                "en": "3"
+              }
+            },
+            {
+              "id": "4",
+              "label": {
+                "en": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "titleFormatted": {
+        "en": "Recall scene [[group]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Scene ID"
+          },
+          "type": "dropdown",
+          "values": [
+            {
+              "id": "1",
+              "label": {
+                "en": "1"
+              }
+            },
+            {
+              "id": "2",
+              "label": {
+                "en": "2"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zgrc_key_013_store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "titleFormatted": {
+        "en": "Store scene [[group]]"
+      },
+      "args": [
+        {
+          "name": "group",
+          "title": {
+            "en": "Scene ID"
           },
           "type": "dropdown",
           "values": [

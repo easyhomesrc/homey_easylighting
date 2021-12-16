@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.easyhome.easylighting",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -867,10 +867,10 @@
       {
         "id": "ZG2833K4_EU06_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
-          "en": "Group [[group]] on"
+          "en": "Group [[group]] turned on"
         },
         "args": [
           {
@@ -888,13 +888,13 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               }
             ]
@@ -904,10 +904,10 @@
       {
         "id": "ZG2833K4_EU06_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
-          "en": "Group [[group]] off"
+          "en": "Group [[group]] turned off"
         },
         "args": [
           {
@@ -925,13 +925,13 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               }
             ]
@@ -962,13 +962,13 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               }
             ]
@@ -994,12 +994,15 @@
         ]
       },
       {
-        "id": "ZG2833K4_EU06_level_stop_with_onoff",
+        "id": "ZG2833K4_EU06_move_level_up",
         "title": {
-          "en": "Stop level"
+          "en": "Move level up"
         },
         "titleFormatted": {
-          "en": "Group [[group]] stop level"
+          "en": "Group [[group]] move level up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
         },
         "args": [
           {
@@ -1017,13 +1020,110 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K4_EU06_move_level_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K4_EU06"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K4_EU06_level_stop_with_onoff",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K4_EU06"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
                 }
               }
             ]
@@ -1033,10 +1133,10 @@
       {
         "id": "ZG2833K8_EU05_on",
         "title": {
-          "en": "On"
+          "en": "Turned on"
         },
         "titleFormatted": {
-          "en": "Group [[group]] on"
+          "en": "Group [[group]] turned on"
         },
         "args": [
           {
@@ -1054,25 +1154,25 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
                 }
               }
             ]
@@ -1082,10 +1182,10 @@
       {
         "id": "ZG2833K8_EU05_off",
         "title": {
-          "en": "Off"
+          "en": "Turned off"
         },
         "titleFormatted": {
-          "en": "Group [[group]] off"
+          "en": "Group [[group]] turned off"
         },
         "args": [
           {
@@ -1103,25 +1203,25 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
                 }
               }
             ]
@@ -1152,25 +1252,25 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
                 }
               }
             ]
@@ -1196,12 +1296,15 @@
         ]
       },
       {
-        "id": "ZG2833K8_EU05_level_stop_with_onoff",
+        "id": "ZG2833K8_EU05_move_level_up",
         "title": {
-          "en": "Stop level"
+          "en": "Move level up"
         },
         "titleFormatted": {
-          "en": "Group [[group]] stop level"
+          "en": "Group [[group]] move level up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
         },
         "args": [
           {
@@ -1219,25 +1322,146 @@
               {
                 "id": "1",
                 "label": {
-                  "en": "Group 1"
+                  "en": "1"
                 }
               },
               {
                 "id": "2",
                 "label": {
-                  "en": "Group 2"
+                  "en": "2"
                 }
               },
               {
                 "id": "3",
                 "label": {
-                  "en": "Group 3"
+                  "en": "3"
                 }
               },
               {
                 "id": "4",
                 "label": {
-                  "en": "Group 4"
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K8_EU05_move_level_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K8_EU05"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "ZG2833K8_EU05_level_stop_with_onoff",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=ZG2833K8_EU05"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
                 }
               }
             ]
@@ -5485,6 +5709,351 @@
             "filter": "driver_id=zgrc_key_009"
           }
         ]
+      },
+      {
+        "id": "zgrc_key_013_on",
+        "title": {
+          "en": "Turned on"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] turned on"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_off",
+        "title": {
+          "en": "Turned off"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] turned off"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_move_level_up",
+        "title": {
+          "en": "Move level up"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level up"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_move_level_down",
+        "title": {
+          "en": "Move level down"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level down"
+        },
+        "hint": {
+          "en": "The rate range from 0.00 to 1.00"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ],
+        "tokens": [
+          {
+            "name": "rate",
+            "type": "number",
+            "title": {
+              "en": "Rate"
+            },
+            "example": 0.2
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_move_level_stopped",
+        "title": {
+          "en": "Move level stopped"
+        },
+        "titleFormatted": {
+          "en": "Group [[group]] move level stopped"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Group"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              },
+              {
+                "id": "3",
+                "label": {
+                  "en": "3"
+                }
+              },
+              {
+                "id": "4",
+                "label": {
+                  "en": "4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_recall_scene",
+        "title": {
+          "en": "Recall scene"
+        },
+        "titleFormatted": {
+          "en": "Recall scene [[group]]"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Scene ID"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "zgrc_key_013_store_scene",
+        "title": {
+          "en": "Store scene"
+        },
+        "titleFormatted": {
+          "en": "Store scene [[group]]"
+        },
+        "args": [
+          {
+            "type": "device",
+            "name": "device",
+            "filter": "driver_id=zgrc_key_013"
+          },
+          {
+            "name": "group",
+            "title": {
+              "en": "Scene ID"
+            },
+            "type": "dropdown",
+            "values": [
+              {
+                "id": "1",
+                "label": {
+                  "en": "1"
+                }
+              },
+              {
+                "id": "2",
+                "label": {
+                  "en": "2"
+                }
+              }
+            ]
+          }
+        ]
       }
     ],
     "actions": [
@@ -6767,7 +7336,7 @@
     {
       "id": "ZG2833K4_EU06",
       "name": {
-        "en": "ZG2833K4_EU06"
+        "en": "ZG9001K4-DIM2"
       },
       "class": "remote",
       "capabilities": [
@@ -6825,7 +7394,7 @@
     {
       "id": "ZG2833K8_EU05",
       "name": {
-        "en": "ZG2833K8_EU05"
+        "en": "ZG9001K8-DIM"
       },
       "class": "remote",
       "capabilities": [
@@ -8998,6 +9567,83 @@
       },
       "settings": [],
       "id": "zgrc_key_009"
+    },
+    {
+      "name": {
+        "en": "ZG9001K12-DIM-Z4"
+      },
+      "class": "remote",
+      "capabilities": [
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "OTHER"
+        ]
+      },
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "images": {
+        "small": "/drivers/zgrc_key_013/assets/images/small.png",
+        "large": "/drivers/zgrc_key_013/assets/images/large.png"
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "ZGRC_KEY_013",
+          "ZGRC-KEY-013"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          },
+          "2": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          },
+          "3": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          },
+          "4": {
+            "clusters": [
+              0,
+              1,
+              3,
+              2821
+            ],
+            "bindings": []
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/zgrc_key_013/assets/learnmode.svg",
+          "instruction": {
+            "en": "Short press both I and O keys together 3 times quickly.\n\nIf pairing fails reset the device. Short press both I and O keys together 3 times quickly."
+          }
+        }
+      },
+      "settings": [],
+      "id": "zgrc_key_013"
     }
   ],
   "capabilities": {

@@ -1,0 +1,76 @@
+{
+  "name": {
+    "en": "ZG9001K12-DIM-Z4"
+  },
+  "class": "remote",
+  "capabilities": [
+    "measure_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "OTHER"
+    ]
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "ZGRC_KEY_013",
+      "ZGRC-KEY-013"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": []
+      },
+      "2": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": []
+      },
+      "3": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": []
+      },
+      "4": {
+        "clusters": [
+          0,
+          1,
+          3,
+          2821
+        ],
+        "bindings": []
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Short press both I and O keys together 3 times quickly.\n\nIf pairing fails reset the device. Short press both I and O keys together 3 times quickly."
+      }
+    }
+  },
+  "settings": []
+}

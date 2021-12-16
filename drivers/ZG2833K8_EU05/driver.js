@@ -26,6 +26,16 @@ class MyDriver extends SrZigBeeDriver {
       registerRunListener(async (args, state) => {
         return args.group === state.group
       })
+
+    this.getDeviceTriggerCard('ZG2833K8_EU05_move_level_up').
+      registerRunListener(async (args, state) => {
+        return args.group === state.group
+      })
+
+    this.getDeviceTriggerCard('ZG2833K8_EU05_move_level_down').
+      registerRunListener(async (args, state) => {
+        return args.group === state.group
+      })
   }
 
 }
