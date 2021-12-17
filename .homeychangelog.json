@@ -40,5 +40,8 @@
   },
   "1.0.13": {
     "en": "Add support for ZGRC-KEY-009, ZGRC-KEY-013."
+  },
+  "1.0.14": {
+    "en": "Add support for tint Smart Switch."
   }
 }

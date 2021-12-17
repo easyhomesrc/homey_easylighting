@@ -9,13 +9,21 @@
   ],
   "capabilitiesOptions": {
   },
-  "platforms": ["local"],
-  "connectivity": ["zigbee"],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
   "zigbee": {
-    "manufacturerName": "Sunricher",
+    "manufacturerName": [
+      "Sunricher",
+      "MLI"
+    ],
     "productId": [
       "ON/OFF",
-      "ZG9101SAC-HP-Switch"
+      "ZG9101SAC-HP-Switch",
+      "tint Smart Switch"
     ],
     "endpoints": {
       "1": {
@@ -45,6 +53,5 @@
     "small": "/drivers/ZG9101SAC_HP_SWITCH/assets/images/small.png"
   },
   "settings": [
-
   ]
 }
