@@ -43,5 +43,8 @@
   },
   "1.0.14": {
     "en": "Add support for tint Smart Switch."
+  },
+  "1.0.15": {
+    "en": "Fix an issue that when you switch the lights with the switch button the status in Homey stays."
   }
 }
