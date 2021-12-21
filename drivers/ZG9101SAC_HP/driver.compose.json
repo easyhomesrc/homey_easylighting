@@ -18,13 +18,22 @@
       "setOnDim": false
     }
   },
-  "platforms": ["local"],
-  "connectivity": ["zigbee"],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
   "zigbee": {
-    "manufacturerName": "Sunricher",
+    "manufacturerName": [
+      "Sunricher",
+      "Nordtronic A/S"
+    ],
     "productId": [
       "ZG9101SAC-HP",
-      "HK-LN-DIM-A"
+      "HK-LN-DIM-A",
+      "BoxDIMZ 98425031",
+      "BoxRelayZ 98423051"
     ],
     "endpoints": {
       "1": {
