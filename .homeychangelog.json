@@ -49,5 +49,8 @@
   },
   "1.0.16": {
     "en": "Add support for BoxDIMZ."
+  },
+  "1.0.17": {
+    "en": "Add external switch type settings for ZG9101SAC_HP."
   }
 }

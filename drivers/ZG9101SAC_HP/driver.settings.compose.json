@@ -1,0 +1,30 @@
+[
+  {
+    "id": "external_switch_type",
+    "type": "dropdown",
+    "label": {
+      "en": "External Switch Type"
+    },
+    "value": "push_button",
+    "values": [
+      {
+        "id": "push_button",
+        "label": {
+          "en": "Push Button"
+        }
+      },
+      {
+        "id": "normal_on_off",
+        "label": {
+          "en": "Normal On/Off"
+        }
+      },
+      {
+        "id": "three_channels",
+        "label": {
+          "en": "Three Channels"
+        }
+      }
+    ]
+  }
+]
