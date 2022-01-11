@@ -34,7 +34,7 @@ class MyLight extends ZigBeeDevice {
         getParser: value => value * meterFactory,
         getOpts: {
           getOnStart: true,
-          pollInterval: 300000,
+          pollInterval: 60 * 60 * 1000,
         },
         reportOpts: {
           configureAttributeReporting: {
@@ -67,7 +67,7 @@ class MyLight extends ZigBeeDevice {
         getParser: value => value * measureFactory,
         getOpts: {
           getOnStart: true,
-          pollInterval: 60000,
+          pollInterval: 60 * 60 * 1000,
         },
         reportOpts: {
           configureAttributeReporting: {

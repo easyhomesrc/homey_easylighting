@@ -52,5 +52,8 @@
   },
   "1.0.17": {
     "en": "Add external switch type settings for ZG9101SAC_HP."
+  },
+  "1.0.18": {
+    "en": "Upgrade the Z-Wave secure communication."
   }
 }

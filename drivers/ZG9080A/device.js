@@ -69,7 +69,7 @@ class ZigBeeCurtain extends ZigBeeDevice {
           getOpts: {
             getOnStart: true,
             getOnOnline: true,
-            pollInterval: 60000
+            pollInterval: 60 * 60 * 1000
           },
           get: 'currentPositionLiftPercentage',
           set: 'goToLiftPercentage',
@@ -152,7 +152,7 @@ class ZigBeeCurtain extends ZigBeeDevice {
         getOpts: {
           getOnStart: true,
           getOnOnline: true,
-          pollInterval: 60000
+          pollInterval: 60 * 60 * 1000
         },
         get: 'currentPositionTiltPercentage',
         set: 'goToTiltPercentage',

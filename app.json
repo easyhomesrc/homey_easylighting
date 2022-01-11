@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.easyhome.easylighting",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -8669,10 +8669,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -8719,10 +8716,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -8799,10 +8793,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -8861,10 +8852,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -8923,10 +8911,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -8985,10 +8970,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -9053,10 +9035,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -9135,10 +9114,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           768
@@ -9259,10 +9235,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -9316,10 +9289,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": [
           816
         ],
@@ -9375,10 +9345,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -9436,10 +9403,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -9490,10 +9454,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           512
@@ -9533,10 +9494,7 @@
         "zwave"
       ],
       "zwave": {
-        "security": [
-          "none",
-          "S0"
-        ],
+        "requireSecure": true,
         "manufacturerId": 816,
         "productTypeId": [
           512
