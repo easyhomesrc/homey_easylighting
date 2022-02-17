@@ -55,5 +55,8 @@
   },
   "1.0.18": {
     "en": "Upgrade the Z-Wave secure communication."
+  },
+  "1.0.19": {
+    "en": "Add support for ZG9101SAC_HP_SWITCH."
   }
 }

@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.easyhome.easylighting",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -8018,6 +8018,70 @@
       "settings": []
     },
     {
+      "name": {
+        "en": "ZG OnOff (2CH)"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "measure_power",
+        "meter_power",
+        "light_channel_one_onoff",
+        "light_channel_two_onoff"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "Sunricher"
+        ],
+        "productId": [
+          "ON/OFF(2CH)"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              6,
+              1794,
+              2820
+            ],
+            "bindings": [
+              6,
+              1794,
+              2820
+            ]
+          },
+          "2": {
+            "clusters": [
+              6,
+              1794,
+              2820
+            ],
+            "bindings": [
+              6,
+              1794,
+              2820
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG9101SAC_HP_Switch_2CH/assets/learnmode.svg",
+          "instruction": {
+            "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
+          }
+        }
+      },
+      "images": {
+        "small": "/drivers/ZG9101SAC_HP_Switch_2CH/assets/images/small.png",
+        "large": "/drivers/ZG9101SAC_HP_Switch_2CH/assets/images/large.png"
+      },
+      "id": "ZG9101SAC_HP_Switch_2CH"
+    },
+    {
       "id": "ZGRC_KEY_001",
       "name": {
         "en": "ZGRC_KEY_001"
@@ -9643,6 +9707,26 @@
     }
   ],
   "capabilities": {
+    "light_channel_one_onoff": {
+      "type": "boolean",
+      "title": {
+        "en": "Channel 1"
+      },
+      "getable": true,
+      "setable": true,
+      "uiComponent": "toggle",
+      "uiQuickAction": false
+    },
+    "light_channel_two_onoff": {
+      "type": "boolean",
+      "title": {
+        "en": "Channel 2"
+      },
+      "getable": true,
+      "setable": true,
+      "uiComponent": "toggle",
+      "uiQuickAction": false
+    },
     "my_ZV9092A_floor_sensor": {
       "title": {
         "en": "Floor Sensor"

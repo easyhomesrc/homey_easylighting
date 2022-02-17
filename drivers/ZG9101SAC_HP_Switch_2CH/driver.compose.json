@@ -1,0 +1,63 @@
+{
+  "name": {
+    "en": "ZG OnOff (2CH)"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power",
+    "light_channel_one_onoff",
+    "light_channel_two_onoff"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "Sunricher"
+    ],
+    "productId": [
+      "ON/OFF(2CH)"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          6,
+          1794,
+          2820
+        ],
+        "bindings": [
+          6,
+          1794,
+          2820
+        ]
+      },
+      "2": {
+        "clusters": [
+          6,
+          1794,
+          2820
+        ],
+        "bindings": [
+          6,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
+      }
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  }
+}
