@@ -8,9 +8,6 @@ class MyLight extends ZigBeeDevice {
   onNodeInit ({ zclNode, node }) {
     super.onNodeInit({ zclNode, node })
 
-    this.enableDebug()
-    this.printNode()
-
     // OnOff
 
     this.registerCapabilityListener('onoff', async isOn => {

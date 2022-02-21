@@ -1,0 +1,50 @@
+{
+  "name": {
+    "en": "ZG OnOff Light (B)"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "measure_power",
+    "meter_power"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "Sunricher"
+    ],
+    "productId": [
+      "ON/OFF -M",
+      "ON/OFF-M"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          6,
+          1794,
+          2820
+        ],
+        "bindings": [
+          6,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Press the Reset button on the device 5 times quickly or re-power on the device for 5 times quickly."
+      }
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  }
+}

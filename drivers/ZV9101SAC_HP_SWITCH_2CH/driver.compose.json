@@ -1,0 +1,47 @@
+{
+  "name": {
+    "en": "ZV9101SAC-HP-SWITCH-2CH"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff", "measure_power", "meter_power"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  },
+  "zwave": {
+    "security": ["none"],
+    "manufacturerId": 816,
+    "productTypeId": [
+      4
+    ],
+    "productId": [
+      53513
+    ],
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
+      }
+    },
+    "associationGroups": [
+      1
+    ],
+    "multiChannelNodes": {
+      "2": {
+        "name": { "en":  "ZV9101SAC-HP-SWITCH 2nd" },
+        "class": "light",
+        "capabilities": [
+          "onoff"
+        ]
+      }
+    }
+  }
+}

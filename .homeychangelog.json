@@ -58,5 +58,8 @@
   },
   "1.0.19": {
     "en": "Add support for ZG9101SAC_HP_SWITCH."
+  },
+  "1.0.20": {
+    "en": "Added support for the new ZV Switches."
   }
 }

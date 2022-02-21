@@ -1,27 +1,16 @@
 {
-  "id": "ZV9101SAC_HP",
   "name": {
-    "en": "ZV DIM Light"
+    "en": "ZV9101SAC-HP-SWITCH-B"
   },
   "class": "light",
   "capabilities": [
     "onoff",
-    "dim"
+    "measure_power",
+    "meter_power"
   ],
-  "capabilitiesOptions": {
-    "onoff": {
-      "setOnDim": false
-    },
-    "dim": {
-      "opts": {
-        "duration": true
-      }
-    }
-  },
-  "icon": "/drivers/ZV9101SAC_HP/assets/icon.svg",
   "images": {
-    "large": "/drivers/ZV9101SAC_HP/assets/images/large.png",
-    "small": "/drivers/ZV9101SAC_HP/assets/images/small.png"
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
   },
   "platforms": ["local"],
   "connectivity": ["zwave"],
@@ -29,13 +18,13 @@
     "security": ["none"],
     "manufacturerId": 816,
     "productTypeId": [
-      512
+      4
     ],
     "productId": [
-      53253
+      53273
     ],
     "learnmode": {
-      "image": "/drivers/ZV9101SAC_HP/assets/learnmode.svg",
+      "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
         "en": "Triple press the reset button.\n\nIf pairing fails reset the device. Press and hold the reset button for over 10 seconds."
       }
