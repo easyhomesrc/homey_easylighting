@@ -140,8 +140,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -197,8 +196,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },

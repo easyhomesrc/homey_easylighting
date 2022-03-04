@@ -35,8 +35,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -55,8 +54,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -84,8 +82,7 @@
           "type": "number",
           "title": {
             "en": "Step percentage"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -103,8 +100,7 @@
           "type": "number",
           "title": {
             "en": "Step percentage"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -125,8 +121,7 @@
           "type": "number",
           "title": {
             "en": "Color temperature"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -147,8 +142,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -169,8 +163,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -197,16 +190,14 @@
           "type": "number",
           "title": {
             "en": "Color X"
-          },
-          "example": 21823
+          }
         },
         {
           "name": "color_y",
           "type": "number",
           "title": {
             "en": "Color Y"
-          },
-          "example": 21823
+          }
         }
       ]
     },
@@ -227,8 +218,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -249,8 +239,7 @@
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },

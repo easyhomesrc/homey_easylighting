@@ -26,24 +26,21 @@
           "type": "number",
           "title": {
             "en": "Mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "step_size",
           "type": "number",
           "title": {
             "en": "Step size"
-          },
-          "example": 0.2
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
@@ -59,16 +56,14 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -91,16 +86,14 @@
           "type": "number",
           "title": {
             "en": "Color temperature"
-          },
-          "example": 0
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
@@ -116,16 +109,14 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     },
@@ -150,24 +141,21 @@
           "type": "number",
           "title": {
             "en": "Color X"
-          },
-          "example": 0.1
+          }
         },
         {
           "name": "color_y",
           "type": "number",
           "title": {
             "en": "Color Y"
-          },
-          "example": 0.1
+          }
         },
         {
           "name": "transition_time",
           "type": "number",
           "title": {
             "en": "Transition time"
-          },
-          "example": 0
+          }
         }
       ]
     },
@@ -183,16 +171,14 @@
           "type": "number",
           "title": {
             "en": "Move mode"
-          },
-          "example": 0
+          }
         },
         {
           "name": "rate",
           "type": "number",
           "title": {
             "en": "Rate"
-          },
-          "example": 0.2
+          }
         }
       ]
     }

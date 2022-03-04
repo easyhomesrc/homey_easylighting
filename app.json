@@ -195,24 +195,21 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -270,16 +267,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -337,16 +332,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -404,24 +397,21 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -479,16 +469,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -595,16 +583,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -662,16 +648,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -781,16 +765,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -831,16 +813,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -980,16 +960,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1038,8 +1016,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1088,8 +1065,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1282,16 +1258,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1352,8 +1326,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1414,8 +1387,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1512,16 +1484,14 @@
             "type": "number",
             "title": {
               "en": "Level"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1543,16 +1513,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1574,8 +1542,7 @@
             "type": "number",
             "title": {
               "en": "Hue"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1731,8 +1698,7 @@
             "type": "number",
             "title": {
               "en": "Hue"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1790,8 +1756,7 @@
             "type": "number",
             "title": {
               "en": "Saturation"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -1849,16 +1814,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 1
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -1916,16 +1879,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -1983,16 +1944,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -2050,24 +2009,21 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2125,16 +2081,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2241,24 +2195,21 @@
             "type": "number",
             "title": {
               "en": "Step mode"
-            },
-            "example": 1
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2316,16 +2267,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2383,16 +2332,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2564,16 +2511,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2658,24 +2603,21 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2697,16 +2639,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2767,24 +2707,21 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2806,16 +2743,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2850,16 +2785,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -2881,16 +2814,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -2954,16 +2885,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3024,24 +2953,21 @@
             "type": "number",
             "title": {
               "en": "Mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "step_size",
             "type": "number",
             "title": {
               "en": "Step size"
-            },
-            "example": 0.2
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -3063,16 +2989,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3107,16 +3031,14 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -3138,16 +3060,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3185,24 +3105,21 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 0.1
+            }
           },
           {
             "name": "transition_time",
             "type": "number",
             "title": {
               "en": "Transition time"
-            },
-            "example": 0
+            }
           }
         ]
       },
@@ -3224,16 +3141,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3281,16 +3196,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3441,16 +3354,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -3502,16 +3413,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -3563,16 +3472,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -3771,16 +3678,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -3838,16 +3743,14 @@
             "type": "number",
             "title": {
               "en": "Group ID"
-            },
-            "example": 0
+            }
           },
           {
             "name": "scene_id",
             "type": "number",
             "title": {
               "en": "Scene ID"
-            },
-            "example": 1
+            }
           }
         ]
       },
@@ -3905,16 +3808,14 @@
             "type": "number",
             "title": {
               "en": "Move mode"
-            },
-            "example": 0
+            }
           },
           {
             "name": "rate",
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -5324,8 +5225,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -5350,8 +5250,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -5385,8 +5284,7 @@
             "type": "number",
             "title": {
               "en": "Step percentage"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5411,8 +5309,7 @@
             "type": "number",
             "title": {
               "en": "Step percentage"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5440,8 +5337,7 @@
             "type": "number",
             "title": {
               "en": "Color temperature"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5469,8 +5365,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5498,8 +5393,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5540,16 +5434,14 @@
             "type": "number",
             "title": {
               "en": "Color X"
-            },
-            "example": 21823
+            }
           },
           {
             "name": "color_y",
             "type": "number",
             "title": {
               "en": "Color Y"
-            },
-            "example": 21823
+            }
           }
         ],
         "args": [
@@ -5577,8 +5469,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5606,8 +5497,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ],
         "args": [
@@ -5865,8 +5755,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
@@ -5927,8 +5816,7 @@
             "type": "number",
             "title": {
               "en": "Rate"
-            },
-            "example": 0.2
+            }
           }
         ]
       },
