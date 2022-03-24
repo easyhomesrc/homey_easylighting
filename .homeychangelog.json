@@ -61,5 +61,8 @@
   },
   "1.0.20": {
     "en": "Added support for the new ZV Switches."
+  },
+  "1.0.21": {
+    "en": "Adds support for ZG9020."
   }
 }

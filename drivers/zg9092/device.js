@@ -362,7 +362,7 @@ class ZigBeeThermostat extends ZigBeeDevice {
           configureAttributeReporting: {
             minInterval: 0,
             maxInterval: 3600,
-            minChange: 0.2 / meterFactory,
+            minChange: 0.2,
           },
         },
         reportParser: async value => {
@@ -373,7 +373,7 @@ class ZigBeeThermostat extends ZigBeeDevice {
         getOpts: {
           getOnStart: true,
           pollInterval: 60 * 60 * 1000,
-        }
+        },
       })
     }
 
@@ -399,7 +399,7 @@ class ZigBeeThermostat extends ZigBeeDevice {
         getOpts: {
           getOnStart: true,
           pollInterval: 60 * 60 * 1000,
-        }
+        },
       })
     }
 
