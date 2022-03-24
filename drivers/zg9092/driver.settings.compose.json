@@ -1,0 +1,23 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Device Settings"
+    },
+    "children": [
+      {
+        "id": "hysteresis",
+        "type": "number",
+        "label": {
+          "en": "Hysteresis"
+        },
+        "value": 0.5,
+        "min": 0.5,
+        "max": 5.0,
+        "units": {
+          "en": "℃"
+        }
+      }
+    ]
+  }
+]

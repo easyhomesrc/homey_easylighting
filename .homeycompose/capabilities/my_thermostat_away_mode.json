@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Leave Home"
+  },
+  "type": "boolean",
+  "setable": false,
+  "getable": true,
+  "uiComponent": null
+}

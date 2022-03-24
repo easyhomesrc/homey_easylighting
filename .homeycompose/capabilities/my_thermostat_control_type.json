@@ -1,0 +1,9 @@
+{
+  "title": {
+    "en": "Control Type"
+  },
+  "type": "string",
+  "setable": false,
+  "getable": true,
+  "uiComponent": null
+}

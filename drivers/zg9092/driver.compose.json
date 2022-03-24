@@ -1,0 +1,56 @@
+{
+  "name": {
+    "en": "ZG9092"
+  },
+  "class": "thermostat",
+  "capabilities": [
+    "measure_power",
+    "meter_power",
+    "measure_temperature",
+    "target_temperature",
+    "onoff",
+    "my_thermostat_mode",
+    "my_thermostat_away_mode",
+    "my_thermostat_control_type",
+    "my_thermostat_room_sensor",
+    "my_thermostat_floor_sensor"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "Sunricher"
+    ],
+    "productId": [
+      "ZG9092"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          513,
+          1794,
+          2820
+        ],
+        "bindings": [
+          513,
+          1794,
+          2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Turn the device to OFF mode first, then press and hold UP and DOWN buttons at the same time for over 5 seconds to enter Settings Menu. Short press UP and DOWN button to select ADD item, then short press button F.\n\nIf pairing fails reset the device by select Reset item, then short press button F."
+      }
+    }
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  }
+}
