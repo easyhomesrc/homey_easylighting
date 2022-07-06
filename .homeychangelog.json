@@ -64,5 +64,8 @@
   },
   "1.0.21": {
     "en": "Adds support for ZG9020."
+  },
+  "1.0.22": {
+    "en": "Improvements"
   }
 }

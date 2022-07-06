@@ -28,11 +28,6 @@ class ZigBeeCurtain extends ZigBeeDevice {
 
     let isLift = true
 
-    // this.zclNode.endpoints[1].clusters[CLUSTER.WINDOW_COVERING.NAME].readAttributes('windowCoveringType').then(value => {
-    //   isLift = (value.windowCoveringType === 'rollershade')
-    //   this.log('windowCoveringType ', value, ' ', isLift)
-    // })
-
     this.registerCapability('onoff', CLUSTER.WINDOW_COVERING, {
       set: 'goToLiftPercentage',
       setParser: async value => {
@@ -91,24 +86,6 @@ class ZigBeeCurtain extends ZigBeeDevice {
             if (isLift) {
               this.setCapabilityValue('onoff', value !== 0)
             }
-
-            // if (value === 0 || value === 1) {
-            //   this.log(
-            //     `set → \`windowcoverings_set\`: ${value} → setParser → ${value ===
-            //     1 ? UP_OPEN : DOWN_CLOSE}`)
-            //   const windowCoveringEndpoint = this.getClusterEndpoint(
-            //     CLUSTER.WINDOW_COVERING)
-            //   if (windowCoveringEndpoint === null) throw new Error(
-            //     'missing_window_covering_cluster')
-            //
-            //   const windowCoveringCommand = value === 1
-            //     ? UP_OPEN
-            //     : DOWN_CLOSE
-            //   await this.zclNode.endpoints[windowCoveringEndpoint].clusters.windowCovering[windowCoveringCommand]()
-            //
-            //   await this.setCapabilityValue('windowcoverings_set', value)
-            //   return null
-            // }
 
             const mappedValue = mapValueRange(0, 1, 0, 100, value)
             const gotToLiftPercentageCommand = {

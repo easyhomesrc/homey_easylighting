@@ -1,6 +1,7 @@
 {
   "id": "com.easyhome.easylighting",
-  "version": "1.0.21",
+  "homeyCommunityTopicId": 65588,
+  "version": "1.0.22",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -35,11 +36,7 @@
     "name": "Wang Wendong",
     "email": "sunricher_src@163.com"
   },
-  "bugs": {
-    "url": "https://github.com/easyhomesrc/homey_easylighting/issues"
-  },
-  "source": "https://github.com/easyhomesrc/homey_easylighting.git",
-  "support": "https://github.com/easyhomesrc/homey_easylighting.git",
+  "support": "https://community.homey.app/t/easylighting-app/65588",
   "flow": {
     "triggers": [
       {
