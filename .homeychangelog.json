@@ -67,5 +67,8 @@
   },
   "1.0.22": {
     "en": "Improvements"
+  },
+  "1.0.23": {
+    "en": "Added support for the LN-SOCKET-A."
   }
 }

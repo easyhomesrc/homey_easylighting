@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "app.js",
   "devDependencies": {
-    "homey": "^2.23.7"
+    "homey": "^2.30.3"
   },
   "dependencies": {
-    "homey-log": "^2.0.1",
-    "homey-zigbeedriver": "^1.6.10",
-    "homey-zwavedriver": "^2.1.8",
-    "zigbee-clusters": "^1.4.1"
+    "homey-log": "^2.1.0",
+    "homey-zigbeedriver": "^1.6.12",
+    "homey-zwavedriver": "^2.1.10",
+    "zigbee-clusters": "^1.5.2"
   }
 }

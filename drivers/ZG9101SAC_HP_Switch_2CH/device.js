@@ -33,7 +33,7 @@ class MyLight extends ZigBeeDevice {
       if (isOn) {
         await this.setCapabilityValue('onoff', true)
       } else {
-        const isChannel2On = await this._onOffCluster(2).readAttributes('onOff')
+        const isChannel2On = await this._onOffCluster(2).readAttributes('onOff').catch(this.error)
         if (isChannel2On !== true) {
           await this.setCapabilityValue('onoff', false)
         }
@@ -49,7 +49,7 @@ class MyLight extends ZigBeeDevice {
       if (isOn) {
         await this.setCapabilityValue('onoff', true)
       } else {
-        const isChannel1On = await this._onOffCluster(1).readAttributes('onOff')
+        const isChannel1On = await this._onOffCluster(1).readAttributes('onOff').catch(this.error)
         if (isChannel1On !== true) {
           await this.setCapabilityValue('onoff', false)
         }

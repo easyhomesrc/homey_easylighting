@@ -1,12 +1,16 @@
 {
   "id": "ZV9101CS",
   "name": {
-    "en": "ZV DIM Light"
+    "en": "ZV RGBW Light"
   },
   "class": "light",
   "capabilities": [
     "onoff",
-    "dim"
+    "dim",
+    "light_hue",
+    "light_saturation",
+    "light_temperature",
+    "light_mode"
   ],
   "capabilitiesOptions": {
     "onoff": {

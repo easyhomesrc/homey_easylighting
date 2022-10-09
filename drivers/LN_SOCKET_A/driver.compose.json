@@ -1,0 +1,106 @@
+{
+  "name": {
+    "en": "ZG9023A"
+  },
+  "class": "socket",
+  "capabilities": [
+    "onoff"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "HK-LN-SOCKET-A"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          6
+        ],
+        "bindings": [
+        ]
+      },
+      "2": {
+        "clusters": [
+          6
+        ],
+        "bindings": [
+        ]
+      },
+      "3": {
+        "clusters": [
+          6
+        ],
+        "bindings": [
+        ]
+      },
+      "4": {
+        "clusters": [
+          6
+        ],
+        "bindings": [
+        ]
+      },
+      "5": {
+        "clusters": [
+          6
+        ],
+        "bindings": [
+        ]
+      }
+    },
+    "devices": {
+      "secondOutlet": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "name": {
+          "en": "ZG9023A - Second Socket"
+        }
+      },
+      "thirdOutlet": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "name": {
+          "en": "ZG9023A - Third Socket"
+        }
+      },
+      "fourthOutlet": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "name": {
+          "en": "ZG9023A - Fourth Socket"
+        }
+      },
+      "usb": {
+        "class": "socket",
+        "capabilities": [
+          "onoff"
+        ],
+        "name": {
+          "en": "ZG9023A - USB"
+        }
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Short press OnOff button 5 times quickly."
+      }
+    }
+  }
+}
