@@ -1,0 +1,155 @@
+{
+  "actions": [
+    {
+      "id": "1402755_level_step_with_onoff",
+      "title": {
+        "en": "Step level"
+      },
+      "titleFormatted": {
+        "en": "Step level [[mode]], step size [[step_size]], transition [[transition_time]]"
+      },
+      "hint": {
+        "en": "Change the brightness step by step. Assign a step mode, 0 equals up, 1 equals down."
+      },
+      "duration": false,
+      "args": [
+        {
+          "name": "mode",
+          "type": "number",
+          "min": 0,
+          "max": 1,
+          "step": 1,
+          "title": {
+            "en": "Mode"
+          }
+        },
+        {
+          "name": "step_size",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "label": "%",
+          "labelMultiplier": 100,
+          "labelDecimals": 0,
+          "title": {
+            "en": "Step size"
+          }
+        },
+        {
+          "name": "transition_time",
+          "type": "number",
+          "min": 0,
+          "max": 65535,
+          "step": 1,
+          "title": {
+            "en": "Transition time, the ranging from 0 to 65535 seconds."
+          }
+        }
+      ]
+    },
+    {
+      "id": "1402755_level_move_with_onoff",
+      "title": {
+        "en": "Move level"
+      },
+      "titleFormatted": {
+        "en": "Move level [[move_mode]], rate [[rate]]"
+      },
+      "hint": {
+        "en": "Change the brightness continuously."
+      },
+      "duration": false,
+      "args": [
+        {
+          "name": "move_mode",
+          "type": "number",
+          "min": 0,
+          "max": 1,
+          "step": 1,
+          "title": {
+            "en": "Move Mode"
+          }
+        },
+        {
+          "name": "rate",
+          "title": "Rate",
+          "type": "range",
+          "min": 0,
+          "max": 1,
+          "step": 0.01,
+          "label": "%",
+          "labelMultiplier": 100,
+          "labelDecimals": 0
+        }
+      ]
+    },
+    {
+      "id": "1402755_level_stop_with_onoff",
+      "title": {
+        "en": "Stop level"
+      },
+      "hint": {
+        "en": "Stop changing the brightness."
+      },
+      "duration": false,
+      "args": []
+    },
+    {
+      "id": "1402755_recall_scene",
+      "title": {
+        "en": "Recall scene"
+      },
+      "titleFormatted": {
+        "en": "[[group_id]] recall scene [[scene_id]]"
+      },
+      "hint": {
+        "en": "Recall the saved scene."
+      },
+      "args": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          }
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1402755_store_scene",
+      "title": {
+        "en": "Store scene"
+      },
+      "titleFormatted": {
+        "en": "[[group_id]] store scene [[scene_id]]"
+      },
+      "hint": {
+        "en": "Save the current state of your bulb as a scene, to recall later. To store your scene set a unique Group ID number, 0 is default and a unique Scene ID."
+      },
+      "args": [
+        {
+          "name": "group_id",
+          "type": "number",
+          "title": {
+            "en": "Group ID"
+          }
+        },
+        {
+          "name": "scene_id",
+          "type": "number",
+          "title": {
+            "en": "Scene ID"
+          }
+        }
+      ]
+    }
+  ]
+}

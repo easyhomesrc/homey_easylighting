@@ -70,5 +70,8 @@
   },
   "1.0.23": {
     "en": "Added support for the LN-SOCKET-A."
+  },
+  "1.0.24": {
+    "en": "Add support for the HK-SL-DIM-EU-A."
   }
 }

@@ -167,7 +167,7 @@ class DimLight extends ZwaveLightDevice {
             this._setCapabilityValueSafe('light_mode', 'temperature');
             this._setCapabilityValueSafe('light_temperature', temperature);
           }
-        });
+        }).catch(this.error);
       }, 500);
     }
   }

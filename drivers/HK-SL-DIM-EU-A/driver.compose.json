@@ -1,0 +1,69 @@
+{
+  "id": "HK-SL-DIM-EU-A",
+  "name": {
+    "en": "HK-SL-DIM-EU-A"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "capabilitiesOptions": {
+    "dim": {
+      "opts": {
+        "duration": true
+      }
+    },
+    "onoff": {
+      "setOnDim": false
+    },
+    "capabilitiesOptions": {
+      "measure_power": {
+        "isApproximated": true
+      }
+    }
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "zigbee": {
+    "manufacturerName": [
+      "Sunricher"
+    ],
+    "productId": [
+      "HK-SL-DIM-EU-A"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          2821
+        ],
+        "bindings": [
+          6,
+          8
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/{{driverAssetsPath}}/learnmode.svg",
+      "instruction": {
+        "en": "Short press the reset button for 5 times quickly."
+      }
+    }
+  },
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  },
+  "settings": [
+  ]
+}
