@@ -16,6 +16,7 @@
     "homey": "^2.30.3"
   },
   "dependencies": {
+    "@types/homey": "npm:homey-apps-sdk-v3-types",
     "homey-log": "^2.1.0",
     "homey-zigbeedriver": "^1.6.12",
     "homey-zwavedriver": "^2.1.10",
