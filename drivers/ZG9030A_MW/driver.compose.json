@@ -6,7 +6,9 @@
   "class": "sensor",
   "capabilities": [
     "dim",
-    "onoff"
+    "onoff",
+    "measure_luminance",
+    "alarm_motion"
   ],
   "platforms": [
     "local"
@@ -54,6 +56,8 @@
           1030
         ],
         "bindings": [
+          3,
+          1030
         ]
       },
       "3": {
@@ -63,6 +67,8 @@
           1024
         ],
         "bindings": [
+          3,
+          1024
         ]
       },
       "242": {
@@ -70,14 +76,13 @@
           33
         ],
         "bindings": [
-          33
         ]
       }
     },
     "learnmode": {
       "image": "/drivers/ZG9030A_MW/assets/learnmode.svg",
       "instruction": {
-        "en": "Short press the “Prog.” Button 5 times continuously (or reset power of the device 5 times), the device will be reset to factory default and enter into network pairing mode which lasts for 15 seconds. Once timeout, repeat this step."
+        "en": "Short press the “Prog.” Button 5 times continuously."
       }
     }
   }

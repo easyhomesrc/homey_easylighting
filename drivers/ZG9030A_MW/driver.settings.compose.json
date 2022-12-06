@@ -1,0 +1,123 @@
+[
+  {
+    "type": "group",
+    "label": {
+      "en": "Device Settings"
+    },
+    "children": [
+      {
+        "id": "dimmingBrightnessCurve",
+        "type": "dropdown",
+        "value": "0",
+        "label": {
+          "en": "Dimming brightness curve"
+        },
+        "hint": {
+          "en": "Works after reset power of the device.\nlinear: linear,\nlog1.5γ: logarithmic with gamma value 1.5,\nlog1.8γ: logarithmic with gamma value 1.8,\ndefault:linear"
+        },
+        "values": [
+          {
+            "id": "0",
+            "label": { "en": "linear" }
+          },
+          {
+            "id": "15",
+            "label": { "en": "log1.5γ" }
+          },
+          {
+            "id": "18",
+            "label": { "en": "log1.8γ" }
+          }
+        ]
+      },
+      {
+        "id": "motionSensorDaylightSensorLuxThreshold",
+        "type": "number",
+        "value": 0,
+        "label": {
+          "en": "Sensor lux threshold"
+        },
+        "hint": {
+          "en": "The value range is 0=65535, Motion sensor daylight sensor lux threshold, 2 bytes, only when the detected lux is lower than the threshold, turning on the light is permitted, for instance 0x0000, this function does not work.\ndefault:0"
+        }
+      },
+      {
+        "id": "motionSensorOperationMode",
+        "type": "checkbox",
+        "value": true,
+        "label": {
+          "en": "Motion sensor manual mode"
+        },
+        "hint": {
+          "en": "close(0x00): means auto mode,\nopen(0x01): means manual mode.\n\nAuto mode means that when a motion is detected, the device will output PWM according to the set brightness threshold, and delay time. PWM status needs to be reported to the gateway.\n\nManual mode means that PWM output is controlled and determined by the gateway or the wireless switch, not associated with motion detection.\ndefalut:close"
+        }
+      },
+      {
+        "id": "motionSensorSensitivity",
+        "type": "number",
+        "value": 1,
+        "label": {
+          "en": "Motion sensor sensitivity"
+        },
+        "hint": {
+          "en": "Works after reset power of the device, 1 byte, data range 0-15, 0 is the highest sensitivity, 15 is the lowest sensitivity.\ndefault:1"
+        }
+      },
+      {
+        "id": "enableMotionSensor",
+        "type": "checkbox",
+        "value": true,
+        "label": {
+          "en": "Enable motion sensor"
+        },
+        "hint": {
+          "en": "Motion sensor microwave detection enabled or disabled,\nWorks after reset power of the device, 1 byte:\n0x00(close): disabled,\n0x01(open): enabled\ndefalut:enabled"
+        }
+      },
+      {
+        "id": "enableBrightnessModule",
+        "type": "checkbox",
+        "value": true,
+        "label": {
+          "en": "Enable brightness module"
+        },
+        "hint": {
+          "en": "Configuration of whether to enable the brightness module,\n0(close)=disabled,\n1(open)=enabled\ndefalut:enabled"
+        }
+      },
+      {
+        "id": "lightOnTime",
+        "type": "number",
+        "value": 60,
+        "label": {
+          "en": "Light on time"
+        },
+        "hint": {
+          "en": "Light on time (the first delay time), Works after reset power of the device, When motion sensor mode is set as auto mode, and motion is detected, after the person leaves, light on time of the device, 2 bytes, unit is second, For instance 0x003c means 60 seconds."
+        }
+      },
+      {
+        "id": "pwmBrightnessValue",
+        "type": "number",
+        "value": 0,
+        "label": {
+          "en": "PWM brightness value"
+        },
+        "hint": {
+          "en": "Configuration of PWM output percentage when motion detected, Value Range is 0-100(%), When configured PID closed loop control brightness LUX is 0, PWM output of the device is according to this value.\ndefault:100"
+        }
+      },
+      {
+        "id": "pwmOutputPercentage",
+        "type": "number",
+        "value": 254,
+        "label": {
+          "en": "PWM output percentage"
+        },
+        "hint": {
+          "en": "Configuration of PWM output percentage when motion detected, Value Range is 0-100(%), When configured PID closed loop control brightness LUX is 0, PWM output of the device is according to this value.\ndefault:100"
+        }
+      }
+    ]
+  }
+]
