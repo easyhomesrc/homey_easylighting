@@ -1,0 +1,89 @@
+{
+  "id": "ZG9030A_MW",
+  "name": {
+    "en": "ZG9030A-MW"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "dim",
+    "onoff",
+    "measure_luminance",
+    "alarm_motion"
+  ],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zigbee"
+  ],
+  "images": {
+    "small": "/drivers/ZG9030A_MW/images/small.png",
+    "large": "/drivers/ZG9030A_MW/images/large.png",
+    "xlarge": "/drivers/ZG9030A_MW/images/xlarge.png"
+  },
+  "zigbee": {
+    "manufacturerName": "Sunricher",
+    "productId": [
+      "HK-DIM",
+      "ZG9030A_MW"
+    ],
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          2821,
+          4096
+        ],
+        "bindings": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          25,
+          4096
+        ]
+      },
+      "2": {
+        "clusters": [
+          0,
+          3,
+          1030
+        ],
+        "bindings": [
+          3,
+          1030
+        ]
+      },
+      "3": {
+        "clusters": [
+          0,
+          3,
+          1024
+        ],
+        "bindings": [
+          3,
+          1024
+        ]
+      },
+      "242": {
+        "clusters": [
+          33
+        ],
+        "bindings": [
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "/drivers/ZG9030A_MW/assets/learnmode.svg",
+      "instruction": {
+        "en": "Short press the “Prog.” Button 5 times continuously."
+      }
+    }
+  }
+}

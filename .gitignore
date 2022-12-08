@@ -8,3 +8,7 @@ build/
 
 # Added by Homey CLI
 /.homeybuild/
+
+yarn-error.log
+yarn.lock
+.vscode/

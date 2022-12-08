@@ -2,13 +2,27 @@
   "name": "com.easyhome.easylighting",
   "version": "1.0.0",
   "main": "app.js",
+  "scripts": {
+    "dev": "homey app run",
+    "validate": "homey app validate",
+    "app:install": "homey app install",
+    "view": "homey app view",
+    "docs": "homey docs",
+    "driver:create": "homey app driver create",
+    "flow:create": "homey app flow create",
+    "driver:capabilities": "homey app driver capabilities"
+  },
   "devDependencies": {
     "homey": "^2.30.3"
   },
   "dependencies": {
+    "@types/homey": "npm:homey-apps-sdk-v3-types",
     "homey-log": "^2.1.0",
     "homey-zigbeedriver": "^1.6.12",
     "homey-zwavedriver": "^2.1.10",
     "zigbee-clusters": "^1.5.2"
+  },
+  "engines": {
+    "node": "16.18.0"
   }
 }
