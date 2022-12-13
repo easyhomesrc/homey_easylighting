@@ -2,7 +2,7 @@
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "com.easyhome.easylighting",
   "homeyCommunityTopicId": 65588,
-  "version": "1.0.24",
+  "version": "1.0.25",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -7882,6 +7882,74 @@
         "small": "/drivers/ZG9001K4_DIM2/assets/images/small.png"
       },
       "settings": []
+    },
+    {
+      "id": "ZG9030A_MW",
+      "name": {
+        "en": "ZG9030A-MW"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "dim",
+        "onoff",
+        "measure_luminance",
+        "alarm_motion"
+      ],
+      "platforms": [
+        "local"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "images": {
+        "small": "/drivers/ZG9030A_MW/assets/images/small.png",
+        "large": "/drivers/ZG9030A_MW/assets/images/large.png",
+        "xlarge": "/drivers/ZG9030A_MW/assets/images/xlarge.png"
+      },
+      "zigbee": {
+        "manufacturerName": "Sunricher",
+        "productId": [
+          "HK-DIM"
+        ],
+        "endpoints": {
+          "1": {
+            "clusters": [
+              6,
+              8
+            ],
+            "bindings": [
+              6,
+              8
+            ]
+          },
+          "2": {
+            "clusters": [
+              1030
+            ],
+            "bindings": [
+              1030
+            ]
+          },
+          "3": {
+            "clusters": [
+              1024
+            ],
+            "bindings": [
+              1024
+            ]
+          },
+          "242": {
+            "clusters": [],
+            "bindings": []
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/ZG9030A_MW/assets/learnmode.svg",
+          "instruction": {
+            "en": "Short press the “Prog.” Button 5 times quickly."
+          }
+        }
+      }
     },
     {
       "id": "ZG9040A_S",

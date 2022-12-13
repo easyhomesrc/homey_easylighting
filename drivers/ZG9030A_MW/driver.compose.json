@@ -17,72 +17,53 @@
     "zigbee"
   ],
   "images": {
-    "small": "/drivers/ZG9030A_MW/images/small.png",
-    "large": "/drivers/ZG9030A_MW/images/large.png",
-    "xlarge": "/drivers/ZG9030A_MW/images/xlarge.png"
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
   },
   "zigbee": {
     "manufacturerName": "Sunricher",
     "productId": [
-      "HK-DIM",
-      "ZG9030A_MW"
+      "HK-DIM"
     ],
     "endpoints": {
       "1": {
         "clusters": [
-          0,
-          3,
-          4,
-          5,
           6,
-          8,
-          2821,
-          4096
+          8
         ],
         "bindings": [
-          3,
-          4,
-          5,
           6,
-          8,
-          25,
-          4096
+          8
         ]
       },
       "2": {
         "clusters": [
-          0,
-          3,
           1030
         ],
         "bindings": [
-          3,
           1030
         ]
       },
       "3": {
         "clusters": [
-          0,
-          3,
           1024
         ],
         "bindings": [
-          3,
           1024
         ]
       },
       "242": {
         "clusters": [
-          33
         ],
         "bindings": [
         ]
       }
     },
     "learnmode": {
-      "image": "/drivers/ZG9030A_MW/assets/learnmode.svg",
+      "image": "{{driverAssetsPath}}/learnmode.svg",
       "instruction": {
-        "en": "Short press the “Prog.” Button 5 times continuously."
+        "en": "Short press the “Prog.” Button 5 times quickly."
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": "com.easyhome.easylighting",
   "homeyCommunityTopicId": 65588,
-  "version": "1.0.24",
+  "version": "1.0.25",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
