@@ -27,13 +27,15 @@
   "zigbee": {
     "manufacturerName": [
       "Sunricher",
-      "Nordtronic A/S"
+      "Nordtronic A/S",
+      "ENVILAR"
     ],
     "productId": [
       "ZG9101SAC-HP",
       "HK-LN-DIM-A",
       "BoxDIMZ 98425031",
-      "BoxRelayZ 98423051"
+      "BoxRelayZ 98423051",
+      "ZG102-BOX-UNIDIM"
     ],
     "endpoints": {
       "1": {

@@ -76,5 +76,8 @@
   },
   "1.0.25": {
     "en": "Add support for ZG9030A-MW."
+  },
+  "1.0.26": {
+    "en": "Add support for our OEM device ZG102-BOX-UNIDIM."
   }
 }
