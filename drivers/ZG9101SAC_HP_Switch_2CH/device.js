@@ -5,8 +5,17 @@ const { CLUSTER } = require('zigbee-clusters')
 
 class MyLight extends ZigBeeDevice {
 
-  onNodeInit ({ zclNode, node }) {
+  async onNodeInit ({ zclNode, node }) {
     super.onNodeInit({ zclNode, node })
+
+    const deviceClass = this.getSetting('device_class')
+    if (typeof deviceClass === 'string') {
+      this.log('current deviceclass settings ' + deviceClass)
+      if (this.getClass() !== deviceClass) {
+        this.log('set new class ' + deviceClass)
+        await this.setClass(deviceClass)
+      }
+    }
 
     // OnOff
 
@@ -33,7 +42,9 @@ class MyLight extends ZigBeeDevice {
       if (isOn) {
         await this.setCapabilityValue('onoff', true)
       } else {
-        const isChannel2On = await this._onOffCluster(2).readAttributes('onOff').catch(this.error)
+        const isChannel2On = await this._onOffCluster(2).
+          readAttributes('onOff').
+          catch(this.error)
         if (isChannel2On !== true) {
           await this.setCapabilityValue('onoff', false)
         }
@@ -49,7 +60,9 @@ class MyLight extends ZigBeeDevice {
       if (isOn) {
         await this.setCapabilityValue('onoff', true)
       } else {
-        const isChannel1On = await this._onOffCluster(1).readAttributes('onOff').catch(this.error)
+        const isChannel1On = await this._onOffCluster(1).
+          readAttributes('onOff').
+          catch(this.error)
         if (isChannel1On !== true) {
           await this.setCapabilityValue('onoff', false)
         }
@@ -114,10 +127,11 @@ class MyLight extends ZigBeeDevice {
   async _readInitAttributeValues (meterFactory) {
 
     // OnOff
-    const isChannel1On  = await this._onOffCluster(1).readAttributes('onOff')
+    const isChannel1On = await this._onOffCluster(1).readAttributes('onOff')
     const isChannel2On = await this._onOffCluster(2).readAttributes('onOff')
     const isOn = isChannel1On.onOff === true || isChannel2On.onOff === true
-    this.log(`Init isChannel1On isChannel2On isOn`, isChannel1On, isChannel2On, isOn)
+    this.log(`Init isChannel1On isChannel2On isOn`, isChannel1On, isChannel2On,
+      isOn)
 
     await this.setCapabilityValue('light_channel_one_onoff', isChannel1On.onOff)
     await this.setCapabilityValue('light_channel_two_onoff', isChannel2On.onOff)

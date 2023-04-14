@@ -79,5 +79,8 @@
   },
   "1.0.26": {
     "en": "Add support for our OEM device ZG102-BOX-UNIDIM."
+  },
+  "1.0.27": {
+    "en": "Add change device type settings for Zigbee OnOff devices."
   }
 }

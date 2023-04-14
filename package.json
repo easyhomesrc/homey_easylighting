@@ -13,7 +13,7 @@
     "driver:capabilities": "homey app driver capabilities"
   },
   "devDependencies": {
-    "homey": "^2.33.9"
+    "homey": "^2.33.13"
   },
   "dependencies": {
     "@types/homey": "npm:homey-apps-sdk-v3-types",
