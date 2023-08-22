@@ -42,6 +42,13 @@ class MyDevice extends ZigBeeDevice {
           return value * meterFactory
         },
         getParser: value => value * meterFactory,
+        reportOpts: {
+          configureAttributeReporting: {
+            minInterval: 0, // Minimally once every 5 seconds
+            maxInterval: 60000, // Maximally once every ~16 hours
+            minChange: 1800000,
+          },
+        },
         endpoint: 1
       })
     }
