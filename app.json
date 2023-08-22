@@ -7338,13 +7338,13 @@
     },
     {
       "name": {
-        "en": "HK-LN-SOCKET-A"
+        "en": "Zigbee Socket"
       },
       "class": "socket",
       "capabilities": [
         "onoff",
-        "meter_power",
-        "measure_power"
+        "measure_power",
+        "meter_power"
       ],
       "platforms": [
         "local"

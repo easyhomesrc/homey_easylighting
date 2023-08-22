@@ -1,7 +1,11 @@
-'use strict';
+'use strict'
 
-const { ZigBeeDevice } = require('homey-zigbeedriver');
-const { CLUSTER } = require('zigbee-clusters')
+const { ZigBeeDevice } = require('homey-zigbeedriver')
+const { CLUSTER, Cluster } = require('zigbee-clusters')
+const SrElectricalMeasurementCluster = require(
+  '../../lib/SrElectricalMeasurementCluster')
+
+Cluster.addCluster(SrElectricalMeasurementCluster)
 
 class MyLight extends ZigBeeDevice {
 
@@ -19,38 +23,70 @@ class MyLight extends ZigBeeDevice {
 
     this.registerCapability('onoff', CLUSTER.ON_OFF)
 
-    this._registerMeasurementAndMetering().catch(this.error)
+    this._registerMeasurementAndMetering(zclNode).catch(this.error)
   }
 
-  async _registerMeasurementAndMetering() {
+  async _registerMeasurementAndMetering (zclNode) {
 
-    let meterFactory = 1 / 3600000
+    if (this.hasCapability('meter_power')) {
 
-    this.registerCapability('meter_power', CLUSTER.METERING, {
-      get: 'currentSummationDelivered',
-      report: 'currentSummationDelivered',
-      reportParser: value => value * meterFactory,
-      getParser: value => value * meterFactory,
-      getOpts: {
-        getOnStart: true,
-        pollInterval: 60 * 60 * 1000,
+      let meterFactory = 1.0 / 3600000.0
+
+      this.registerCapability('meter_power', CLUSTER.METERING, {
+        get: 'currentSummationDelivered',
+        report: 'currentSummationDelivered',
+        reportParser: value => {
+          return value * meterFactory
+        },
+        getParser: value => value * meterFactory,
+        reportOpts: {
+          configureAttributeReporting: {
+            minInterval: 0, // Minimally once every 5 seconds
+            maxInterval: 60000, // Maximally once every ~16 hours
+            minChange: 1800000,
+          },
+        },
+        endpoint: 1,
+      })
+    }
+
+    // 自定义能源更新的`pollInterval`轮询间隔和所报告的数值
+    if (this.hasCapability('measure_power')) {
+
+      await this.configureAttributeReporting([
+        {
+          endpointId: 1,
+          cluster: CLUSTER.ELECTRICAL_MEASUREMENT,
+          attributeName: 'totalActivePower',
+          minInterval: 0,
+          maxInterval: 3600,
+          minChange: 10,
+        },
+      ])
+
+      zclNode.endpoints[1].clusters.electricalMeasurement.on(
+        'attr.totalActivePower',
+        async (value) => {
+          if (typeof value === 'number') {
+            this.log('total value measure ', value)
+            const power = value * 0.1
+            await this.setCapabilityValue('measure_power', power).
+              catch(this.error)
+          }
+        },
+      )
+
+      const currentValue = await zclNode.endpoints[1].clusters.electricalMeasurement.readAttributes(
+        ['totalActivePower'])
+      const currentPower = currentValue.totalActivePower
+      if (typeof currentPower === 'number') {
+        const power = currentPower * 0.1
+        await this.setCapabilityValue('measure_power', power).catch(this.error)
+        this.log('current power ', power)
       }
-    })
-
-    let measureFactory = 0.1
-
-    this.registerCapability('measure_power', CLUSTER.ELECTRICAL_MEASUREMENT, {
-      get: 'activePower',
-      report: 'activePower',
-      reportParser: value => value * measureFactory,
-      getParser: value => value * measureFactory,
-      getOpts: {
-        getOnStart: true,
-        pollInterval: 60 * 60 * 1000,
-      }
-    })
+    }
   }
 
 }
 
-module.exports = MyLight;
+module.exports = MyLight
