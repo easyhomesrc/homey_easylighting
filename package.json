@@ -13,14 +13,14 @@
     "driver:capabilities": "homey app driver capabilities"
   },
   "devDependencies": {
-    "homey": "^2.33.13"
+    "homey": "^3.0.5"
   },
   "dependencies": {
     "@types/homey": "npm:homey-apps-sdk-v3-types",
     "homey-log": "^2.1.0",
-    "homey-zigbeedriver": "^1.6.12",
+    "homey-zigbeedriver": "^2.1.0",
     "homey-zwavedriver": "^2.1.10",
-    "zigbee-clusters": "^1.5.2"
+    "zigbee-clusters": "^2.2.2"
   },
   "engines": {
     "node": "16.18.0"

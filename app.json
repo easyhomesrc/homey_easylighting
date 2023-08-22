@@ -7338,11 +7338,13 @@
     },
     {
       "name": {
-        "en": "ZG9023A"
+        "en": "HK-LN-SOCKET-A"
       },
       "class": "socket",
       "capabilities": [
-        "onoff"
+        "onoff",
+        "meter_power",
+        "measure_power"
       ],
       "platforms": [
         "local"
@@ -7362,71 +7364,14 @@
         "endpoints": {
           "1": {
             "clusters": [
-              6
+              6,
+              1794,
+              2820
             ],
-            "bindings": []
-          },
-          "2": {
-            "clusters": [
-              6
-            ],
-            "bindings": []
-          },
-          "3": {
-            "clusters": [
-              6
-            ],
-            "bindings": []
-          },
-          "4": {
-            "clusters": [
-              6
-            ],
-            "bindings": []
-          },
-          "5": {
-            "clusters": [
-              6
-            ],
-            "bindings": []
-          }
-        },
-        "devices": {
-          "secondOutlet": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "name": {
-              "en": "ZG9023A - Second Socket"
-            }
-          },
-          "thirdOutlet": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "name": {
-              "en": "ZG9023A - Third Socket"
-            }
-          },
-          "fourthOutlet": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "name": {
-              "en": "ZG9023A - Fourth Socket"
-            }
-          },
-          "usb": {
-            "class": "socket",
-            "capabilities": [
-              "onoff"
-            ],
-            "name": {
-              "en": "ZG9023A - USB"
-            }
+            "bindings": [
+              1794,
+              2820
+            ]
           }
         },
         "learnmode": {
